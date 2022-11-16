@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paths to Wellbeing Map</title>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script type="module" src="./main.js"></script>
+    <script type="module">
+      import { PathsToWellbeingMap } from './main.js';
+
+      const map = new PathsToWellbeingMap({
+        target: 'map',
+        lang: 'cy',
+        // Use the same format as https://github.com/adamduncan/eleventy-plugin-i18n
+        // for translations
+        translations: {
+          'zoom_in': {
+            'en': 'Zoom in',
+            'cy': 'Chwyddo i mewn'
+          },
+          'zoom_out': {
+            'en': 'Zoom out',
+            'cy': 'Chwyddo allan'
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
