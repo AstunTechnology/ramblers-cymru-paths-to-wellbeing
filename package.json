@@ -1,0 +1,22 @@
+{
+  "name": "ramblers-cymru-path-to-wellbeing",
+  "version": "1.0.0",
+  "description": "Monorepo for Ramblers Cymru Paths to Wellbeing website.",
+  "scripts": {
+    "start": "run-p --print-label watch-map start-web",
+    "watch-map": "(cd map && npm run watch)",
+    "start-web": "(cd website && npm start)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://walkermatt@bitbucket.org/astuntech/paths-to-wellbeing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/astuntech/paths-to-wellbeing#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
