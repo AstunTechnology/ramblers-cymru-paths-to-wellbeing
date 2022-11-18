@@ -8,8 +8,34 @@
     <title>{{ title }} - {{ 'Paths to Wellbeing' | i18n }}</title>
   </head>
   <body>
+    <div id="content">
+      <header>
+        <div id="top">
+          <div class="container">
+          <!-- <a href="#" class="switch-lang">{{ locale }}</a> -->
+          </div>
+        </div>
+        <div class="container">
+          <img id="logo" src="/static/img/ramblers_cymru_logo.png" alt="logo" />
+          <nav>
+            <ul>
+              {% set url %}/{{ locale }}/{% endset %}
+              <li><a href="{{ url }}" class="{{ 'active' if url === page.url }}">{{ "Home" | i18n }}</a></li>
+              {% set url %}/{{ locale }}/about/{% endset %}
+              <li><a href="{{ url }}" class="{{ 'active' if url === page.url }}">{{ "About" | i18n }}</a></li>
+              {% set url %}/{{ locale }}/map/{% endset %}
+              <li><a href="{{ url }}" class="{{ 'active' if url === page.url }}">{{ "Map" | i18n }}</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <div class="container">
   {% block content %}
   {{ content | safe }}
   {% endblock %}
+        </div>
+      </main>
+    </div>
   </body>
 </html>

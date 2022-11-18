@@ -1,5 +1,30 @@
 {% extends "base.njk" %}
-{% block head %}<link rel="stylesheet" href="/static/css/map.css" />{% endblock %}
+{% block head %}
+<link rel="stylesheet" href="/static/css/map.css" />
+<style>
+  html, body {
+    height: 100%;
+  }
+
+  div#content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  main {
+    height: 100%;
+  }
+
+  main .container {
+    height: 100%;
+  }
+
+  div#map {
+    height: 100%;
+  }
+</style>
+{% endblock %}
 {% block content %}
 <div id="map"></div>
 <script type="module">
