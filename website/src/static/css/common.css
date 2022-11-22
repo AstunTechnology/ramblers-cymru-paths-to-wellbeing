@@ -73,11 +73,22 @@ a:hover {
 }
 
 header #top {
-  height: 3em;
+  color: white;
   background-color: #404141;
 }
 
-header #logo {
+header #top h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+header #top a {
+  color: white;
+  text-decoration: none;
+}
+
+header #top a.btn {
+  color: black;
 }
 
 header .container {
@@ -98,6 +109,21 @@ header img#logo {
   padding-top: 12px;
   padding-bottom: 12px;
 }
+
+/* Controls */
+
+a.btn {
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0.5rem;
+  border: 1px solid #f9b104;
+  background-color: #f9b104;
+  text-decoration: none;
+  color: black;
+  border-radius: 0.25rem;
+}
+
+/* Main navigation */
 
 nav {
   font-family: "Rucksack";

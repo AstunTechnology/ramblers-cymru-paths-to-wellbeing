@@ -31,6 +31,22 @@ module.exports = function (eleventyConfig) {
     }
   });
 
+  eleventyConfig.addFilter("getCurrentLanguage", function(url) {
+    return getCurrentLanguage(url);
+  });
+
+  eleventyConfig.addFilter("getAlternativeLanguage", function(url) {
+    let lang = getCurrentLanguage(url);
+    return getAlternativeLanguage(lang);
+  });
+
+  eleventyConfig.addFilter("getAlternativeLanguageUrl", function(url) {
+    let currentLanguage = getCurrentLanguage(url);
+    let alternativeLanguage = getAlternativeLanguage(currentLanguage);
+    let altUrl = url.replace(new RegExp('/' + currentLanguage + '/'), '/' + alternativeLanguage + '/');
+    return altUrl;
+  });
+
   return {
     dir: {
       input: 'src',
@@ -39,3 +55,19 @@ module.exports = function (eleventyConfig) {
     markdownTemplateEngine: "njk",
   };
 };
+
+// Helper functions
+/**
+ * Get the current language
+ */
+function getCurrentLanguage(url) {
+  return url.split('/')[1];
+}
+
+/**
+ * Get the alternative language
+ */
+function getAlternativeLanguage(currentLanguage) {
+  let alternativeLanguage = (currentLanguage == 'en') ? 'cy' : 'en';
+  return alternativeLanguage;
+}

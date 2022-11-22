@@ -1,3 +1,4 @@
+{%- set currentLanguage %}{{ page.url | getCurrentLanguage }}{% endset -%}
 <!DOCTYPE html>
 <html lang="{{ locale }}">
   <head>
@@ -12,11 +13,18 @@
       <header>
         <div id="top">
           <div class="container">
-          <!-- <a href="#" class="switch-lang">{{ locale }}</a> -->
+            <h1><a href="/{{ locale + '/' if currentLanguage else '' }}">{{ "Paths to Wellbeing" | i18n }}</a></h1>
+            {% if currentLanguage %}
+            <div id="lang-switcher">
+              {% set alternativeLanguage %}{{ page.url | getAlternativeLanguage }}{% endset %}
+              <a href="{{ page.url | getAlternativeLanguageUrl }}" hreflang="{{ alternativeLanguage }}" class="btn">{{ 'Cymraeg' if alternativeLanguage == 'cy' else 'English' }}</a>
+            </div>
+            {% endif %}
           </div>
         </div>
         <div class="container">
-          <img id="logo" src="/static/img/ramblers_cymru_logo.png" alt="logo" />
+          <img class="logo" src="/static/img/ramblers_cymru_logo.png" alt="Ramblers Cymru Logo" />
+          {% if currentLanguage %}
           <nav>
             <ul>
               {% set url %}/{{ locale }}/{% endset %}
@@ -27,6 +35,7 @@
               <li><a href="{{ url }}" class="{{ 'active' if url === page.url }}">{{ "Map" | i18n }}</a></li>
             </ul>
           </nav>
+          {% endif %}
         </div>
       </header>
       <main>
