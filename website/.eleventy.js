@@ -4,6 +4,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/static/css');
   eleventyConfig.addPassthroughCopy('src/static/img');
   eleventyConfig.addPassthroughCopy('src/static/fonts');
+  eleventyConfig.addPassthroughCopy('src/static/data');
   eleventyConfig.addPassthroughCopy({ "../map/dist/*.css": "/static/css" });
   eleventyConfig.addPassthroughCopy({ "../map/dist/*.mjs*": "/static/js" });
 

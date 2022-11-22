@@ -4,6 +4,10 @@ import { Map, View } from 'ol';
 import { defaults as controlDefaults } from 'ol/control/defaults';
 import TileLayer from 'ol/layer/Tile';
 import OSM from 'ol/source/OSM';
+import GeoJSON from 'ol/format/GeoJSON';
+import TopoJSON from 'ol/format/TopoJSON';
+import VectorSource from 'ol/source/Vector';
+import VectorLayer from 'ol/layer/Vector';
 
 class PathsToWellbeingMap {
   constructor(options) {
@@ -18,6 +22,20 @@ class PathsToWellbeingMap {
       },
     });
 
+    this.routeLyr = new VectorLayer({
+      source: new VectorSource({
+        format: new GeoJSON(),
+        url: '/static/data/route_' + this.lang + '.geojson'
+      })
+    });
+
+    this.areaLyr = new VectorLayer({
+      source: new VectorSource({
+        format: new TopoJSON(),
+        url: '/static/data/area.topojson'
+      })
+    });
+
     this.map = new Map({
       target: options.target,
       controls,
@@ -25,6 +43,8 @@ class PathsToWellbeingMap {
         new TileLayer({
           source: new OSM(),
         }),
+        this.areaLyr,
+        this.routeLyr
       ],
       view: new View({
         center: [-421000, 6877000],
