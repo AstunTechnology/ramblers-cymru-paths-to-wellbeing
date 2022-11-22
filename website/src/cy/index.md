@@ -3,9 +3,12 @@ layout: base.njk
 title: Hafan
 ---
 
-# Hafan - {{ 'Paths to Wellbeing' | i18n }}
+<section class="hero">
+<div class="prose">
 
-Croeso!
+<h1>{{ 'Paths to Wellbeing' | i18n }}</h1>
 
-* [Ynghylch](./about).
-* [Gweld y map](./map).
+Mae Llwybrau at Les yn rhoi’r offer a’r hyfforddiant i 18 o gymunedau ledled Cymru i wella natur a mynediad i gerdded yn eu hardaloedd lleol!
+
+</div>
+</section>

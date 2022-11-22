@@ -40,11 +40,16 @@
       </header>
       <main>
         <div class="container">
-  {% block content %}
-  {{ content | safe }}
-  {% endblock %}
+          {% block content %}
+          {{ content | safe }}
+          {% endblock %}
         </div>
       </main>
+      <footer>
+        <div class="container">
+            <img class="logo" src="/static/img/ramblers_cymru_logo_dark_bg.png" alt="Ramblers Cymru Logo" />
+        </div>
+      </footer>
     </div>
   </body>
 </html>

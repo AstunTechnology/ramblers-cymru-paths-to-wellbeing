@@ -3,7 +3,24 @@ layout: base.njk
 title: Paths to Wellbeing
 locale: en
 ---
-# Paths to Wellbeing
 
-* <a href="/cy" hreflang="cy">Cymraeg</a>
-* <a href="/en" hreflang="en">English</a>
+<div class="landing">
+  <section lang="cy">
+
+  <h1><a href="/cy/" hreflang="cy">Llywbrau i Lesiant</a></h1>
+
+  Mae Llwybrau at Les yn rhoi’r offer a’r hyfforddiant i 18 o gymunedau ledled Cymru i wella natur a mynediad i gerdded yn eu hardaloedd lleol!
+
+  <a href="/cy/" hreflang="cy" class="btn">Cymraeg</a>
+
+  </section>
+  <section lang="en">
+
+  <h1><a href="/en/" hreflang="en">Paths to Wellbeing</a></h1>
+
+  Paths to Wellbeing is giving 18 communities across Wales the tools and training to improve nature and access to walking in their local areas!
+
+  <a href="/en/" hreflang="en" class="btn">English</a>
+
+  </section>
+</div>
