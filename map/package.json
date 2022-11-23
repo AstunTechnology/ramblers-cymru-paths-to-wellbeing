@@ -10,6 +10,8 @@
     "vite": "^3.0.9"
   },
   "dependencies": {
-    "ol": "latest"
+    "ol": "latest",
+    "ol-layerswitcher": "^4.1.0",
+    "ol-popup": "^5.0.0"
   }
 }
