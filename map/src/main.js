@@ -2,7 +2,7 @@ import './map.css';
 import 'ol-layerswitcher/dist/ol-layerswitcher.css';
 import 'ol-popup/src/ol-popup.css';
 
-import { Map, View } from 'ol';
+import { Map, View, Feature } from 'ol';
 import { defaults as controlDefaults } from 'ol/control/defaults';
 import TileLayer from 'ol/layer/Tile';
 import OSM from 'ol/source/OSM';
@@ -96,8 +96,31 @@ class PathsToWellbeingMap {
     const popup = new Popup();
     this.map.addOverlay(popup);
     this.map.on('singleclick', function(evt) {
-        popup.show(evt.coordinate, '<div><h2>Click</h2><p></p></div>');
-        console.log(evt);
+        let pixel = this.getEventPixel(evt.originalEvent);
+        let coord = evt.coordinate;
+        let popupField;
+        let currentFeature;
+        let currentFeatureKeys;
+        let popupText = '<ul>';
+        this.forEachFeatureAtPixel(pixel, function(feature, layer) {
+            if (feature instanceof Feature) {
+                currentFeature = feature;
+                currentFeatureKeys = currentFeature.getKeys();
+                popupText += '<li><table>';
+                for (let i=0; i<currentFeatureKeys.length; i++) {
+                    if (currentFeatureKeys[i] != 'geometry') {
+                        popupField = '';
+                        popupField += '<th>' + currentFeature.get(currentFeatureKeys[i]) + ':</th><td>';
+                        popupField += (currentFeature.get(currentFeatureKeys[i]) != null ? currentFeature.get(currentFeatureKeys[i]).toLocaleString() + '</td>' : '');
+                        popupText += '<tr>' + popupField + '</tr>';
+                    }
+                }
+                popupText += '</table>';
+            }
+        });
+        popupText += '</ul>';
+        
+        popup.show(coord, popupText);        
     });
   }
 
@@ -109,6 +132,9 @@ class PathsToWellbeingMap {
       return '';
     }
   }
+  
+
+
 }
 
 export { PathsToWellbeingMap };
