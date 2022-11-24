@@ -38,7 +38,6 @@ class PathsToWellbeingMap {
         url: '/static/data/route_' + this.lang + '.geojson',
       }),
       style: function (feature, resolution) {
-        console.log(difficultyColours[feature.get('difficulty')]);
         return new Style({
           stroke: new Stroke({
             color: difficultyColours[feature.get('difficulty')],
