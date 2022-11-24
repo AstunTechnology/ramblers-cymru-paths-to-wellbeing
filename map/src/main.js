@@ -10,7 +10,7 @@ import GeoJSON from 'ol/format/GeoJSON';
 import TopoJSON from 'ol/format/TopoJSON';
 import VectorSource from 'ol/source/Vector';
 import VectorLayer from 'ol/layer/Vector';
-import { Circle, Fill, Stroke, Style } from 'ol/style';
+import { Circle, Fill, Stroke, Style, Text } from 'ol/style';
 
 import OlLayerSwitcher from 'ol-layerswitcher';
 import Popup from 'ol-popup';
@@ -52,8 +52,8 @@ class PathsToWellbeingMap {
     this.communityLyr = new VectorLayer({
       // No title property is required as we don't need to display in the
       // the layer in the layer switcher
-      style: new Style({
-        geometry: (feature) => feature.getGeometry().getInteriorPoint(),
+      style: (feature, resolution) => new Style({
+        geometry: feature.getGeometry().getInteriorPoint(),
         image: new Circle({
           fill: new Fill({
             color: 'rgba(255,255,255,0.4)',
@@ -64,7 +64,13 @@ class PathsToWellbeingMap {
           }),
           radius: 5,
         }),
-      }),
+        text: new Text({
+          text: feature.get('name'),
+          font: '16px sans-serif',
+          textAlign: 'left',
+          offsetX: 10
+        })
+      })
     });
 
     this.routeLyr.getSource().on('featuresloadend', (evt) => {
