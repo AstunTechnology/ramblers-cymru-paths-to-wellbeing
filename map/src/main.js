@@ -93,37 +93,28 @@ class PathsToWellbeingMap {
     });
     this.map.addControl(this.layerSwitcher);
     
-    this.map.popup = new Popup();
-    this.map.addOverlay(this.map.popup);
-    this.map.on('singleclick', this.callPopup);
+    this.popup = new Popup();
+    this.map.addOverlay(this.popup);
+    this.map.on('singleclick', (evt) => this.displayPopup(evt));
   }
 
-  callPopup(evt) {
-    let pixel = this.getEventPixel(evt.originalEvent);
-    let coord = evt.coordinate;
-    let popupField;
-    let currentFeature;
-    let currentFeatureKeys;
+  displayPopup(evt) {
     let popupText = '<ul>';
-    this.forEachFeatureAtPixel(pixel, function(feature, layer) {
-      if (feature instanceof Feature) {
-        currentFeature = feature;
-        currentFeatureKeys = currentFeature.getKeys();
-        popupText += '<li><table>';
-        for (let i=0; i<currentFeatureKeys.length; i++) {
-          if (currentFeatureKeys[i] != 'geometry') {
-            popupField = '';
-            popupField += '<th>' + currentFeature.get(currentFeatureKeys[i]) + ':</th><td>';
-            popupField += (currentFeature.get(currentFeatureKeys[i]) != null ? currentFeature.get(currentFeatureKeys[i]).toLocaleString() + '</td>' : '');
-            popupText += '<tr>' + popupField + '</tr>';
-          }
+    this.map.forEachFeatureAtPixel(evt.pixel, function(feature, layer) {
+      let keys = feature.getKeys();
+      popupText += '<li><table>';
+      for (let i=0; i<keys.length; i++) {
+        if (keys[i] != 'geometry') {
+          let popupField = '';
+          popupField += '<th>' + keys[i] + ':</th><td>';
+          popupField += (feature.get(keys[i]) != null ? feature.get(keys[i]).toLocaleString() + '</td>' : '');
+          popupText += '<tr>' + popupField + '</tr>';
         }
-        popupText += '</table>';
       }
+      popupText += '</table>';
     });
     popupText += '</ul>';
-
-    evt.target.popup.show(coord, popupText);
+    this.popup.show(evt.coordinate, popupText);
   }
 
   i18n(key) {
