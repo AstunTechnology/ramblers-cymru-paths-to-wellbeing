@@ -93,35 +93,37 @@ class PathsToWellbeingMap {
     });
     this.map.addControl(this.layerSwitcher);
     
-    const popup = new Popup();
-    this.map.addOverlay(popup);
-    this.map.on('singleclick', function(evt) {
-        let pixel = this.getEventPixel(evt.originalEvent);
-        let coord = evt.coordinate;
-        let popupField;
-        let currentFeature;
-        let currentFeatureKeys;
-        let popupText = '<ul>';
-        this.forEachFeatureAtPixel(pixel, function(feature, layer) {
-            if (feature instanceof Feature) {
-                currentFeature = feature;
-                currentFeatureKeys = currentFeature.getKeys();
-                popupText += '<li><table>';
-                for (let i=0; i<currentFeatureKeys.length; i++) {
-                    if (currentFeatureKeys[i] != 'geometry') {
-                        popupField = '';
-                        popupField += '<th>' + currentFeature.get(currentFeatureKeys[i]) + ':</th><td>';
-                        popupField += (currentFeature.get(currentFeatureKeys[i]) != null ? currentFeature.get(currentFeatureKeys[i]).toLocaleString() + '</td>' : '');
-                        popupText += '<tr>' + popupField + '</tr>';
-                    }
-                }
-                popupText += '</table>';
-            }
-        });
-        popupText += '</ul>';
-        
-        popup.show(coord, popupText);        
+    this.map.popup = new Popup();
+    this.map.addOverlay(this.map.popup);
+    this.map.on('singleclick', this.callPopup);
+  }
+
+  callPopup(evt) {
+    let pixel = this.getEventPixel(evt.originalEvent);
+    let coord = evt.coordinate;
+    let popupField;
+    let currentFeature;
+    let currentFeatureKeys;
+    let popupText = '<ul>';
+    this.forEachFeatureAtPixel(pixel, function(feature, layer) {
+      if (feature instanceof Feature) {
+        currentFeature = feature;
+        currentFeatureKeys = currentFeature.getKeys();
+        popupText += '<li><table>';
+        for (let i=0; i<currentFeatureKeys.length; i++) {
+          if (currentFeatureKeys[i] != 'geometry') {
+            popupField = '';
+            popupField += '<th>' + currentFeature.get(currentFeatureKeys[i]) + ':</th><td>';
+            popupField += (currentFeature.get(currentFeatureKeys[i]) != null ? currentFeature.get(currentFeatureKeys[i]).toLocaleString() + '</td>' : '');
+            popupText += '<tr>' + popupField + '</tr>';
+          }
+        }
+        popupText += '</table>';
+      }
     });
+    popupText += '</ul>';
+
+    evt.target.popup.show(coord, popupText);
   }
 
   i18n(key) {
