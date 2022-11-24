@@ -23,6 +23,8 @@ class PathsToWellbeingMap {
     this.lang = options.lang || 'en';
     this.translations = options.translations;
 
+    this.state = 'overview';
+
     const controls = controlDefaults({
       rotate: false,
       zoomOptions: {
@@ -52,6 +54,7 @@ class PathsToWellbeingMap {
     this.communityLyr = new VectorLayer({
       // No title property is required as we don't need to display in the
       // the layer in the layer switcher
+      title: this.i18n('communities'),
       style: (feature, resolution) => new Style({
         geometry: feature.getGeometry().getInteriorPoint(),
         image: new Circle({
@@ -111,9 +114,17 @@ class PathsToWellbeingMap {
 
     this.popup = new Popup();
     this.map.addOverlay(this.popup);
-    this.map.on('singleclick', (evt) => this.displayPopup(evt));
+    this.map.on('singleclick', (evt) => this.handleMapClick(evt));
   }
 
+  handleMapClick(evt) {
+    // Which function is called will depend on both state and which layer was clicked
+    console.log('STATE:', this.state);
+    this.map.forEachFeatureAtPixel(evt.pixel, function (feature, layer) {
+      console.log('LAYER: ', layer.get('title'));
+    })
+  }
+  
   displayPopup(evt) {
     let popupText = '<ul>';
     this.map.forEachFeatureAtPixel(evt.pixel, function (feature, layer) {
