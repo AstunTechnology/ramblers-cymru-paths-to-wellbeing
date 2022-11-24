@@ -38,27 +38,27 @@ class PathsToWellbeingMap {
       style: function(feature, resolution){
         let color = 'rgba(0,0,0,1.0)';
         switch (feature.get('difficulty')) {
-            case 'Easy Access':
-                color = 'rgba(35,200,35,1.0)';
-                break;
-            case 'Leisurely':
-                color = 'rgba(35,35,200,1.0)';
-                break;
-            case 'Easy':
-                color = 'rgba(35,200,200,1.0)';
-                break;
-            case 'Moderate':
-                color = 'rgba(200,200,35,1.0)';
-                break;
-            case 'Strenuous':
-                color = 'rgba(200,35,35,1.0)';
-                break;
+          case 'Easy Access':
+            color = 'rgba(35,200,35,1.0)';
+            break;
+          case 'Leisurely':
+            color = 'rgba(35,35,200,1.0)';
+            break;
+          case 'Easy':
+            color = 'rgba(35,200,200,1.0)';
+            break;
+          case 'Moderate':
+            color = 'rgba(200,200,35,1.0)';
+            break;
+          case 'Strenuous':
+            color = 'rgba(200,35,35,1.0)';
+            break;
         }
         return new Style({
-            stroke: new Stroke({
-                color: color,
-                width: 0
-            })
+          stroke: new Stroke({
+            color: color,
+            width: 0
+          })
         });
       }
     });
