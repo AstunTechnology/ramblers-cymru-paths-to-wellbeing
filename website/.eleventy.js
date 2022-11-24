@@ -25,6 +25,18 @@ module.exports = function (eleventyConfig) {
       "Map": {
         'en': 'Map',
         'cy': 'Map'
+      },
+      "Visit Facebook": {
+        'en': 'Visit our Facebook page (opens a new browser tab)',
+        'cy': 'Visit our Facebook page (opens a new browser tab)'
+      },
+      "Visit Twitter": {
+        'en': 'Visit our Twitter page (opens a new browser tab)',
+        'cy': 'Visit our Twitter page (opens a new browser tab)'
+      },
+      "Visit Instagram": {
+        'en': 'Visit our Instagram page (opens a new browser tab)',
+        'cy': 'Visit our Instagram page (opens a new browser tab)'
       }
     },
     fallbackLocales: {

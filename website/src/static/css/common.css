@@ -134,8 +134,28 @@ footer .container {
   padding-bottom: 3rem;
 }
 
-footer .container img.logo {
+footer img.logo {
   max-width: 150px;
+}
+
+footer .social {
+  margin-top: 1em;
+}
+
+footer .social ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer .social li {
+  display: inline;
+  padding: 0 0.75em;
+}
+
+footer svg.icon {
+  width: 24px;
+  height: 24px;
 }
 
 /* Content */
