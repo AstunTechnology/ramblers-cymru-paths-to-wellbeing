@@ -10,11 +10,12 @@ import GeoJSON from 'ol/format/GeoJSON';
 import TopoJSON from 'ol/format/TopoJSON';
 import VectorSource from 'ol/source/Vector';
 import VectorLayer from 'ol/layer/Vector';
-import { Style, Stroke } from 'ol/style';
+import { Circle, Fill, Stroke, Style } from 'ol/style';
 
 import OlLayerSwitcher from 'ol-layerswitcher';
 import Popup from 'ol-popup';
 
+import { makeCommunitySource } from './community.js';
 
 class PathsToWellbeingMap {
   constructor(options) {
@@ -33,9 +34,9 @@ class PathsToWellbeingMap {
       title: this.i18n('paths'),
       source: new VectorSource({
         format: new GeoJSON(),
-        url: '/static/data/route_' + this.lang + '.geojson'
+        url: '/static/data/route_' + this.lang + '.geojson',
       }),
-      style: function(feature, resolution){
+      style: function (feature, resolution) {
         let color = 'rgba(0,0,0,1.0)';
         switch (feature.get('difficulty')) {
           case 'Easy Access':
@@ -57,18 +58,43 @@ class PathsToWellbeingMap {
         return new Style({
           stroke: new Stroke({
             color: color,
-            width: 0
-          })
+            width: 0,
+          }),
         });
-      }
+      },
+    });
+
+    // Initially defined without a source, the source is created once
+    // the routes have loaded
+    this.communityLyr = new VectorLayer({
+      // No title property is required as we don't need to display in the
+      // the layer in the layer switcher
+      style: new Style({
+        geometry: (feature) => feature.getGeometry().getInteriorPoint(),
+        image: new Circle({
+          fill: new Fill({
+            color: 'rgba(255,255,255,0.4)',
+          }),
+          stroke: new Stroke({
+            color: '#3399CC',
+            width: 1.25,
+          }),
+          radius: 5,
+        }),
+      }),
+    });
+
+    this.routeLyr.getSource().on('featuresloadend', (evt) => {
+      let communitySrc = makeCommunitySource(evt.target);
+      this.communityLyr.setSource(communitySrc);
     });
 
     this.areaLyr = new VectorLayer({
       title: this.i18n('areas'),
       source: new VectorSource({
         format: new TopoJSON(),
-        url: '/static/data/area.topojson'
-      })
+        url: '/static/data/area.topojson',
+      }),
     });
 
     this.map = new Map({
@@ -79,20 +105,21 @@ class PathsToWellbeingMap {
           source: new OSM(),
         }),
         this.areaLyr,
-        this.routeLyr
+        this.routeLyr,
+        this.communityLyr,
       ],
       view: new View({
         center: [-421000, 6877000],
         zoom: 8,
       }),
     });
-    
+
     this.layerSwitcher = new OlLayerSwitcher({
       reverse: true,
-      groupSelectStyle: 'group'
+      groupSelectStyle: 'group',
     });
     this.map.addControl(this.layerSwitcher);
-    
+
     this.popup = new Popup();
     this.map.addOverlay(this.popup);
     this.map.on('singleclick', (evt) => this.displayPopup(evt));
@@ -100,14 +127,17 @@ class PathsToWellbeingMap {
 
   displayPopup(evt) {
     let popupText = '<ul>';
-    this.map.forEachFeatureAtPixel(evt.pixel, function(feature, layer) {
+    this.map.forEachFeatureAtPixel(evt.pixel, function (feature, layer) {
       let keys = feature.getKeys();
       popupText += '<li><table>';
-      for (let i=0; i<keys.length; i++) {
+      for (let i = 0; i < keys.length; i++) {
         if (keys[i] != 'geometry') {
           let popupField = '';
           popupField += '<th>' + keys[i] + ':</th><td>';
-          popupField += (feature.get(keys[i]) != null ? feature.get(keys[i]).toLocaleString() + '</td>' : '');
+          popupField +=
+            feature.get(keys[i]) != null
+              ? feature.get(keys[i]).toLocaleString() + '</td>'
+              : '';
           popupText += '<tr>' + popupField + '</tr>';
         }
       }
@@ -125,9 +155,6 @@ class PathsToWellbeingMap {
       return '';
     }
   }
-  
-
-
 }
 
 export { PathsToWellbeingMap };
