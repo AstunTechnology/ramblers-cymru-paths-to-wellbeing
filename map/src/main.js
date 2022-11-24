@@ -39,13 +39,22 @@ class PathsToWellbeingMap {
         format: new GeoJSON(),
         url: '/static/data/route_' + this.lang + '.geojson',
       }),
-      style: function (feature, resolution) {
-        return new Style({
-          stroke: new Stroke({
-            color: difficultyColours[feature.get('difficulty')],
-            width: 2,
-          }),
-        });
+      style: (feature, resolution) => {
+        if (this.state == 'overview') {
+          return new Style({
+            stroke: new Stroke({
+              color: 'rgba(0,0,0,0)',
+              width: 2,
+            }),
+          });
+        } else {
+          return new Style({
+            stroke: new Stroke({
+              color: difficultyColours[feature.get('difficulty')],
+              width: 2,
+            }),
+          });
+        }
       },
     });
 
@@ -55,25 +64,34 @@ class PathsToWellbeingMap {
       // No title property is required as we don't need to display in the
       // the layer in the layer switcher
       title: this.i18n('communities'),
-      style: (feature, resolution) => new Style({
-        geometry: feature.getGeometry().getInteriorPoint(),
-        image: new Circle({
-          fill: new Fill({
-            color: 'rgba(255,255,255,0.4)',
-          }),
-          stroke: new Stroke({
-            color: '#3399CC',
-            width: 1.25,
-          }),
-          radius: 5,
-        }),
-        text: new Text({
-          text: feature.get('name'),
-          font: '16px sans-serif',
-          textAlign: 'left',
-          offsetX: 10
-        })
-      })
+      style: (feature, resolution) => {
+        if (this.state == 'overview') {
+          console.log('Community', this.state);
+          return new Style({
+            geometry: feature.getGeometry().getInteriorPoint(),
+            image: new Circle({
+              fill: new Fill({
+                color: 'rgba(255,255,255,0.4)',
+              }),
+              stroke: new Stroke({
+                color: '#3399CC',
+                width: 1.25,
+              }),
+              radius: 5,
+            }),
+            text: new Text({
+              text: feature.get('name'),
+              font: '16px sans-serif',
+              textAlign: 'left',
+              offsetX: 10
+            })
+          })
+        } else {
+          return new Style({
+            radius: 0,
+          })
+        }
+      }
     });
 
     this.routeLyr.getSource().on('featuresloadend', (evt) => {
@@ -118,10 +136,15 @@ class PathsToWellbeingMap {
   }
 
   handleMapClick(evt) {
-    // Which function is called will depend on both state and which layer was clicked
+    // Which function is called will depend on both map state and which layer was clicked
     console.log('STATE:', this.state);
-    this.map.forEachFeatureAtPixel(evt.pixel, function (feature, layer) {
+    this.map.forEachFeatureAtPixel(evt.pixel, (feature, layer) => {
       console.log('LAYER: ', layer.get('title'));
+      if (layer.get('title') == 'Communities') {
+        this.state = 'community';
+        this.communityLyr.changed();
+        this.routeLyr.changed();
+      }
     })
   }
   
