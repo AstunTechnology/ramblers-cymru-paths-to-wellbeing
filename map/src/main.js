@@ -10,7 +10,7 @@ import GeoJSON from 'ol/format/GeoJSON';
 import TopoJSON from 'ol/format/TopoJSON';
 import VectorSource from 'ol/source/Vector';
 import VectorLayer from 'ol/layer/Vector';
-import MultiPoint from 'ol/geom/MultiPoint';
+import Point from 'ol/geom/Point';
 import { Circle, Fill, Stroke, Style, Text } from 'ol/style';
 import CircleStyle from 'ol/style/Circle';
 
@@ -66,7 +66,7 @@ class PathsToWellbeingMap {
                 // return the coordinates of the first ring of the polygon
                 const coordinates = feature.getGeometry().getFirstCoordinate();
                 console.log(coordinates);
-                return new MultiPoint(coordinates);
+                return new Point(coordinates);
               },
             }),
             new Style({
