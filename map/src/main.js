@@ -17,11 +17,15 @@ import Popup from 'ol-popup';
 
 import { makeCommunitySource } from './community.js';
 import { difficultyColours } from './config.js';
+import InfoPanel from './InfoPanel.svelte';
 
 class PathsToWellbeingMap {
   constructor(options) {
     this.lang = options.lang || 'en';
+    this.staticUrl = options.staticUrl;
     this.translations = options.translations;
+
+    this.containerElm = this.buildUi(options.target);
 
     const controls = controlDefaults({
       rotate: false,
@@ -35,10 +39,9 @@ class PathsToWellbeingMap {
       title: this.i18n('paths'),
       source: new VectorSource({
         format: new GeoJSON(),
-        url: '/static/data/route_' + this.lang + '.geojson',
+        url: this.staticUrl + 'route_' + this.lang + '.geojson',
       }),
       style: function (feature, resolution) {
-        console.log(difficultyColours[feature.get('difficulty')]);
         return new Style({
           stroke: new Stroke({
             color: difficultyColours[feature.get('difficulty')],
@@ -77,12 +80,12 @@ class PathsToWellbeingMap {
       title: this.i18n('areas'),
       source: new VectorSource({
         format: new TopoJSON(),
-        url: '/static/data/area.topojson',
+        url: this.staticUrl + 'area.topojson',
       }),
     });
 
     this.map = new Map({
-      target: options.target,
+      target: this.mapElm,
       controls,
       layers: [
         new TileLayer({
@@ -109,9 +112,27 @@ class PathsToWellbeingMap {
     this.map.on('singleclick', (evt) => this.displayPopup(evt));
   }
 
+  buildUi(target) {
+    this.containerElm = document.getElementById(target);
+    this.containerElm.classList.add('app');
+    this.panelElm = document.createElement('aside');
+    this.panelElm.className = 'panel';
+    this.containerElm.appendChild(this.panelElm);
+    this.mapElm = document.createElement('div');
+    this.mapElm.className = 'map';
+    this.containerElm.appendChild(this.mapElm);
+    this.infoPanel = new InfoPanel({
+      target: this.panelElm,
+      props: {
+        staticUrl: this.staticUrl
+      }
+    });
+    return this.containerElm;
+  }
+
   displayPopup(evt) {
     let popupText = '<ul>';
-    this.map.forEachFeatureAtPixel(evt.pixel, function (feature, layer) {
+    this.map.forEachFeatureAtPixel(evt.pixel, (feature, layer) => {
       let keys = feature.getKeys();
       popupText += '<li><table>';
       for (let i = 0; i < keys.length; i++) {

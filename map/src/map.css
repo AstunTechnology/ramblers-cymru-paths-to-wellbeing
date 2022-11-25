@@ -1,1 +1,20 @@
 @import "../node_modules/ol/ol.css";
+
+.app {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.app .map, .app .panel {
+    height: 100%;
+    width: 100%;
+}
+
+.app .panel {
+  flex: 2;
+}
+
+.app .map {
+  flex: 4;
+}

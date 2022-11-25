@@ -1,7 +1,10 @@
 import { resolve } from 'path';
+import { defineConfig } from 'vite';
+import { svelte } from '@sveltejs/vite-plugin-svelte';
 
-export default {
+export default defineConfig({
   root: 'src',
+  plugins: [svelte({})],
   build: {
     // Ensure files are written to the dist at the root of this
     // package, not in src/dist
@@ -14,8 +17,8 @@ export default {
     },
     rollupOptions: {
       output: {
-        assetFileNames: "map.[ext]",
+        assetFileNames: 'map.[ext]',
       },
     },
-  }
-}
+  },
+});
