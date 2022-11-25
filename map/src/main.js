@@ -177,6 +177,9 @@ class PathsToWellbeingMap {
         this.communityLyr.changed();
         this.routeLyr.changed();
       }
+      if (layer.get('title') == this.i18n('paths')) {
+        this.displayPopup(evt);
+      }
     })
   }
   
