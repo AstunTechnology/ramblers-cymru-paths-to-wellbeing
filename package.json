@@ -12,8 +12,8 @@
     "url": "git+https://walkermatt@bitbucket.org/astuntech/paths-to-wellbeing.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Astun Technology Ltd.",
+  "license": "MIT",
   "homepage": "https://bitbucket.org/astuntech/paths-to-wellbeing#readme",
   "dependencies": {},
   "devDependencies": {

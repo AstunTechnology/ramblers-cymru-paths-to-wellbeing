@@ -1,15 +1,10 @@
 {
-  "name": "site",
+  "name": "website",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
     "eleventy-plugin-i18n": "^0.1.3"
