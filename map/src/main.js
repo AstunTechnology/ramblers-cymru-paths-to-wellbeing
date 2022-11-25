@@ -65,7 +65,6 @@ class PathsToWellbeingMap {
               geometry: function (feature) {
                 // return the coordinates of the first ring of the polygon
                 const coordinates = feature.getGeometry().getFirstCoordinate();
-                console.log(coordinates);
                 return new Point(coordinates);
               },
             }),
