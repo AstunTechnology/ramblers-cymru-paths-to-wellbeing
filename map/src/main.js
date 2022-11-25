@@ -142,6 +142,10 @@ class PathsToWellbeingMap {
       console.log('LAYER: ', layer.get('title'));
       if (layer.get('title') == 'Communities') {
         this.state = 'community';
+        this.map.getView().fit( 
+          feature.getGeometry(),
+          {duration: 1000}
+        );
         this.communityLyr.changed();
         this.routeLyr.changed();
       }
