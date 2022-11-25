@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/static/css/common.css">
+    <link rel="stylesheet" href="/static/css/common.css" />
     {% block head %}{% endblock %}
     <title>{{ title }} - {{ 'Paths to Wellbeing' | i18n }}</title>
   </head>
@@ -13,26 +13,53 @@
       <header>
         <div id="top">
           <div class="container">
-            <h1><a href="/{{ locale + '/' if currentLanguage else '' }}">{{ "Paths to Wellbeing" | i18n }}</a></h1>
+            <h1>
+              <a href="/{{ locale + '/' if currentLanguage else '' }}"
+                >{{ 'Paths to Wellbeing' | i18n }}</a
+              >
+            </h1>
             {% if currentLanguage %}
             <div id="lang-switcher">
-              {% set alternativeLanguage %}{{ page.url | getAlternativeLanguage }}{% endset %}
-              <a href="{{ page.url | getAlternativeLanguageUrl }}" hreflang="{{ alternativeLanguage }}" class="btn">{{ 'Cymraeg' if alternativeLanguage == 'cy' else 'English' }}</a>
+              {% set alternativeLanguage %}{{ page.url | getAlternativeLanguage
+              }}{% endset %}
+              <a
+                href="{{ page.url | getAlternativeLanguageUrl }}"
+                hreflang="{{ alternativeLanguage }}"
+                class="btn"
+                >{{ 'Cymraeg' if alternativeLanguage == 'cy' else 'English'
+                }}</a
+              >
             </div>
             {% endif %}
           </div>
         </div>
         <div class="container">
-          <img class="logo" src="/static/img/ramblers_cymru_logo.png" alt="Ramblers Cymru Logo" />
+          <img
+            class="logo"
+            src="/static/img/ramblers_cymru_logo.png"
+            alt="Ramblers Cymru Logo"
+          />
           {% if currentLanguage %}
           <nav>
             <ul>
               {% set url %}/{{ locale }}/{% endset %}
-              <li><a href="{{ url }}" class="{{ 'active' if url === page.url }}">{{ "Home" | i18n }}</a></li>
+              <li>
+                <a href="{{ url }}" class="{{ 'active' if url === page.url }}"
+                  >{{ 'Home' | i18n }}</a
+                >
+              </li>
               {% set url %}/{{ locale }}/about/{% endset %}
-              <li><a href="{{ url }}" class="{{ 'active' if url === page.url }}">{{ "About" | i18n }}</a></li>
+              <li>
+                <a href="{{ url }}" class="{{ 'active' if url === page.url }}"
+                  >{{ 'About' | i18n }}</a
+                >
+              </li>
               {% set url %}/{{ locale }}/map/{% endset %}
-              <li><a href="{{ url }}" class="{{ 'active' if url === page.url }}">{{ "Map" | i18n }}</a></li>
+              <li>
+                <a href="{{ url }}" class="{{ 'active' if url === page.url }}"
+                  >{{ 'Map' | i18n }}</a
+                >
+              </li>
             </ul>
           </nav>
           {% endif %}
@@ -40,15 +67,17 @@
       </header>
       <main>
         <div class="container">
-          {% block content %}
-          {{ content | safe }}
-          {% endblock %}
+          {% block content %} {{ content | safe }} {% endblock %}
         </div>
       </main>
       <footer>
         <div class="container">
           <div class="logo-social">
-            <img class="logo" src="/static/img/ramblers_cymru_logo_dark_bg.png" alt="Ramblers Cymru Logo" />
+            <img
+              class="logo"
+              src="/static/img/ramblers_cymru_logo_dark_bg.png"
+              alt="Ramblers Cymru Logo"
+            />
             <div class="social">
               <ul>
                 <li>
@@ -56,8 +85,8 @@
                     href="https://en-gb.facebook.com/RamblersCymru/"
                     rel="noopener"
                     target="_blank"
-                    aria-label="{{ "Visit Facebook" | i18n }}"
-                    title="{{ "Visit Facebook" | i18n }}"
+                    aria-label="{{ 'Visit Facebook' | i18n }}"
+                    title="{{ 'Visit Facebook' | i18n }}"
                   >
                     <svg
                       class="icon"
@@ -78,8 +107,8 @@
                     href="https://twitter.com/ramblerscymru/"
                     rel="noopener"
                     target="_blank"
-                    aria-label="{{ "Visit Twitter" | i18n }}"
-                    title="{{ "Visit Twitter" | i18n }}"
+                    aria-label="{{ 'Visit Twitter' | i18n }}"
+                    title="{{ 'Visit Twitter' | i18n }}"
                   >
                     <svg
                       class="icon"
@@ -100,8 +129,8 @@
                     href="https://www.instagram.com/ramblers_cymru/"
                     rel="noopener"
                     target="_blank"
-                    aria-label="{{ "Visit Instagram" | i18n }}"
-                    title="{{ "Visit Instagram" | i18n }}"
+                    aria-label="{{ 'Visit Instagram' | i18n }}"
+                    title="{{ 'Visit Instagram' | i18n }}"
                   >
                     <svg
                       class="icon"
@@ -119,7 +148,35 @@
                 </li>
               </ul>
             </div>
-        </div>
+          </div>
+          <div class="links">
+            <ul>
+              <li>
+                <a
+                  href="https://www.ramblers.org.uk/technical-stuff/privacy-policy.aspx"
+                  rel="noopener"
+                  target="_blank"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.ramblers.org.uk/technical-stuff/terms-and-conditions.aspx"
+                  rel="noopener"
+                  target="_blank"
+                  >Terms and Conditions</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.ramblers.org.uk/technical-stuff/use-of-cookies.aspx"
+                  rel="noopener"
+                  target="_blank"
+                  >Cookie Policy</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </footer>
     </div>
