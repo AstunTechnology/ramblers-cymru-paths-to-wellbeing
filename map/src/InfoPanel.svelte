@@ -14,6 +14,8 @@
     }
   }
 
+  const dispatch = createEventDispatcher();
+
   function defaultRoute() {
     return new Feature({
       name: "-",
@@ -43,12 +45,17 @@
     const ext = extensions[type];
     return `${slugify(routeName)}.${ext}`;
   }
+
+  function onCloseClick(evt) {
+    dispatch('close', { route });
+  }
 </script>
 
-<main class="info-panel">
+<main class="panel-content info-panel">
   <header>
     <h1>{route.get("name")}</h1>
     <button
+      on:click="{onCloseClick}"
       ><svg
         width="20px"
         height="20px"

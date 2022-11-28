@@ -18,3 +18,11 @@
 .app .map {
   flex: 4;
 }
+
+.app .panel .panel-content {
+  display: none;
+}
+
+.app .panel .panel-content.shown {
+  display: block;
+}

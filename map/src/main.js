@@ -18,14 +18,16 @@ import Popup from 'ol-popup';
 import { makeCommunitySource } from './community.js';
 import { difficultyColours } from './config.js';
 import InfoPanel from './InfoPanel.svelte';
+import FilterPanel from './FilterPanel.svelte';
 
 class PathsToWellbeingMap {
   constructor(options) {
     this.lang = options.lang || 'en';
     this.staticUrl = options.staticUrl;
     this.translations = options.translations;
-
+    this.panels = {};
     this.containerElm = this.buildUi(options.target);
+    this.showPanel('filter');
 
     const controls = controlDefaults({
       rotate: false,
@@ -128,6 +130,21 @@ class PathsToWellbeingMap {
         i18n: (key) => this.i18n(key)
       }
     });
+    this.infoPanel.$on('close', (evt) => {
+      // console.log(evt.detail.route);
+      // TODO Show the default filter panel, clear route selection etc.
+      this.showPanel('filter');
+    });
+    this.panels['info'] = this.infoPanel;
+    this.filterPanel = new FilterPanel({
+      target: this.panelElm,
+      props: {
+        staticUrl: this.staticUrl,
+        i18n: (key) => this.i18n(key)
+      }
+    });
+    this.panels['filter'] = this.filterPanel;
+    this.panels['filter'].default = true;
     return this.containerElm;
   }
 
@@ -151,6 +168,19 @@ class PathsToWellbeingMap {
     });
     popupText += '</ul>';
     this.popup.show(evt.coordinate, popupText);
+  }
+
+  /**
+   * Shows a single panel, hides the all others.
+   */
+  showPanel(name) {
+    for (let panelName in this.panels) {
+      let panelElm = document.querySelector(`.${panelName}-panel`);
+      panelElm.classList.remove('shown');
+      if (panelName == name) {
+        panelElm.classList.add('shown');
+      }
+    }
   }
 
   i18n(key) {
