@@ -41,49 +41,7 @@ class PathsToWellbeingMap {
         format: new GeoJSON(),
         url: '/static/data/route_' + this.lang + '.geojson',
       }),
-      style: (feature, resolution) => {
-        if (this.state == 'overview') {
-          return new Style({
-            stroke: new Stroke({
-              color: 'rgba(0,0,0,0)',
-              width: 2,
-            }),
-          });
-        } else if (this.state == 'community') {
-          return [
-            new Style({
-              image: new CircleStyle({
-                  radius: 5,
-                fill: new Fill({
-                  color: 'white',
-                }),
-                stroke: new Stroke({
-                  color: 'blue',
-                  width: 2
-                })
-              }),
-              geometry: function (feature) {
-                // return the coordinates of the first ring of the polygon
-                const coordinates = feature.getGeometry().getFirstCoordinate();
-                return new Point(coordinates);
-              },
-            }),
-            new Style({
-              stroke: new Stroke({
-                color: difficultyColours[feature.get('difficulty')],
-                width: 2,
-              }),
-            })
-          ]
-        } else {
-          return new Style({
-            stroke: new Stroke({
-              color: difficultyColours[feature.get('difficulty')],
-              width: 2,
-            }),
-          });
-        }
-      },
+      style: (feature, resolution) => this.routeStyle(feature, resolution)
     });
 
     // Initially defined without a source, the source is created once
@@ -160,7 +118,25 @@ class PathsToWellbeingMap {
 
     this.popup = new Popup();
     this.map.addOverlay(this.popup);
+
+   this.hoverRouteuid = [];
+    this.map.on('pointermove', (evt) => this.handleMapHover(evt));
     this.map.on('singleclick', (evt) => this.handleMapClick(evt));
+  }
+
+  handleMapHover(evt) {
+    if (this.state == 'overview') {
+      return;
+    } else {
+      this.hoverRouteuid.length = 0
+      this.map.forEachFeatureAtPixel(evt.pixel, (feature, layer) => {
+        // console.log('LAYER: ', layer.get('title'));
+        if (layer.get('title') == this.i18n('paths')) {
+          this.hoverRouteuid.push(feature.get('routeuid'));
+        }
+        layer.changed();
+      })
+    }
   }
 
   handleMapClick(evt) {
@@ -204,6 +180,67 @@ class PathsToWellbeingMap {
     popupText += '</ul>';
     this.popup.show(evt.coordinate, popupText);
   }
+
+  routeStyle(feature, resolution) {
+    // console.log('STATE', this.state);
+    if (this.state == 'overview') {
+      return new Style({
+        stroke: null
+      });
+    } else if (this.state == 'community') {
+      if (this.hoverRouteuid.includes(feature.get('routeuid'))) {
+        this.hoverRouteuid = [];
+        return [
+          this.startPointStyle(feature),
+          this.routeHighlightStyle,
+          this.routeDifficultyStyle(feature)
+        ]
+      } else {
+        return [
+          this.startPointStyle(feature),
+          this.routeDifficultyStyle(feature)
+        ]
+      }
+    } else {
+      return this.routeDifficultyStyle(feature);
+    }
+  }
+
+  startPointStyle(feature) {
+    return new Style({
+      image: new CircleStyle({
+          radius: 5,
+        fill: new Fill({
+          color: 'white',
+        }),
+        stroke: new Stroke({
+          color: 'blue',
+          width: 2
+        })
+      }),
+      geometry: function (feature) {
+        // return the coordinates of the first ring of the polygon
+        const coordinates = feature.getGeometry().getFirstCoordinate();
+        return new Point(coordinates);
+      },
+    })
+  }
+
+  routeDifficultyStyle(feature) {
+    return new Style({
+      stroke: new Stroke({
+        color: difficultyColours[feature.get('difficulty')],
+        width: 2,
+      }),
+    })
+  }
+
+  routeHighlightStyle = new Style({
+    stroke: new Stroke({
+      color: '#ff0',
+      width: 4,
+    }),
+  })
 
   i18n(key) {
     try {
