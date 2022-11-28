@@ -47,7 +47,7 @@ class PathsToWellbeingMap {
         format: new GeoJSON(),
         url: this.staticUrl + 'route_' + this.lang + '.geojson',
       }),
-      style: (feature, resolution) => this.routeStyle(feature, resolution)
+      style: (feature, resolution) => this.routeStyle(feature, resolution),
     });
 
     // Initially defined without a source, the source is created once
@@ -75,22 +75,22 @@ class PathsToWellbeingMap {
               text: feature.get('name'),
               font: '16px Rucksack',
               fill: new Fill({
-                color: '#333'
+                color: '#333',
               }),
               textAlign: 'left',
               offsetX: 20,
               stroke: new Stroke({
                 color: '#eee',
-                width: 6
-              })
-            })
-          })
+                width: 6,
+              }),
+            }),
+          });
         } else {
           return new Style({
             radius: 0,
-          })
+          });
         }
-      }
+      },
     });
 
     this.routeLyr.getSource().on('featuresloadend', (evt) => {
@@ -131,8 +131,11 @@ class PathsToWellbeingMap {
 
     this.popup = new Popup();
     this.map.addOverlay(this.popup);
+    this.popup.getElement().addEventListener('click', (evt) => {
+      this.handlePopupClick(evt);
+    });
 
-   this.hoverRouteuid = [];
+    this.hoverRouteuid = [];
     this.map.on('pointermove', (evt) => this.handleMapHover(evt));
     this.map.on('singleclick', (evt) => this.handleMapClick(evt));
   }
@@ -150,8 +153,8 @@ class PathsToWellbeingMap {
       target: this.panelElm,
       props: {
         staticUrl: this.staticUrl,
-        i18n: (key) => this.i18n(key)
-      }
+        i18n: (key) => this.i18n(key),
+      },
     });
     this.infoPanel.$on('close', (evt) => {
       // console.log(evt.detail.route);
@@ -163,8 +166,8 @@ class PathsToWellbeingMap {
       target: this.panelElm,
       props: {
         staticUrl: this.staticUrl,
-        i18n: (key) => this.i18n(key)
-      }
+        i18n: (key) => this.i18n(key),
+      },
     });
     this.panels['filter'] = this.filterPanel;
     this.panels['filter'].default = true;
@@ -188,13 +191,13 @@ class PathsToWellbeingMap {
     if (this.state == 'overview') {
       return;
     } else {
-      this.hoverRouteuid.length = 0
+      this.hoverRouteuid.length = 0;
       this.map.forEachFeatureAtPixel(evt.pixel, (feature, layer) => {
         // console.log('LAYER: ', layer.get('title'));
         if (layer.get('title') == this.i18n('paths')) {
           this.hoverRouteuid.push(feature.get('routeuid'));
         }
-      })
+      });
       this.routeLyr.changed();
     }
   }
@@ -206,25 +209,31 @@ class PathsToWellbeingMap {
       console.log('LAYER: ', layer.get('title'));
       if (layer.get('title') == this.i18n('communities')) {
         this.state = 'community';
-        this.map.getView().fit( 
-          feature.getGeometry(),
-          {duration: 1000}
-        );
+        this.map.getView().fit(feature.getGeometry(), { duration: 1000 });
         this.communityLyr.changed();
         this.routeLyr.changed();
       }
       if (layer.get('title') == this.i18n('paths')) {
         this.displayPopup(evt);
       }
-    })
+    });
+  }
+
+  handlePopupClick(evt) {
+    let routeUid = evt.target.dataset.routeuid;
+    if (routeUid) {
+      let route = this.getRouteByRouteUid(routeUid);
+      this.displayRouteInfo(route);
+    }
   }
 
   displayPopup(evt) {
     let popupText = '<ul>';
     this.map.forEachFeatureAtPixel(evt.pixel, (feature, layer) => {
       if (layer.get('title') == this.i18n('paths')) {
-        popupText += '<li><a href="javascript:null(' + feature.get('routeuid') + ')">';
-        popupText += feature.get('name')
+        popupText +=
+          '<li><a href="#" data-routeuid="' + feature.get('routeuid') + '">';
+        popupText += feature.get('name');
         popupText += '</a></li>';
       }
     });
@@ -232,24 +241,29 @@ class PathsToWellbeingMap {
     this.popup.show(evt.coordinate, popupText);
   }
 
+  displayRouteInfo(route) {
+    this.infoPanel.setRoute(route);
+    this.showPanel('info');
+  }
+
   routeStyle(feature, resolution) {
     // console.log('STATE', this.state);
     if (this.state == 'overview') {
       return new Style({
-        stroke: null
+        stroke: null,
       });
     } else if (this.state == 'community') {
       if (this.hoverRouteuid.includes(feature.get('routeuid'))) {
         return [
           this.startPointStyle(feature),
           ...this.routeHighlightStyle,
-          this.routeDifficultyStyle(feature)
-        ]
+          this.routeDifficultyStyle(feature),
+        ];
       } else {
         return [
           this.startPointStyle(feature),
-          this.routeDifficultyStyle(feature)
-        ]
+          this.routeDifficultyStyle(feature),
+        ];
       }
     } else {
       return this.routeDifficultyStyle(feature);
@@ -260,21 +274,21 @@ class PathsToWellbeingMap {
   startPointStyle(feature) {
     return new Style({
       image: new CircleStyle({
-          radius: 5,
+        radius: 5,
         fill: new Fill({
           color: 'white',
         }),
         stroke: new Stroke({
           color: 'blue',
-          width: 2
-        })
+          width: 2,
+        }),
       }),
       geometry: function (feature) {
         // return the coordinates of the first ring of the polygon
         const coordinates = feature.getGeometry().getFirstCoordinate();
         return new Point(coordinates);
       },
-    })
+    });
   }
 
   routeDifficultyStyle(feature) {
@@ -283,7 +297,7 @@ class PathsToWellbeingMap {
         color: difficultyColours[feature.get('difficulty')],
         width: 5,
       }),
-    })
+    });
   }
 
   routeHighlightStyle = [
@@ -291,15 +305,22 @@ class PathsToWellbeingMap {
       stroke: new Stroke({
         color: 'black',
         width: 11,
-      })
+      }),
     }),
     new Style({
       stroke: new Stroke({
         color: 'white',
         width: 9,
-      })
-    })
-  ]
+      }),
+    }),
+  ];
+
+  getRouteByRouteUid(routeuid) {
+    return this.routeLyr
+      .getSource()
+      .getFeatures()
+      .find((feature) => feature.get('routeuid') == routeuid);
+  }
 
   i18n(key) {
     try {
