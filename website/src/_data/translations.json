@@ -1,0 +1,58 @@
+{
+    "About": {
+        "cy": "Ynghylch",
+        "en": "About"
+    },
+    "Difficulty": {
+        "cy": "Anhawster",
+        "en": "Difficulty"
+    },
+    "Distance": {
+        "cy": "Pellter",
+        "en": "Distance"
+    },
+    "Shape": {
+        "cy": "Siâp",
+        "en": "Shape"
+    },
+    "Home": {
+        "cy": "Hafan",
+        "en": "Home"
+    },
+    "Map": {
+        "cy": "Map",
+        "en": "Map"
+    },
+    "Paths to Wellbeing": {
+        "cy": "Llywbrau i Lesiant",
+        "en": "Paths to Wellbeing"
+    },
+    "Visit Facebook": {
+        "cy": "Visit our Facebook page (opens a new browser tab)",
+        "en": "Visit our Facebook page (opens a new browser tab)"
+    },
+    "Visit Instagram": {
+        "cy": "Visit our Instagram page (opens a new browser tab)",
+        "en": "Visit our Instagram page (opens a new browser tab)"
+    },
+    "Visit Twitter": {
+        "cy": "Visit our Twitter page (opens a new browser tab)",
+        "en": "Visit our Twitter page (opens a new browser tab)"
+    },
+    "areas": {
+        "cy": "Arwynebeddau",
+        "en": "Areas"
+    },
+    "paths": {
+        "cy": "Llwybrau",
+        "en": "Paths"
+    },
+    "zoom_in": {
+        "cy": "Chwyddo i mewn",
+        "en": "Zoom in"
+    },
+    "zoom_out": {
+        "cy": "Chwyddo allan",
+        "en": "Zoom out"
+    }
+}
