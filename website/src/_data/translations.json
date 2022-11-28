@@ -11,10 +11,6 @@
         "cy": "Pellter",
         "en": "Distance"
     },
-    "Shape": {
-        "cy": "Siâp",
-        "en": "Shape"
-    },
     "Home": {
         "cy": "Hafan",
         "en": "Home"
@@ -26,6 +22,10 @@
     "Paths to Wellbeing": {
         "cy": "Llywbrau i Lesiant",
         "en": "Paths to Wellbeing"
+    },
+    "Shape": {
+        "cy": "Si\u00e2p",
+        "en": "Shape"
     },
     "Visit Facebook": {
         "cy": "Visit our Facebook page (opens a new browser tab)",
@@ -42,6 +42,10 @@
     "areas": {
         "cy": "Arwynebeddau",
         "en": "Areas"
+    },
+    "communities": {
+        "cy": "Cymunedau",
+        "en": "Communities"
     },
     "paths": {
         "cy": "Llwybrau",
