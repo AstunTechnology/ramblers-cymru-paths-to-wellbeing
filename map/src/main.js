@@ -135,6 +135,10 @@ class PathsToWellbeingMap {
     this.popup.getElement().addEventListener('click', (evt) => {
       this.handlePopupClick(evt);
     });
+    this.popup.closer.addEventListener('click', () => {
+      this.state = 'community';
+      this.routeLyr.changed();
+    });
 
     this.hoverRouteuid = [];
     this.map.on('pointermove', (evt) => this.handleMapHover(evt));
