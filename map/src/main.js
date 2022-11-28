@@ -67,13 +67,16 @@ class PathsToWellbeingMap {
             }),
             text: new Text({
               text: feature.get('name'),
-              font: '16px sans-serif',
+              font: '16px Rucksack',
+              fill: new Fill({
+                color: '#333'
+              }),
               textAlign: 'left',
-              offsetX: 15,
-         /*      backgroundStroke: new Stroke({
-                color: 'white',
-                width: 3
-              }) */
+              offsetX: 20,
+              stroke: new Stroke({
+                color: '#eee',
+                width: 6
+              })
             })
           })
         } else {
@@ -196,7 +199,7 @@ class PathsToWellbeingMap {
         this.hoverRouteuid = [];
         return [
           this.startPointStyle(feature),
-          this.routeHighlightStyle,
+          ...this.routeHighlightStyle,
           this.routeDifficultyStyle(feature)
         ]
       } else {
@@ -234,17 +237,25 @@ class PathsToWellbeingMap {
     return new Style({
       stroke: new Stroke({
         color: difficultyColours[feature.get('difficulty')],
-        width: 2,
+        width: 5,
       }),
     })
   }
 
-  routeHighlightStyle = new Style({
-    stroke: new Stroke({
-      color: '#ff0',
-      width: 4,
+  routeHighlightStyle = [
+    new Style({
+      stroke: new Stroke({
+        color: 'black',
+        width: 11,
+      })
     }),
-  })
+    new Style({
+      stroke: new Stroke({
+        color: 'white',
+        width: 9,
+      })
+    })
+  ]
 
   i18n(key) {
     try {
