@@ -1,4 +1,5 @@
 node_modules
 dist
-package-lock.json
-/*/package-lock.json
+/package-lock.json
+/website/package-lock.json
+/map/package-lock.json
