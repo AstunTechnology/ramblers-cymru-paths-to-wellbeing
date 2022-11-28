@@ -15,6 +15,7 @@
     "ol": "latest",
     "ol-layerswitcher": "^4.1.0",
     "ol-popup": "^5.0.0",
+    "path": "^0.12.7",
     "svelte": "^3.53.1"
   }
 }

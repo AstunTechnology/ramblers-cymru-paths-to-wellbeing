@@ -129,6 +129,7 @@ class PathsToWellbeingMap {
     });
     this.map.addControl(this.layerSwitcher);
 
+    this.clickRouteuid = [];
     this.popup = new Popup();
     this.map.addOverlay(this.popup);
     this.popup.getElement().addEventListener('click', (evt) => {
@@ -190,7 +191,7 @@ class PathsToWellbeingMap {
   handleMapHover(evt) {
     if (this.state == 'overview') {
       return;
-    } else {
+    } else if (this.state != 'displayRoutes') {
       this.hoverRouteuid.length = 0;
       this.map.forEachFeatureAtPixel(evt.pixel, (feature, layer) => {
         // console.log('LAYER: ', layer.get('title'));
@@ -205,6 +206,7 @@ class PathsToWellbeingMap {
   handleMapClick(evt) {
     // Which function is called will depend on both map state and which layer was clicked
     console.log('STATE:', this.state);
+    this.clickRouteuid.length = 0;
     this.map.forEachFeatureAtPixel(evt.pixel, (feature, layer) => {
       console.log('LAYER: ', layer.get('title'));
       if (layer.get('title') == this.i18n('communities')) {
@@ -214,6 +216,7 @@ class PathsToWellbeingMap {
         this.routeLyr.changed();
       }
       if (layer.get('title') == this.i18n('paths')) {
+        this.clickRouteuid.push(feature.get('routeuid'));
         this.displayPopup(evt);
       }
     });
@@ -235,6 +238,7 @@ class PathsToWellbeingMap {
           '<li><a href="#" data-routeuid="' + feature.get('routeuid') + '">';
         popupText += feature.get('name');
         popupText += '</a></li>';
+        this.state = 'displayRoutes';
       }
     });
     popupText += '</ul>';
@@ -252,7 +256,7 @@ class PathsToWellbeingMap {
       return new Style({
         stroke: null,
       });
-    } else if (this.state == 'community') {
+    } else if (this.state == 'community' || this.state == 'displayRoutes') {
       if (this.hoverRouteuid.includes(feature.get('routeuid'))) {
         return [
           this.startPointStyle(feature),
