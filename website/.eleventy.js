@@ -1,4 +1,7 @@
 const i18n = require('eleventy-plugin-i18n');
+const { transform, isObject, isUndefined } = require('lodash');
+
+const translations = require('./src/_data/translations.json');
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/static/css');
@@ -9,39 +12,16 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "../map/dist/*.mjs*": "/static/js" });
 
   eleventyConfig.addPlugin(i18n, {
-    translations: {
-      "Paths to Wellbeing": {
-        'en': 'Paths to Wellbeing',
-        'cy': 'Llywbrau i Lesiant'
-      },
-      "Home": {
-        'en': 'Home',
-        'cy': 'Hafan'
-      },
-      "About": {
-        'en': 'About',
-        'cy': 'Ynghylch'
-      },
-      "Map": {
-        'en': 'Map',
-        'cy': 'Map'
-      },
-      "Visit Facebook": {
-        'en': 'Visit our Facebook page (opens a new browser tab)',
-        'cy': 'Visit our Facebook page (opens a new browser tab)'
-      },
-      "Visit Twitter": {
-        'en': 'Visit our Twitter page (opens a new browser tab)',
-        'cy': 'Visit our Twitter page (opens a new browser tab)'
-      },
-      "Visit Instagram": {
-        'en': 'Visit our Instagram page (opens a new browser tab)',
-        'cy': 'Visit our Instagram page (opens a new browser tab)'
-      }
-    },
+    translations,
     fallbackLocales: {
       '*': 'en'
     }
+  });
+
+  eleventyConfig.addFilter('json', JSON.stringify);
+
+  eleventyConfig.addFilter('dropOtherLocales', function (translations, locale) {
+    return delPropDeep(translations, getAlternativeLanguage(locale));
   });
 
   eleventyConfig.addFilter("getCurrentLanguage", function(url) {
@@ -83,4 +63,17 @@ function getCurrentLanguage(url) {
 function getAlternativeLanguage(currentLanguage) {
   let alternativeLanguage = (currentLanguage == 'en') ? 'cy' : 'en';
   return alternativeLanguage;
+}
+
+/**
+ * Deep clone `obj` omitting all properties with the specified `key`
+ * @param {Object} Object to deep clone
+ * @param {string} key Name of key to skip when cloning
+ * @returns {Object}
+ */
+function delPropDeep(obj, key) {
+  return transform(obj, (r, v, k) => {
+    if (k === key) return;
+    r[k] = isObject(v) ? delPropDeep(v, key) : v;
+  });
 }

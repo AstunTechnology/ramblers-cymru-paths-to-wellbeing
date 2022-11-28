@@ -38,27 +38,7 @@
   const map = new PathsToWellbeingMap({
     target: 'map',
     lang: '{{ locale }}',
-    // TODO We probably don't need to pass both languages, we could just pass the current language?
-    // Use the same format as https://github.com/adamduncan/eleventy-plugin-i18n
-    // for translations
-    translations: {
-      'zoom_in': {
-        'en': 'Zoom in',
-        'cy': 'Chwyddo i mewn'
-      },
-      'zoom_out': {
-        'en': 'Zoom out',
-        'cy': 'Chwyddo allan'
-      },
-      'paths': {
-        'en': 'Paths',
-        'cy': 'Llwybrau'
-      },
-      'areas': {
-        'en': 'Areas',
-        'cy': 'Arwynebeddau'
-      }
-    }
+    translations: {{ translations | dropOtherLocales(locale) | json | safe }}
   });
 </script>
 {% endblock %}
