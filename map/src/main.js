@@ -57,19 +57,23 @@ class PathsToWellbeingMap {
             geometry: feature.getGeometry().getInteriorPoint(),
             image: new Circle({
               fill: new Fill({
-                color: 'rgba(255,255,255,0.4)',
+                color: 'white',
               }),
               stroke: new Stroke({
                 color: '#3399CC',
-                width: 1.25,
+                width: 4,
               }),
-              radius: 5,
+              radius: 10,
             }),
             text: new Text({
               text: feature.get('name'),
               font: '16px sans-serif',
               textAlign: 'left',
-              offsetX: 10
+              offsetX: 15,
+         /*      backgroundStroke: new Stroke({
+                color: 'white',
+                width: 3
+              }) */
             })
           })
         } else {
@@ -134,8 +138,8 @@ class PathsToWellbeingMap {
         if (layer.get('title') == this.i18n('paths')) {
           this.hoverRouteuid.push(feature.get('routeuid'));
         }
-        layer.changed();
       })
+      this.routeLyr.changed();
     }
   }
 
