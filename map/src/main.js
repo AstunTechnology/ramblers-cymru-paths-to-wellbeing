@@ -151,7 +151,7 @@ class PathsToWellbeingMap {
     console.log('STATE:', this.state);
     this.map.forEachFeatureAtPixel(evt.pixel, (feature, layer) => {
       console.log('LAYER: ', layer.get('title'));
-      if (layer.get('title') == 'Communities') {
+      if (layer.get('title') == this.i18n('communities')) {
         this.state = 'community';
         this.map.getView().fit( 
           feature.getGeometry(),
@@ -168,21 +168,12 @@ class PathsToWellbeingMap {
   
   displayPopup(evt) {
     let popupText = '<ul>';
-    this.map.forEachFeatureAtPixel(evt.pixel, function (feature, layer) {
-      let keys = feature.getKeys();
-      popupText += '<li><table>';
-      for (let i = 0; i < keys.length; i++) {
-        if (keys[i] != 'geometry') {
-          let popupField = '';
-          popupField += '<th>' + keys[i] + ':</th><td>';
-          popupField +=
-            feature.get(keys[i]) != null
-              ? feature.get(keys[i]).toLocaleString() + '</td>'
-              : '';
-          popupText += '<tr>' + popupField + '</tr>';
-        }
+    this.map.forEachFeatureAtPixel(evt.pixel, (feature, layer) => {
+      if (layer.get('title') == this.i18n('paths')) {
+        popupText += '<li><a href="javascript:null(' + feature.get('routeuid') + ')">';
+        popupText += feature.get('name')
+        popupText += '</a></li>';
       }
-      popupText += '</table>';
     });
     popupText += '</ul>';
     this.popup.show(evt.coordinate, popupText);
@@ -196,7 +187,6 @@ class PathsToWellbeingMap {
       });
     } else if (this.state == 'community') {
       if (this.hoverRouteuid.includes(feature.get('routeuid'))) {
-        this.hoverRouteuid = [];
         return [
           this.startPointStyle(feature),
           ...this.routeHighlightStyle,
@@ -211,6 +201,7 @@ class PathsToWellbeingMap {
     } else {
       return this.routeDifficultyStyle(feature);
     }
+    this.hoverRouteuid = [];
   }
 
   startPointStyle(feature) {
