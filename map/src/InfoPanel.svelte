@@ -4,6 +4,7 @@
   import slugify from '@sindresorhus/slugify';
 
   export let staticUrl = '';
+  export let i18n = (key) => key;
   export let route = defaultRoute();
   export function setRoute(route_) {
     if (route_) {
@@ -61,13 +62,13 @@
   </header>
   <table class="stats">
     <tr>
-      <th>Difficulty:</th><td>{route.get("difficulty")}</td>
-      <th>Distance:</th><td
+      <th>{i18n('Difficulty')}:</th><td>{route.get("difficulty")}</td>
+      <th>{i18n('Distance')}:</th><td
         >{Math.round((route.get("length") / 1.609) * 100) / 100} miles</td
       >
     </tr>
     <tr>
-      <th>Shape:</th><td>{route.get("shape")}</td>
+      <th>{i18n('Shape')}:</th><td>{route.get("shape")}</td>
       <th /><td />
     </tr>
   </table>

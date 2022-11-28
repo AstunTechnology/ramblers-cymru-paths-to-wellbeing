@@ -124,7 +124,8 @@ class PathsToWellbeingMap {
     this.infoPanel = new InfoPanel({
       target: this.panelElm,
       props: {
-        staticUrl: this.staticUrl
+        staticUrl: this.staticUrl,
+        i18n: (key) => this.i18n(key)
       }
     });
     return this.containerElm;
