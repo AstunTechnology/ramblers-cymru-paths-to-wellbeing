@@ -26,3 +26,24 @@
 .app .panel .panel-content.shown {
   display: block;
 }
+
+.app .map .ol-popup ul {
+  list-style-type: none;
+  padding-left: 0em;
+}
+
+.app .map .ol-popup ul li {
+  margin-bottom: 0.5em;
+}
+
+.app .map .ol-popup ul li:after {
+  content: ' >';
+}
+
+.app .map .ol-popup ul a:link, .app .map .ol-popup ul a:visited {
+  text-decoration: none;
+}
+
+.app .map .ol-popup ul a:hover, .app .map .ol-popup ul a:active {
+  text-decoration: underline;
+}
