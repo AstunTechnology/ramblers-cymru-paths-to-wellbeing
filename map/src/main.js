@@ -99,7 +99,6 @@ class PathsToWellbeingMap {
     });
 
     this.areaLyr = new VectorLayer({
-      title: this.i18n('areas'),
       source: new VectorSource({
         format: new TopoJSON(),
         url: this.staticUrl + 'area.topojson',
