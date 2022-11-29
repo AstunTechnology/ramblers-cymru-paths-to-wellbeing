@@ -12,7 +12,6 @@ import VectorSource from 'ol/source/Vector';
 import VectorLayer from 'ol/layer/Vector';
 import Point from 'ol/geom/Point';
 import { Circle, Fill, Stroke, Style, Text } from 'ol/style';
-import CircleStyle from 'ol/style/Circle';
 
 import OlLayerSwitcher from 'ol-layerswitcher';
 import Popup from 'ol-popup';
@@ -22,16 +21,17 @@ import { difficultyColours } from './config.js';
 import InfoPanel from './InfoPanel.svelte';
 import FilterPanel from './FilterPanel.svelte';
 
+const DISPLAY_COMMUNITY_UNTIL_RES = 150;
+
 class PathsToWellbeingMap {
   constructor(options) {
     this.lang = options.lang || 'en';
     this.staticUrl = options.staticUrl;
     this.translations = options.translations;
+
     this.panels = {};
     this.containerElm = this.buildUi(options.target);
     this.showPanel('filter');
-
-    this.state = 'overview';
 
     const controls = controlDefaults({
       rotate: false,
@@ -48,6 +48,7 @@ class PathsToWellbeingMap {
         url: this.staticUrl + 'route_' + this.lang + '.geojson',
       }),
       style: (feature, resolution) => this.routeStyle(feature, resolution),
+      opacity: 0.75,
     });
 
     // Initially defined without a source, the source is created once
@@ -56,40 +57,34 @@ class PathsToWellbeingMap {
       // No title property is required as we don't need to display in the
       // the layer in the layer switcher
       title: this.i18n('communities'),
+      minResolution: DISPLAY_COMMUNITY_UNTIL_RES,
       style: (feature, resolution) => {
-        if (this.state == 'overview') {
-          console.log('Community', this.state);
-          return new Style({
-            geometry: feature.getGeometry().getInteriorPoint(),
-            image: new Circle({
-              fill: new Fill({
-                color: 'white',
-              }),
-              stroke: new Stroke({
-                color: '#3399CC',
-                width: 4,
-              }),
-              radius: 10,
+        return new Style({
+          geometry: feature.getGeometry().getInteriorPoint(),
+          image: new Circle({
+            fill: new Fill({
+              color: 'white',
             }),
-            text: new Text({
-              text: feature.get('name'),
-              font: '16px Rucksack',
-              fill: new Fill({
-                color: '#333',
-              }),
-              textAlign: 'left',
-              offsetX: 20,
-              stroke: new Stroke({
-                color: '#eee',
-                width: 6,
-              }),
+            stroke: new Stroke({
+              color: '#3399CC',
+              width: 4,
             }),
-          });
-        } else {
-          return new Style({
-            radius: 0,
-          });
-        }
+            radius: 10,
+          }),
+          text: new Text({
+            text: feature.get('name'),
+            font: '12px Rucksack',
+            fill: new Fill({
+              color: '#333',
+            }),
+            textAlign: 'left',
+            offsetX: 20,
+            stroke: new Stroke({
+              color: '#eee',
+              width: 6,
+            }),
+          }),
+        });
       },
     });
 
@@ -134,10 +129,10 @@ class PathsToWellbeingMap {
       this.handlePopupClick(evt);
     });
     this.popup.closer.addEventListener('click', () => {
-      this.state = 'community';
-      this.routeLyr.changed();
+      this.clickRouteUid = [];
     });
 
+    this.selectedRoute = null;
     this.hoverRouteUid = [];
     this.clickRouteUid = [];
     this.map.on('pointermove', (evt) => this.handleMapHover(evt));
@@ -161,8 +156,8 @@ class PathsToWellbeingMap {
       },
     });
     this.infoPanel.$on('close', (evt) => {
-      // console.log(evt.detail.route);
-      // TODO Show the default filter panel, clear route selection etc.
+      this.selectedRoute = null;
+      this.routeLyr.changed();
       this.showPanel('filter');
     });
     this.panels['info'] = this.infoPanel;
@@ -192,27 +187,19 @@ class PathsToWellbeingMap {
   }
 
   handleMapHover(evt) {
-    if (this.state == 'overview') {
-      return;
-    } else if (this.state != 'displayRoutes') {
-      this.hoverRouteUid.length = 0;
-      this.map.forEachFeatureAtPixel(evt.pixel, (feature, layer) => {
-        // console.log('LAYER: ', layer.get('title'));
-        if (layer.get('title') == this.i18n('paths')) {
-          this.hoverRouteUid.push(feature.get('routeuid'));
-        }
-      });
-      this.routeLyr.changed();
-    }
+    this.hoverRouteUid = [];
+    this.map.forEachFeatureAtPixel(evt.pixel, (feature, layer) => {
+      if (layer == this.routeLyr) {
+        this.hoverRouteUid.push(feature.get('routeuid'));
+      }
+    });
+    this.routeLyr.changed();
   }
 
   handleMapClick(evt) {
-    // Which function is called will depend on both map state and which layer was clicked
-    console.log('STATE:', this.state);
-    this.clickRouteUid.length = 0;
+    this.clickRouteUid = [];
     this.map.forEachFeatureAtPixel(evt.pixel, (feature, layer) => {
       if (layer === this.communityLyr) {
-        this.state = 'community';
         this.map.getView().fit(feature.getGeometry(), { duration: 1000 });
         this.communityLyr.changed();
         this.routeLyr.changed();
@@ -227,6 +214,7 @@ class PathsToWellbeingMap {
   handlePopupClick(evt) {
     let routeUid = evt.target.dataset.routeuid;
     if (routeUid) {
+      this.clickRouteUid = [];
       let route = this.getRouteByRouteUid(routeUid);
       this.displayRouteInfo(route);
     }
@@ -235,12 +223,11 @@ class PathsToWellbeingMap {
   displayPopup(evt) {
     let popupText = '<ul>';
     this.map.forEachFeatureAtPixel(evt.pixel, (feature, layer) => {
-      if (layer.get('title') == this.i18n('paths')) {
+      if (layer === this.routeLyr) {
         popupText +=
           '<li><a href="#" data-routeuid="' + feature.get('routeuid') + '">';
         popupText += feature.get('name');
         popupText += '</a></li>';
-        this.state = 'displayRoutes';
       }
     });
     popupText += '</ul>';
@@ -248,44 +235,59 @@ class PathsToWellbeingMap {
   }
 
   displayRouteInfo(route) {
+    this.popup.hide();
     this.infoPanel.setRoute(route);
     this.showPanel('info');
+    this.map
+      .getView()
+      .fit(route.getGeometry(), { duration: 1000, padding: [20, 20, 20, 20] });
+    this.selectedRoute = route;
+    this.routeLyr.changed();
   }
 
   routeStyle(feature, resolution) {
-    // console.log('STATE', this.state);
-    if (this.state == 'overview') {
+    // NOTE Check DISPLAY_COMMUNITY_UNTIL_RES here instead of setting
+    // the minResolution of the routeLyr as OpenLayers doesn't even
+    // load the GeoJSON into the source if the initial via is out
+    // of bounds
+    if (resolution >= DISPLAY_COMMUNITY_UNTIL_RES) {
       return new Style({
-        stroke: null,
+        fill: null,
       });
-    } else if (this.state == 'community' || this.state == 'displayRoutes') {
-      if (this.hoverRouteUid.includes(feature.get('routeuid'))) {
-        return [
-          this.startPointStyle(feature),
-          ...this.routeHighlightStyle,
-          this.routeDifficultyStyle(feature),
-        ];
-      } else {
-        return [
-          this.startPointStyle(feature),
-          this.routeDifficultyStyle(feature),
-        ];
-      }
-    } else {
-      return this.routeDifficultyStyle(feature);
     }
-    this.hoverRouteUid = [];
+    // Determine the route style based on whether the current route is selected
+    // and if it's not whether another route is selected.
+    let selected = feature === this.selectedRoute;
+    let mode = 'normal';
+    if (selected) {
+      mode = 'selected';
+    } else if (this.selectedRoute) {
+      mode = 'muted';
+    }
+    let start = this.startPointStyle(feature, mode);
+    let difficulty = this.routeDifficultyStyle(feature, mode);
+    if (selected) {
+      return [start, ...this.routeSelectedStyle, difficulty];
+    }
+    if (
+      this.clickRouteUid.includes(feature.get('routeuid')) ||
+      this.hoverRouteUid.includes(feature.get('routeuid'))
+    ) {
+      return [start, ...this.routeHighlightStyle, difficulty];
+    }
+    return [start, difficulty];
   }
 
-  startPointStyle(feature) {
-    return new Style({
-      image: new CircleStyle({
+  startPointStyle(feature, mode) {
+    let opacity = mode === 'muted' ? 0.5 : 1;
+    let style = new Style({
+      image: new Circle({
         radius: 5,
         fill: new Fill({
-          color: 'white',
+          color: `rgba(255,255,255,${opacity})`,
         }),
         stroke: new Stroke({
-          color: 'blue',
+          color: `rgba(0,0,255,${opacity})`,
           width: 2,
         }),
       }),
@@ -295,28 +297,44 @@ class PathsToWellbeingMap {
         return new Point(coordinates);
       },
     });
+    if (mode === 'selected') {
+      style.setZIndex(1);
+    }
+    return style;
   }
 
-  routeDifficultyStyle(feature) {
-    return new Style({
+  routeDifficultyStyle(feature, mode) {
+    let opacity = mode === 'muted' ? 0.5 : 1;
+    let color = `rgba(${
+      difficultyColours[feature.get('difficulty')]
+    },${opacity})`;
+    let style = new Style({
       stroke: new Stroke({
-        color: difficultyColours[feature.get('difficulty')],
+        color,
         width: 5,
       }),
     });
+    if (mode === 'selected') {
+      style.setZIndex(1);
+    }
+    return style;
   }
 
   routeHighlightStyle = [
     new Style({
       stroke: new Stroke({
-        color: 'black',
+        color: 'yellow',
         width: 11,
       }),
     }),
+  ];
+
+  routeSelectedStyle = [
     new Style({
+      zIndex: 1,
       stroke: new Stroke({
-        color: 'white',
-        width: 9,
+        color: 'rgba(249,177,41)',
+        width: 13,
       }),
     }),
   ];

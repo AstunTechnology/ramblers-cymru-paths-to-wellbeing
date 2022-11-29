@@ -41,5 +41,7 @@
     staticUrl: '/static/data/',
     translations: {{ translations | dropOtherLocales(locale) | json | safe }}
   });
+  // TODO Remove me
+  window.map = map;
 </script>
 {% endblock %}
