@@ -1,9 +1,12 @@
+// TODO Only works with the English data, should we add a 
+// numeric difficulty id property to each feature which 
+// works would be independent of language?
 let difficultyColours = {
-  'Easy Access': 'rgba(35,200,35,1.0)',
-  'Leisurely': 'rgba(35,35,200,1.0)',
-  'Easy': 'rgba(35,200,200,1.0)',
-  'Moderate': 'rgba(200,200,35,1.0)',
-  'Strenuous': 'rgba(200,35,35,1.0)'
+  'Easy Access': '35,200,35',
+  'Leisurely': '35,35,200',
+  'Easy': '35,200,200',
+  'Moderate': '200,200,35',
+  'Strenuous': '200,35,35'
 }
 
 export { difficultyColours };
