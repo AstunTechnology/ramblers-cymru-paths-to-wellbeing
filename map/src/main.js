@@ -225,8 +225,8 @@ class PathsToWellbeingMap {
           '<li class="pathDifficulty-' + feature.get('difficulty').replace(/ /g, '') + '"><a href="#" data-routeuid="' + feature.get('routeuid') + '">';
         popupText += feature.get('name');
         popupText += '</a>'
-        popupText += '<div class="distance">' + feature.get('length').toFixed(1) + 'km</div>'
-        popupText += '<div class="ascent">' + feature.get('total_ascent') + 'm climb</div></li>';
+        popupText += '<div class="distance"><span class="material-icons">hiking</span> ' + feature.get('length').toFixed(1) + 'km</div>'
+        popupText += '<div class="ascent"><span class="material-icons">trending_up</span> ' + feature.get('total_ascent') + 'm</div></li>';
       }
     });
     popupText += '</ul>';
