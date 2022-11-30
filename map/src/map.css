@@ -61,7 +61,7 @@
   padding-left: 0.5em;
 }
 
-.app .map .ol-popup ul li:after {
+.app .map .ol-popup ul li a:after {
   content: ' >';
 }
 
@@ -71,4 +71,8 @@
 
 .app .map .ol-popup ul a:hover, .app .map .ol-popup ul a:active {
   text-decoration: underline;
+}
+
+.app .map .ol-popup ul li .distance, .app .map .ol-popup ul li .ascent {
+  color: #999;
 }
