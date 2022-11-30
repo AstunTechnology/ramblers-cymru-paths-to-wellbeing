@@ -221,7 +221,7 @@ class PathsToWellbeingMap {
     this.map.forEachFeatureAtPixel(evt.pixel, (feature, layer) => {
       if (layer === this.routeLyr) {
         popupText +=
-          '<li><a href="#" data-routeuid="' + feature.get('routeuid') + '">';
+          '<li class="pathDifficulty-' + feature.get('difficulty').replace(/ /g, '') + '"><a href="#" data-routeuid="' + feature.get('routeuid') + '">';
         popupText += feature.get('name');
         popupText += '</a></li>';
       }
