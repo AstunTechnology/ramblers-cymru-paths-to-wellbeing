@@ -16,12 +16,12 @@ import { Circle, Fill, Stroke, Style, Text } from 'ol/style';
 import OlLayerSwitcher from 'ol-layerswitcher';
 import Popup from 'ol-popup';
 
-import { makeCommunitySource } from './community.js';
 import { difficultyColours } from './config.js';
 import InfoPanel from './InfoPanel.svelte';
 import FilterPanel from './FilterPanel.svelte';
 
 const DISPLAY_COMMUNITY_UNTIL_RES = 150;
+const FIT_OPTIONS = { duration: 1000, padding: [20, 20, 20, 20] };
 
 class PathsToWellbeingMap {
   constructor(options) {
@@ -43,6 +43,7 @@ class PathsToWellbeingMap {
 
     this.routeLyr = new VectorLayer({
       title: this.i18n('paths'),
+      maxResolution: DISPLAY_COMMUNITY_UNTIL_RES,
       source: new VectorSource({
         format: new GeoJSON(),
         url: this.staticUrl + 'route_' + this.lang + '.geojson',
@@ -51,13 +52,13 @@ class PathsToWellbeingMap {
       opacity: 0.75,
     });
 
-    // Initially defined without a source, the source is created once
-    // the routes have loaded
     this.communityLyr = new VectorLayer({
-      // No title property is required as we don't need to display in the
-      // the layer in the layer switcher
       title: this.i18n('communities'),
       minResolution: DISPLAY_COMMUNITY_UNTIL_RES,
+      source: new VectorSource({
+        format: new GeoJSON(),
+        url: this.staticUrl + 'community_' + this.lang + '.geojson',
+      }),
       style: (feature, resolution) => {
         return new Style({
           geometry: feature.getGeometry().getInteriorPoint(),
@@ -77,8 +78,9 @@ class PathsToWellbeingMap {
             fill: new Fill({
               color: '#333',
             }),
-            textAlign: 'left',
-            offsetX: 20,
+            textAlign: feature.get('textalign'),
+            offsetX: feature.get('offsetx'),
+            offsetY: feature.get('offsety'),
             stroke: new Stroke({
               color: '#eee',
               width: 6,
@@ -86,11 +88,6 @@ class PathsToWellbeingMap {
           }),
         });
       },
-    });
-
-    this.routeLyr.getSource().on('featuresloadend', (evt) => {
-      let communitySrc = makeCommunitySource(evt.target);
-      this.communityLyr.setSource(communitySrc);
     });
 
     this.areaLyr = new VectorLayer({
@@ -200,8 +197,7 @@ class PathsToWellbeingMap {
     this.clickRouteUid = [];
     this.map.forEachFeatureAtPixel(evt.pixel, (feature, layer) => {
       if (layer === this.communityLyr) {
-        this.map.getView().fit(feature.getGeometry(), { duration: 1000 });
-        this.communityLyr.changed();
+        this.map.getView().fit(feature.getGeometry(), FIT_OPTIONS);
         this.routeLyr.changed();
       }
       if (layer === this.routeLyr) {
@@ -240,21 +236,12 @@ class PathsToWellbeingMap {
     this.showPanel('info');
     this.map
       .getView()
-      .fit(route.getGeometry(), { duration: 1000, padding: [20, 20, 20, 20] });
+      .fit(route.getGeometry(), FIT_OPTIONS);
     this.selectedRoute = route;
     this.routeLyr.changed();
   }
 
   routeStyle(feature, resolution) {
-    // NOTE Check DISPLAY_COMMUNITY_UNTIL_RES here instead of setting
-    // the minResolution of the routeLyr as OpenLayers doesn't even
-    // load the GeoJSON into the source if the initial via is out
-    // of bounds
-    if (resolution >= DISPLAY_COMMUNITY_UNTIL_RES) {
-      return new Style({
-        fill: null,
-      });
-    }
     // Determine the route style based on whether the current route is selected
     // and if it's not whether another route is selected.
     let selected = feature === this.selectedRoute;

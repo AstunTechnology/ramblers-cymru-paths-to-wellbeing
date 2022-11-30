@@ -1,0 +1,653 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -4.17371,
+                            52.059379
+                        ],
+                        [
+                            -4.17371,
+                            52.085991
+                        ],
+                        [
+                            -4.118424,
+                            52.085991
+                        ],
+                        [
+                            -4.118424,
+                            52.059379
+                        ],
+                        [
+                            -4.17371,
+                            52.059379
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "name": "Llanybydder",
+                "offsetx": "20",
+                "offsety": "0",
+                "textalign": "left"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -3.13964,
+                            53.022578
+                        ],
+                        [
+                            -3.13964,
+                            53.067894
+                        ],
+                        [
+                            -2.939743,
+                            53.067894
+                        ],
+                        [
+                            -2.939743,
+                            53.022578
+                        ],
+                        [
+                            -3.13964,
+                            53.022578
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "name": "Clywedog",
+                "offsetx": "20",
+                "offsety": "0",
+                "textalign": "left"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -3.544814,
+                            52.255984
+                        ],
+                        [
+                            -3.544814,
+                            52.312351
+                        ],
+                        [
+                            -3.446922,
+                            52.312351
+                        ],
+                        [
+                            -3.446922,
+                            52.255984
+                        ],
+                        [
+                            -3.544814,
+                            52.255984
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "name": "Rhaeadr Gwy",
+                "offsetx": "20",
+                "offsety": "0",
+                "textalign": "left"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -4.106287,
+                            52.917267
+                        ],
+                        [
+                            -4.106287,
+                            52.984303
+                        ],
+                        [
+                            -4.01761,
+                            52.984303
+                        ],
+                        [
+                            -4.01761,
+                            52.917267
+                        ],
+                        [
+                            -4.106287,
+                            52.917267
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "name": "Penrhyndeudraeth",
+                "offsetx": "20",
+                "offsety": "0",
+                "textalign": "left"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -4.10568,
+                            52.368791
+                        ],
+                        [
+                            -4.10568,
+                            52.424394
+                        ],
+                        [
+                            -4.045994,
+                            52.424394
+                        ],
+                        [
+                            -4.045994,
+                            52.368791
+                        ],
+                        [
+                            -4.10568,
+                            52.368791
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "name": "Penparcau",
+                "offsetx": "20",
+                "offsety": "0",
+                "textalign": "left"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -3.338379,
+                            53.0566
+                        ],
+                        [
+                            -3.338379,
+                            53.098622
+                        ],
+                        [
+                            -3.261091,
+                            53.098622
+                        ],
+                        [
+                            -3.261091,
+                            53.0566
+                        ],
+                        [
+                            -3.338379,
+                            53.0566
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "name": "Pwllglas",
+                "offsetx": "-20",
+                "offsety": "0",
+                "textalign": "right"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -4.696507,
+                            53.261939
+                        ],
+                        [
+                            -4.696507,
+                            53.322501
+                        ],
+                        [
+                            -4.607699,
+                            53.322501
+                        ],
+                        [
+                            -4.607699,
+                            53.261939
+                        ],
+                        [
+                            -4.696507,
+                            53.261939
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "name": "Ynys Gybi",
+                "offsetx": "20",
+                "offsety": "0",
+                "textalign": "left"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -3.119481,
+                            53.075111
+                        ],
+                        [
+                            -3.119481,
+                            53.120938
+                        ],
+                        [
+                            -3.026438,
+                            53.120938
+                        ],
+                        [
+                            -3.026438,
+                            53.075111
+                        ],
+                        [
+                            -3.119481,
+                            53.075111
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "name": "Llanfynydd",
+                "offsetx": "20",
+                "offsety": "0",
+                "textalign": "left"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -3.941955,
+                            53.225126
+                        ],
+                        [
+                            -3.941955,
+                            53.282925
+                        ],
+                        [
+                            -3.861613,
+                            53.282925
+                        ],
+                        [
+                            -3.861613,
+                            53.225126
+                        ],
+                        [
+                            -3.941955,
+                            53.225126
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "name": "Penmaenmawr",
+                "offsetx": "20",
+                "offsety": "0",
+                "textalign": "left"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -4.80172,
+                            51.968221
+                        ],
+                        [
+                            -4.80172,
+                            51.999234
+                        ],
+                        [
+                            -4.744037,
+                            51.999234
+                        ],
+                        [
+                            -4.744037,
+                            51.968221
+                        ],
+                        [
+                            -4.80172,
+                            51.968221
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "name": "Brynberian",
+                "offsetx": "20",
+                "offsety": "0",
+                "textalign": "left"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -3.823138,
+                            51.742741
+                        ],
+                        [
+                            -3.823138,
+                            51.781656
+                        ],
+                        [
+                            -3.759321,
+                            51.781656
+                        ],
+                        [
+                            -3.759321,
+                            51.742741
+                        ],
+                        [
+                            -3.823138,
+                            51.742741
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "name": "Ystalyfera",
+                "offsetx": "20",
+                "offsety": "0",
+                "textalign": "left"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -3.603451,
+                            51.505407
+                        ],
+                        [
+                            -3.603451,
+                            51.538881
+                        ],
+                        [
+                            -3.527674,
+                            51.538881
+                        ],
+                        [
+                            -3.527674,
+                            51.505407
+                        ],
+                        [
+                            -3.603451,
+                            51.505407
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "name": "Coety",
+                "offsetx": "-20",
+                "offsety": "0",
+                "textalign": "right"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -3.331252,
+                            51.519564
+                        ],
+                        [
+                            -3.331252,
+                            51.553436
+                        ],
+                        [
+                            -3.249146,
+                            51.553436
+                        ],
+                        [
+                            -3.249146,
+                            51.519564
+                        ],
+                        [
+                            -3.331252,
+                            51.519564
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "name": "Pen-tyrch",
+                "offsetx": "20",
+                "offsety": "0",
+                "textalign": "left"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -3.569786,
+                            51.663818
+                        ],
+                        [
+                            -3.569786,
+                            51.70324
+                        ],
+                        [
+                            -3.508731,
+                            51.70324
+                        ],
+                        [
+                            -3.508731,
+                            51.663818
+                        ],
+                        [
+                            -3.569786,
+                            51.663818
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "name": "Treherbert",
+                "offsetx": "20",
+                "offsety": "0",
+                "textalign": "left"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -2.992994,
+                            51.576602
+                        ],
+                        [
+                            -2.992994,
+                            51.60855
+                        ],
+                        [
+                            -2.950221,
+                            51.60855
+                        ],
+                        [
+                            -2.950221,
+                            51.576602
+                        ],
+                        [
+                            -2.992994,
+                            51.576602
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "name": "Maendy",
+                "offsetx": "20",
+                "offsety": "0",
+                "textalign": "left"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -3.161102,
+                            51.710069
+                        ],
+                        [
+                            -3.161102,
+                            51.772222
+                        ],
+                        [
+                            -3.106119,
+                            51.772222
+                        ],
+                        [
+                            -3.106119,
+                            51.710069
+                        ],
+                        [
+                            -3.161102,
+                            51.710069
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "name": "Chwe Chloch",
+                "offsetx": "20",
+                "offsety": "0",
+                "textalign": "left"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -2.909151,
+                            51.847281
+                        ],
+                        [
+                            -2.909151,
+                            51.932435
+                        ],
+                        [
+                            -2.826984,
+                            51.932435
+                        ],
+                        [
+                            -2.826984,
+                            51.847281
+                        ],
+                        [
+                            -2.909151,
+                            51.847281
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "name": "Grysmwnt",
+                "offsetx": "20",
+                "offsety": "0",
+                "textalign": "left"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -4.633294,
+                            52.057906
+                        ],
+                        [
+                            -4.633294,
+                            52.086072
+                        ],
+                        [
+                            -4.571043,
+                            52.086072
+                        ],
+                        [
+                            -4.571043,
+                            52.057906
+                        ],
+                        [
+                            -4.633294,
+                            52.057906
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "name": "Llechryd",
+                "offsetx": "20",
+                "offsety": "0",
+                "textalign": "left"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}
