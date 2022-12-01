@@ -11,5 +11,5 @@
   <form>
     <!-- Family Friendly Filter here... -->
   </form>
-  <p>Click on a route on the map to view it's information</p>
+  <p>Click on a route on the map to view its information</p>
 </main>
