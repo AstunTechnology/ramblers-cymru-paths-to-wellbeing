@@ -243,20 +243,18 @@ class PathsToWellbeingMap {
 
   handleMapHover(evt) {
     this.hoverRouteUid = [];
-    this.tooltip.hide();
-    document.querySelector('#map').classList.remove('hover-pointer');
+    this.hovering = false;
     this.map.forEachFeatureAtPixel(evt.pixel, (feature, layer) => {
       if (layer == this.routeLyr) {
+        this.hovering = true;
         this.hoverRouteUid.push(feature.get('routeuid'));
-        document.querySelector('#map').classList.add('hover-pointer');
         this.tooltip.show(
           evt.coordinate,
           feature.get('name')
         );
         return true;
-      }
-      if (layer == this.communityLyr) {
-        document.querySelector('#map').classList.add('hover-pointer');
+      } else if (layer == this.communityLyr) {
+        this.hovering = true;
         this.tooltip.show(
           evt.coordinate,
           `Zoom to ${feature.get('name')} routes`
@@ -264,6 +262,11 @@ class PathsToWellbeingMap {
         return true;
       }
     });
+    if (this.hovering) {
+      document.querySelector('#map').classList.add('hover-pointer');
+    } else {
+      document.querySelector('#map').classList.remove('hover-pointer');
+    }
     this.routeLyr.changed();
   }
 
