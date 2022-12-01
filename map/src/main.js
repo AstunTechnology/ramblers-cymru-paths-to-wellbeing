@@ -243,22 +243,25 @@ class PathsToWellbeingMap {
 
   handleMapHover(evt) {
     this.hoverRouteUid = [];
+    this.tooltip.hide();
+    document.querySelector('#map').classList.remove('hover-pointer');
     this.map.forEachFeatureAtPixel(evt.pixel, (feature, layer) => {
       if (layer == this.routeLyr) {
         this.hoverRouteUid.push(feature.get('routeuid'));
-      }
-      if (layer == this.communityLyr) {
-        this.tooltip.show(
-          evt.coordinate,
-          `Zoom to ${feature.get('name')} routes`
-        );
-      } else if (layer == this.routeLyr) {
+        document.querySelector('#map').classList.add('hover-pointer');
         this.tooltip.show(
           evt.coordinate,
           feature.get('name')
         );
-      } else {
-        this.tooltip.hide();
+        return true;
+      }
+      if (layer == this.communityLyr) {
+        document.querySelector('#map').classList.add('hover-pointer');
+        this.tooltip.show(
+          evt.coordinate,
+          `Zoom to ${feature.get('name')} routes`
+        );
+        return true;
       }
     });
     this.routeLyr.changed();

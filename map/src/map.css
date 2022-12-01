@@ -1,5 +1,13 @@
 @import "../node_modules/ol/ol.css";
 
+.hover-pointer {
+  cursor: pointer;
+}
+
+.normal-pointer {
+  cursor: auto;
+}
+
 .app {
     display: flex;
     flex-direction: row;
