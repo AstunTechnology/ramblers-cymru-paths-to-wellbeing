@@ -71,10 +71,29 @@ class PathsToWellbeingMap {
               width: 4,
             }),
             radius: 10,
+          })
+        })
+      }
+    });
+
+    this.labelLyr = new VectorLayer({
+      title: 'labels',
+      minResolution: DISPLAY_COMMUNITY_UNTIL_RES,
+      source: new VectorSource({
+        format: new GeoJSON(),
+        url: this.staticUrl + 'community_' + this.lang + '.geojson',
+      }),
+      style: (feature, resolution) => {
+        return new Style({
+          geometry: feature.getGeometry().getInteriorPoint(),
+          image: new Circle({
+            fill: null,
+            stroke: null,
+            radius: 0,
           }),
           text: new Text({
             text: feature.get('name'),
-            font: '12px Rucksack',
+            font: '16px Rucksack',
             fill: new Fill({
               color: '#333',
             }),
@@ -86,8 +105,8 @@ class PathsToWellbeingMap {
               width: 6,
             }),
           }),
-        });
-      },
+        })
+      }
     });
 
     this.areaLyr = new VectorLayer({
@@ -107,6 +126,7 @@ class PathsToWellbeingMap {
         this.areaLyr,
         this.routeLyr,
         this.communityLyr,
+        this.labelLyr,
       ],
       view: new View({
         center: [-421000, 6877000],
