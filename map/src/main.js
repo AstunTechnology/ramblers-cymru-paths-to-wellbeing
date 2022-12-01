@@ -12,12 +12,14 @@ import VectorSource from 'ol/source/Vector';
 import VectorLayer from 'ol/layer/Vector';
 import Point from 'ol/geom/Point';
 import { Circle, Fill, Stroke, Style, Text } from 'ol/style';
+import { transform as transformPoint, transformExtent } from 'ol/proj';
 
 import Popup from 'ol-popup';
 
 import { difficultyColours, Tooltip } from './config.js';
 import InfoPanel from './InfoPanel.svelte';
 import FilterPanel from './FilterPanel.svelte';
+import Gazetteer from './Gazetteer.svelte';
 
 const DISPLAY_COMMUNITY_UNTIL_RES = 150;
 const FIT_OPTIONS = { duration: 1000, padding: [20, 20, 20, 20] };
@@ -108,10 +110,17 @@ class PathsToWellbeingMap {
       }
     });
 
-    this.areaLyr = new VectorLayer({
+    this.borderLyr = new VectorLayer({
+      title: 'Border',
       source: new VectorSource({
-        format: new TopoJSON(),
-        url: this.staticUrl + 'area.topojson',
+        format: new GeoJSON(),
+        url: this.staticUrl + 'border.geojson',
+      }),
+      style: new Style({
+        stroke: new Stroke({
+          color: '#666',
+          width: 1,
+        }),
       }),
     });
 
@@ -122,7 +131,7 @@ class PathsToWellbeingMap {
         new TileLayer({
           source: new OSM(),
         }),
-        this.areaLyr,
+        this.borderLyr,
         this.routeLyr,
         this.communityLyr,
         this.labelLyr,
@@ -161,6 +170,39 @@ class PathsToWellbeingMap {
     this.mapElm = document.createElement('div');
     this.mapElm.className = 'map';
     this.containerElm.appendChild(this.mapElm);
+    this.gazetteer = new Gazetteer({
+      target: this.panelElm,
+      props: {
+        lang: this.lang,
+        i18n: (key) => this.i18n(key),
+      },
+    });
+    this.gazetteer.$on('select', (evt) => {
+      // TODO Extract into a method which is passed `result`
+      const result = evt.detail.result;
+      if (result) {
+        if (result.bbox) {
+          let extent = transformExtent(
+            [
+              result.bbox.west,
+              result.bbox.south,
+              result.bbox.east,
+              result.bbox.north,
+            ],
+            'EPSG:4326',
+            'EPSG:3857'
+          );
+          this.map.getView().fit(extent, FIT_OPTIONS);
+        } else {
+          let center = transformPoint(
+            [result.lng, result.lat],
+            'EPSG:4326',
+            'EPSG:3857'
+          );
+          this.map.getView().animate({ center, resolution: 30 });
+        }
+      }
+    });
     this.infoPanel = new InfoPanel({
       target: this.panelElm,
       props: {
@@ -260,9 +302,7 @@ class PathsToWellbeingMap {
     this.popup.hide();
     this.infoPanel.setRoute(route);
     this.showPanel('info');
-    this.map
-      .getView()
-      .fit(route.getGeometry(), FIT_OPTIONS);
+    this.map.getView().fit(route.getGeometry(), FIT_OPTIONS);
     this.selectedRoute = route;
     this.routeLyr.changed();
   }
