@@ -27,43 +27,79 @@
   display: block;
 }
 
+.app .map .ol-popup .ol-popup-content {
+  min-width: 250px;
+}
+
 .app .map .ol-popup ul {
   list-style-type: none;
   padding-left: 0em;
 }
 
 .app .map .ol-popup ul li {
+  padding-bottom: 0.5em;
   margin-bottom: 0.5em;
+  margin-right: 0.5em;
 }
 
-.app .map .ol-popup ul li.pathDifficulty-EasyAccess {
-  border-left: 15px solid rgba(35,200,35,1.0);
-  padding-left: 0.5em;
+.app .map .ol-popup ul li > div > div {
+  display: inline-block;
+  margin-top: 0.5em;
+  padding: 0.5em;
+  padding-top: 1em;
 }
 
-.app .map .ol-popup ul li.pathDifficulty-Leisurely {
-  border-left: 15px solid rgba(35,35,200,1.0);
-  padding-left: 0.5em;
+.app .map .ol-popup ul li > div > div:first-child {
+  border-left: 3px solid white;
 }
 
-.app .map .ol-popup ul li.pathDifficulty-Easy {
-  border-left: 15px solid rgba(35,200,200,1.0);
-  padding-left: 0.5em;
+.app .map .ol-popup ul li.pathDifficulty-EasyAccess > div > div {
+  background-color: rgba(35,200,35,0.1);
 }
 
-.app .map .ol-popup ul li.pathDifficulty-Moderate {
-  border-left: 15px solid rgba(200,200,35,1.0);
-  padding-left: 0.5em;
+.app .map .ol-popup ul li.pathDifficulty-Leisurely > div > div {
+  background-color: rgba(35,35,200,0.1);
 }
 
-.app .map .ol-popup ul li.pathDifficulty-Strenuous {
-  border-left: 15px solid rgba(200,35,35,1.0);
-  padding-left: 0.5em;
+.app .map .ol-popup ul li.pathDifficulty-Easy > div > div {
+  background-color: rgba(35,200,200,0.1);
 }
 
-.app .map .ol-popup ul li a:after {
+.app .map .ol-popup ul li.pathDifficulty-Moderate > div > div {
+  background-color: rgba(200,200,35,0.1);
+}
+
+.app .map .ol-popup ul li.pathDifficulty-Strenuous > div > div {
+ background-color: rgba(200,35,35,0.1);
+}
+
+.app .map .ol-popup ul li.pathDifficulty-EasyAccess > div > div:first-child {
+  border-left: 10px solid rgba(35,200,35,1.0);
+}
+
+.app .map .ol-popup ul li.pathDifficulty-Leisurely > div > div:first-child {
+  border-left: 10px solid rgba(35,35,200,1.0);
+}
+
+.app .map .ol-popup ul li.pathDifficulty-Easy > div > div:first-child {
+  border-left: 10px solid rgba(35,200,200,1.0);
+}
+
+.app .map .ol-popup ul li.pathDifficulty-Moderate > div > div:first-child {
+  border-left: 10px solid rgba(200,200,35,1.0);
+}
+
+.app .map .ol-popup ul li.pathDifficulty-Strenuous > div > div:first-child {
+  border-left: 10px solid rgba(200,35,35,1.0);
+}
+
+.app .map .ol-popup ul li div + div {
+  layout: flex;
+}
+
+/* .app .map .ol-popup ul li a:after {
   content: ' >';
-}
+} */
 
 .app .map .ol-popup ul a:link, .app .map .ol-popup ul a:visited {
   text-decoration: none;
@@ -74,5 +110,7 @@
 }
 
 .app .map .ol-popup ul li .distance, .app .map .ol-popup ul li .ascent {
+  padding-top: 0.25em;
+  vertical-align: middle;
   color: #999;
 }
