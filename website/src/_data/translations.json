@@ -55,6 +55,10 @@
         "cy": "Chwyddo i mewn",
         "en": "Zoom in"
     },
+    "gazetteer_placeholder": {
+        "cy": "Lle neu god post",
+        "en": "Place or postcode"
+    },
     "zoom_out": {
         "cy": "Chwyddo allan",
         "en": "Zoom out"
