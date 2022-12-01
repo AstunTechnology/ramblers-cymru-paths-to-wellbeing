@@ -92,10 +92,17 @@ class PathsToWellbeingMap {
       },
     });
 
-    this.areaLyr = new VectorLayer({
+    this.borderLyr = new VectorLayer({
+      title: 'Border',
       source: new VectorSource({
-        format: new TopoJSON(),
-        url: this.staticUrl + 'area.topojson',
+        format: new GeoJSON(),
+        url: this.staticUrl + 'border.geojson',
+      }),
+      style: new Style({
+        stroke: new Stroke({
+          color: '#666',
+          width: 1,
+        }),
       }),
     });
 
@@ -106,7 +113,7 @@ class PathsToWellbeingMap {
         new TileLayer({
           source: new OSM(),
         }),
-        this.areaLyr,
+        this.borderLyr,
         this.routeLyr,
         this.communityLyr,
       ],
