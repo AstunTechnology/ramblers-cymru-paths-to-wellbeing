@@ -15,7 +15,7 @@ import { Circle, Fill, Stroke, Style, Text } from 'ol/style';
 
 import Popup from 'ol-popup';
 
-import { difficultyColours } from './config.js';
+import { difficultyColours, Tooltip } from './config.js';
 import InfoPanel from './InfoPanel.svelte';
 import FilterPanel from './FilterPanel.svelte';
 
@@ -142,6 +142,9 @@ class PathsToWellbeingMap {
       this.clickRouteUid = [];
     });
 
+    this.tooltip = new Tooltip();
+    this.map.addOverlay(this.tooltip);
+
     this.selectedRoute = null;
     this.hoverRouteUid = [];
     this.clickRouteUid = [];
@@ -201,6 +204,14 @@ class PathsToWellbeingMap {
     this.map.forEachFeatureAtPixel(evt.pixel, (feature, layer) => {
       if (layer == this.routeLyr) {
         this.hoverRouteUid.push(feature.get('routeuid'));
+      }
+      if (layer == this.communityLyr) {
+        this.tooltip.show(
+          evt.coordinate,
+          `Zoom to ${feature.get('name')} routes`
+        );
+      } else {
+        this.tooltip.hide();
       }
     });
     this.routeLyr.changed();
