@@ -293,9 +293,9 @@ section.hero .prose h1 {
   }
 }
 
-/* Info Panel */
+/* Panels */
 
-.info-panel {
+.info-panel, .filter-panel {
   padding: 1em;
 }
 
@@ -342,3 +342,14 @@ section.hero .prose h1 {
   display: block;
   margin: 0.5em 0.5em 0.5em 1em;
 }
+
+/* Gazetteer */
+
+.gazetteer {
+  padding: 0 1em;
+}
+
+.gazetteer .autocomplete {
+  width: 100%;
+}
+

@@ -3,6 +3,10 @@
         "cy": "Ynghylch",
         "en": "About"
     },
+    "Close route information": {
+        "cy": "Gwybodaeth llwybr agos",
+        "en": "Close route information"
+    },
     "Difficulty": {
         "cy": "Anhawster",
         "en": "Difficulty"
@@ -10,6 +14,22 @@
     "Distance": {
         "cy": "Pellter",
         "en": "Distance"
+    },
+    "Download GPX": {
+        "cy": "Lawrlwythwch GPX",
+        "en": "Download GPX"
+    },
+    "Download Route Guild": {
+        "cy": "Lawrlwythwch Route Guild (PDF)",
+        "en": "Download Route Guild (PDF)"
+    },
+    "Find Routes": {
+        "cy": "Dod o Hyd i Lwybrau",
+        "en": "Find Routes"
+    },
+    "Find Routes Instructions": {
+        "cy": "<p>Cliciwch ar gymuned i weld llwybrau.</p><p>Cliciwch ar lwybr i weld y manylion.</p>",
+        "en": "<p>Click on a community to view routes.</p><p>Click on a route to view details.</p>"
     },
     "Home": {
         "cy": "Hafan",
@@ -46,6 +66,14 @@
     "communities": {
         "cy": "Cymunedau",
         "en": "Communities"
+    },
+    "gazetteer_placeholder": {
+        "cy": "Lle neu god post",
+        "en": "Place or postcode"
+    },
+    "miles": {
+        "cy": "milltiroedd",
+        "en": "miles"
     },
     "paths": {
         "cy": "Llwybrau",
