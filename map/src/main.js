@@ -13,7 +13,6 @@ import VectorLayer from 'ol/layer/Vector';
 import Point from 'ol/geom/Point';
 import { Circle, Fill, Stroke, Style, Text } from 'ol/style';
 
-import OlLayerSwitcher from 'ol-layerswitcher';
 import Popup from 'ol-popup';
 
 import { difficultyColours } from './config.js';
@@ -134,12 +133,6 @@ class PathsToWellbeingMap {
       }),
     });
 
-    this.layerSwitcher = new OlLayerSwitcher({
-      reverse: true,
-      groupSelectStyle: 'group',
-    });
-    this.map.addControl(this.layerSwitcher);
-
     this.popup = new Popup();
     this.map.addOverlay(this.popup);
     this.popup.getElement().addEventListener('click', (evt) => {
@@ -239,7 +232,6 @@ class PathsToWellbeingMap {
   displayPopup(evt) {
     let popupText = '<ul>';
     this.map.forEachFeatureAtPixel(evt.pixel, (feature, layer) => {
-      console.log(feature);
       if (layer === this.routeLyr) {
         popupText +=
           '<li class="pathDifficulty-' + feature.get('difficulty').replace(/ /g, '') + '"><div><a href="#" data-routeuid="' + feature.get('routeuid') + '">';
