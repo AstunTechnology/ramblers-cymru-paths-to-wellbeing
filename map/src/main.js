@@ -252,6 +252,11 @@ class PathsToWellbeingMap {
           evt.coordinate,
           `Zoom to ${feature.get('name')} routes`
         );
+      } else if (layer == this.routeLyr) {
+        this.tooltip.show(
+          evt.coordinate,
+          feature.get('name')
+        );
       } else {
         this.tooltip.hide();
       }
