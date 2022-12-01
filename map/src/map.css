@@ -38,7 +38,7 @@
 
 .app .map .ol-popup ul li {
   padding-bottom: 0.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
   margin-right: 0.5em;
 }
 
@@ -100,6 +100,14 @@
 /* .app .map .ol-popup ul li a:after {
   content: ' >';
 } */
+
+.app .map .ol-popup ul a {
+  font-size: 14pt;
+}
+
+.app .map .ol-popup ul a:after {
+  content: ' >';
+}
 
 .app .map .ol-popup ul a:link, .app .map .ol-popup ul a:visited {
   text-decoration: none;
