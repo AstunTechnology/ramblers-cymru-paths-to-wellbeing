@@ -67,6 +67,38 @@
         "cy": "Cymunedau",
         "en": "Communities"
     },
+    "difficulty_a": {
+        "cy": "Mynediad Hawdd",
+        "en": "Easy Access"
+    },
+    "difficulty_b": {
+        "cy": "Hawdd",
+        "en": "Easy"
+    },
+    "difficulty_c": {
+        "cy": "Hamddenol",
+        "en": "Leisurely"
+    },
+    "difficulty_d": {
+        "cy": "Cymedrol",
+        "en": "Moderate"
+    },
+    "difficulty_e": {
+        "cy": "Egn\u00efol",
+        "en": "Strenuous"
+    },
+    "difficulty_f": {
+        "cy": "Technegol",
+        "en": "Technical"
+    },
+    "familyfriendly_false": {
+        "cy": "Llwybrau eraill",
+        "en": "Other routes"
+    },
+    "familyfriendly_true": {
+        "cy": "Cyfeillgar i'r Teulu",
+        "en": "Family Friendly"
+    },
     "gazetteer_placeholder": {
         "cy": "Lle neu god post",
         "en": "Place or postcode"
