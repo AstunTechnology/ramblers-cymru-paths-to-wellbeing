@@ -14,10 +14,9 @@ import Point from 'ol/geom/Point';
 import { Circle, Fill, Stroke, Style, Text } from 'ol/style';
 import { transform as transformPoint, transformExtent } from 'ol/proj';
 
-import OlLayerSwitcher from 'ol-layerswitcher';
 import Popup from 'ol-popup';
 
-import { difficultyColours } from './config.js';
+import { difficultyColours, Tooltip } from './config.js';
 import InfoPanel from './InfoPanel.svelte';
 import FilterPanel from './FilterPanel.svelte';
 import Gazetteer from './Gazetteer.svelte';
@@ -73,10 +72,29 @@ class PathsToWellbeingMap {
               width: 4,
             }),
             radius: 10,
+          })
+        })
+      }
+    });
+
+    this.labelLyr = new VectorLayer({
+      title: 'labels',
+      minResolution: DISPLAY_COMMUNITY_UNTIL_RES,
+      source: new VectorSource({
+        format: new GeoJSON(),
+        url: this.staticUrl + 'community_' + this.lang + '.geojson',
+      }),
+      style: (feature, resolution) => {
+        return new Style({
+          geometry: feature.getGeometry().getInteriorPoint(),
+          image: new Circle({
+            fill: null,
+            stroke: null,
+            radius: 0,
           }),
           text: new Text({
             text: feature.get('name'),
-            font: '12px Rucksack',
+            font: '16px Rucksack',
             fill: new Fill({
               color: '#333',
             }),
@@ -88,8 +106,8 @@ class PathsToWellbeingMap {
               width: 6,
             }),
           }),
-        });
-      },
+        })
+      }
     });
 
     this.borderLyr = new VectorLayer({
@@ -116,18 +134,13 @@ class PathsToWellbeingMap {
         this.borderLyr,
         this.routeLyr,
         this.communityLyr,
+        this.labelLyr,
       ],
       view: new View({
         center: [-421000, 6877000],
         zoom: 8,
       }),
     });
-
-    this.layerSwitcher = new OlLayerSwitcher({
-      reverse: true,
-      groupSelectStyle: 'group',
-    });
-    this.map.addControl(this.layerSwitcher);
 
     this.popup = new Popup();
     this.map.addOverlay(this.popup);
@@ -137,6 +150,9 @@ class PathsToWellbeingMap {
     this.popup.closer.addEventListener('click', () => {
       this.clickRouteUid = [];
     });
+
+    this.tooltip = new Tooltip();
+    this.map.addOverlay(this.tooltip);
 
     this.selectedRoute = null;
     this.hoverRouteUid = [];
@@ -228,11 +244,30 @@ class PathsToWellbeingMap {
 
   handleMapHover(evt) {
     this.hoverRouteUid = [];
+    this.hovering = false;
     this.map.forEachFeatureAtPixel(evt.pixel, (feature, layer) => {
       if (layer == this.routeLyr) {
+        this.hovering = true;
         this.hoverRouteUid.push(feature.get('routeuid'));
+        this.tooltip.show(
+          evt.coordinate,
+          feature.get('name')
+        );
+        return true;
+      } else if (layer == this.communityLyr) {
+        this.hovering = true;
+        this.tooltip.show(
+          evt.coordinate,
+          `Zoom to ${feature.get('name')} routes`
+        );
+        return true;
       }
     });
+    if (this.hovering) {
+      document.querySelector('#map').classList.add('hover-pointer');
+    } else {
+      document.querySelector('#map').classList.remove('hover-pointer');
+    }
     this.routeLyr.changed();
   }
 
@@ -264,9 +299,11 @@ class PathsToWellbeingMap {
     this.map.forEachFeatureAtPixel(evt.pixel, (feature, layer) => {
       if (layer === this.routeLyr) {
         popupText +=
-          '<li><a href="#" data-routeuid="' + feature.get('routeuid') + '">';
+          '<li class="pathDifficulty-' + feature.get('difficulty').replace(/ /g, '') + '"><div><a href="#" data-routeuid="' + feature.get('routeuid') + '">';
         popupText += feature.get('name');
-        popupText += '</a></li>';
+        popupText += '</a></div>'
+        popupText += '<div><div class="distance"><div class="material-icons">hiking</div> ' + feature.get('length').toFixed(1) + 'km</div>'
+        popupText += '<div class="ascent"><div class="material-icons">trending_up</div> ' + feature.get('total_ascent') + 'm</div></div></li>';
       }
     });
     popupText += '</ul>';
