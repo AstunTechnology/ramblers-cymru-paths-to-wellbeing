@@ -9,7 +9,12 @@ let difficultyColours = {
   'Leisurely': '35,35,200',
   'Easy': '35,200,200',
   'Moderate': '200,200,35',
-  'Strenuous': '200,35,35'
+  'Strenuous': '200,35,35',
+  'Mynediad Hawdd': '35,200,35',
+  'Hamddenol': '35,35,200',
+  'Hawdd': '35,200,200',
+  'Cymedrol': '200,200,35',
+  'Egnïol': '200,35,35'
 }
 
 class Tooltip extends Overlay {

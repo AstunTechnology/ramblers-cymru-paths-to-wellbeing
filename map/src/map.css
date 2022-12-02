@@ -101,6 +101,46 @@
   border-left: 10px solid rgba(200,35,35,1.0);
 }
 
+.app .map .ol-popup ul li.pathDifficulty-MynediadHawdd > div > div {
+  background-color: rgba(35,200,35,0.1);
+}
+
+.app .map .ol-popup ul li.pathDifficulty-Hamddenol > div > div {
+  background-color: rgba(35,35,200,0.1);
+}
+
+.app .map .ol-popup ul li.pathDifficulty-Hawdd > div > div {
+  background-color: rgba(35,200,200,0.1);
+}
+
+.app .map .ol-popup ul li.pathDifficulty-Cymedrol > div > div {
+  background-color: rgba(200,200,35,0.1);
+}
+
+.app .map .ol-popup ul li.pathDifficulty-Egnïol > div > div {
+ background-color: rgba(200,35,35,0.1);
+}
+
+.app .map .ol-popup ul li.pathDifficulty-MynediadHawdd > div > div:first-child {
+  border-left: 10px solid rgba(35,200,35,1.0);
+}
+
+.app .map .ol-popup ul li.pathDifficulty-Hamddenol > div > div:first-child {
+  border-left: 10px solid rgba(35,35,200,1.0);
+}
+
+.app .map .ol-popup ul li.pathDifficulty-Hawdd > div > div:first-child {
+  border-left: 10px solid rgba(35,200,200,1.0);
+}
+
+.app .map .ol-popup ul li.pathDifficulty-Cymedrol > div > div:first-child {
+  border-left: 10px solid rgba(200,200,35,1.0);
+}
+
+.app .map .ol-popup ul li.pathDifficulty-Egnïol > div > div:first-child {
+  border-left: 10px solid rgba(200,35,35,1.0);
+}
+
 .app .map .ol-popup ul li div + div {
   layout: flex;
 }
