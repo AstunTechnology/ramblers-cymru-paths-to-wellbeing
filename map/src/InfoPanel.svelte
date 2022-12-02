@@ -30,23 +30,6 @@
     });
   }
 
-  const extensions = {
-    guide: "pdf",
-    gpx: "gpx",
-  };
-
-  function getRouteUrl(route, type) {
-    const routeId = route.get("routeuid");
-    const ext = extensions[type];
-    return `${staticUrl}${type}/${routeId}.${ext}`;
-  }
-
-  function getRouteFilename(route, type) {
-    const routeName = route.get("name");
-    const ext = extensions[type];
-    return `${slugify(routeName)}.${ext}`;
-  }
-
   function onCloseClick(evt) {
     dispatch("close", { route });
   }
@@ -83,8 +66,8 @@
   <p>{route.get("routesummary")}</p>
   <div class="download">
     <a
-      href={getRouteUrl(route, "guide")}
-      download={getRouteFilename(route, "guide")}
+      href="{staticUrl}guide/route_{route.get("routeuid")}.pdf"
+      download={slugify(route.get('name'))}.pdf
       ><svg
         width="21"
         height="21"
@@ -102,7 +85,7 @@
     >
     <a
       href="{staticUrl}gpx/route_{route.get("routeuid")}_{lang}.gpx"
-      download={getRouteFilename(route, "gpx")}
+      download={slugify(route.get('name'))}-{lang}.gpx
       ><svg
         width="21"
         height="21"
@@ -119,5 +102,5 @@
       {i18n("Download GPX")}</a
     >
   </div>
-  <!-- Route image goes here -->
+  <img src="{staticUrl}photo/route_{route.get('routeuid')}.jpeg" class="photo" alt="{route.get('name')}" />
 </main>

@@ -343,6 +343,12 @@ section.hero .prose h1 {
   margin: 0.5em 0.5em 0.5em 1em;
 }
 
+.info-panel img.photo {
+  max-width: 100%;
+  display: block;
+  padding: 1em;
+}
+
 /* Gazetteer */
 
 .gazetteer {
