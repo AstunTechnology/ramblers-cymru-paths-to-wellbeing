@@ -159,6 +159,8 @@ class PathsToWellbeingMap {
     this.clickRouteUid = [];
     this.map.on('pointermove', (evt) => this.handleMapHover(evt));
     this.map.on('singleclick', (evt) => this.handleMapClick(evt));
+    
+    this.selectedFilter = "Family-friendly";
   }
 
   buildUi(target) {
@@ -224,6 +226,11 @@ class PathsToWellbeingMap {
         i18n: (key) => this.i18n(key),
       },
     });
+    this.filterPanel.$on('filterChange', (evt) => {
+      this.selectedFilter = evt.detail.result;
+      console.log(this.selectedFilter);
+      this.routeLyr.changed();
+    })
     this.panels['filter'] = this.filterPanel;
     this.panels['filter'].default = true;
     return this.containerElm;
@@ -330,17 +337,22 @@ class PathsToWellbeingMap {
       mode = 'muted';
     }
     let start = this.startPointStyle(feature, mode);
-    let difficulty = this.routeDifficultyStyle(feature, mode);
+    let filterStyle;
+    if (this.selectedFilter == 'Route difficulty') {
+      filterStyle = this.routeDifficultyStyle(feature, mode);
+    } else {
+      filterStyle = this.routeFamilyFriendlyStyle(feature, mode);
+    }
     if (selected) {
-      return [start, ...this.routeSelectedStyle, difficulty];
+      return [start, ...this.routeSelectedStyle, filterStyle];
     }
     if (
       this.clickRouteUid.includes(feature.get('routeuid')) ||
       this.hoverRouteUid.includes(feature.get('routeuid'))
     ) {
-      return [start, ...this.routeHighlightStyle, difficulty];
+      return [start, ...this.routeHighlightStyle, filterStyle];
     }
-    return [start, difficulty];
+    return [start, filterStyle];
   }
 
   startPointStyle(feature, mode) {
@@ -376,6 +388,21 @@ class PathsToWellbeingMap {
     let style = new Style({
       stroke: new Stroke({
         color,
+        width: 5,
+      }),
+    });
+    if (mode === 'selected') {
+      style.setZIndex(1);
+    }
+    return style;
+  }
+
+  routeFamilyFriendlyStyle(feature, mode) {
+    let opacity = mode === 'muted' ? 0.5 : 1;
+    let color = feature.get('family_friendly') ? '#3c3' : '#33c';
+    let style = new Style({
+      stroke: new Stroke({
+        color: color,
         width: 5,
       }),
     });

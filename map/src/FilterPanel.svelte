@@ -7,6 +7,10 @@
 
   let filters = ["Family-friendly", "Route difficulty"];
   let selectedFilter = "familyFriendly";
+  
+  function changeFilter(evt) {
+    dispatch("filterChange", { result: evt.target.value });
+  }
 </script>
 
 <main class="panel-content filter-panel">
@@ -17,7 +21,7 @@
     <!-- Family Friendly Filter here... -->
     {#each filters as filter}
     <label>
-      <input type=radio bind:group={selectedFilter} value={filter} on:change="{() => dispatch("filterChange", { result: evt })}">
+      <input type=radio bind:group={selectedFilter} value={filter} on:change={changeFilter}>
       {filter}
       <br>
     </label>
