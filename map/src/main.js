@@ -191,6 +191,7 @@ class PathsToWellbeingMap {
       target: this.panelElm,
       props: {
         staticUrl: this.staticUrl,
+        lang: this.lang,
         i18n: (key) => this.i18n(key),
       },
     });

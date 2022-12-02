@@ -4,6 +4,7 @@
   import slugify from "@sindresorhus/slugify";
 
   export let staticUrl = "";
+  export let lang = "en";
   export let i18n = (key) => key;
   export let route = defaultRoute();
   export function setRoute(route_) {
@@ -100,7 +101,7 @@
       {i18n("Download Route Guild")}</a
     >
     <a
-      href={getRouteUrl(route, "gpx")}
+      href="{staticUrl}gpx/route_{route.get("routeuid")}_{lang}.gpx"
       download={getRouteFilename(route, "gpx")}
       ><svg
         width="21"
