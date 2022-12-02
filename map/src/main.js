@@ -302,11 +302,21 @@ class PathsToWellbeingMap {
   }
 
   displayPopup(evt) {
+    let pathClass;
+    let classField;
+    console.log(this.selectedFilter);
+    if (this.selectedFilter == 'Route difficulty') {
+      pathClass = 'pathDifficulty';
+      classField = 'difficultyuid';
+    } else {
+      pathClass = 'pathFamilyFriendly';
+      classField = 'family_friendly';
+    }
     let popupText = '<ul>';
     this.map.forEachFeatureAtPixel(evt.pixel, (feature, layer) => {
       if (layer === this.routeLyr) {
         popupText +=
-          '<li class="pathDifficulty-' + feature.get('difficulty').replace(/ /g, '') + '"><div><a href="#" data-routeuid="' + feature.get('routeuid') + '">';
+          '<li class="' + pathClass + '-' + feature.get(classField) + '"><div><a href="#" data-routeuid="' + feature.get('routeuid') + '">';
         popupText += feature.get('name');
         popupText += '</a></div>'
         popupText += '<div><div class="distance"><div class="material-icons">hiking</div> ' + feature.get('length').toFixed(1) + 'km</div>'
@@ -383,7 +393,7 @@ class PathsToWellbeingMap {
   routeDifficultyStyle(feature, mode) {
     let opacity = mode === 'muted' ? 0.5 : 1;
     let color = `rgba(${
-      difficultyColours[feature.get('difficulty')]
+      difficultyColours[feature.get('difficultyuid')]
     },${opacity})`;
     let style = new Style({
       stroke: new Stroke({

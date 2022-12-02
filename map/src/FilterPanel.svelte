@@ -5,9 +5,6 @@
 
   const dispatch = createEventDispatcher();
 
-  let filters = ["Family-friendly", "Route difficulty"];
-  let selectedFilter = "familyFriendly";
-  
   function changeFilter(evt) {
     dispatch("filterChange", { result: evt.target.value });
   }
@@ -19,13 +16,16 @@
   </header>
   <form>
     <!-- Family Friendly Filter here... -->
-    {#each filters as filter}
     <label>
-      <input type=radio bind:group={selectedFilter} value={filter} on:change={changeFilter}>
-      {filter}
+      <input type="radio" name="selectedFilter" value="Family-friendly" on:change={changeFilter} checked="true">
+      Family-friendly
       <br>
     </label>
-    {/each}
+    <label>
+      <input type="radio" name="selectedFilter" value="Route difficulty" on:change={changeFilter}>
+      Route difficulty
+      <br>
+    </label>
   </form>
   {@html i18n('Find Routes Instructions')}
 </main>
