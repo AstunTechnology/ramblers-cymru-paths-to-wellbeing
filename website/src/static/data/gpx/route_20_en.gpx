@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata><bounds minlat="52.299943623770837" minlon="-3.470034511122354" maxlat="52.308583078807175" maxlon="-3.446922150811308"/></metadata>                  
+<rte>
+  <name>Castle Hill Loop</name>
+  <desc>A circular family friendly route that starts and finishes at Gaulfron, taking approx. 1 and a half hours to walk.</desc>
+  <src>Ramblers</src>
+  <number>20</number>
+  <type>Walking</type>
+  <rtept lat="52.302510866537325" lon="-3.470034511122354">
+  </rtept>
+  <rtept lat="52.302505238862636" lon="-3.470022743915403">
+  </rtept>
+  <rtept lat="52.302993039998789" lon="-3.469374315274628">
+  </rtept>
+  <rtept lat="52.303198012021902" lon="-3.469363808643647">
+  </rtept>
+  <rtept lat="52.304111434233469" lon="-3.468925250529057">
+  </rtept>
+  <rtept lat="52.304381290986043" lon="-3.468629674550604">
+  </rtept>
+  <rtept lat="52.304342013245353" lon="-3.468048092002081">
+  </rtept>
+  <rtept lat="52.304343014256823" lon="-3.467717994892726">
+  </rtept>
+  <rtept lat="52.304384913853063" lon="-3.467589696730609">
+  </rtept>
+  <rtept lat="52.304351214796071" lon="-3.467454197441701">
+  </rtept>
+  <rtept lat="52.304279016347259" lon="-3.467344697307973">
+  </rtept>
+  <rtept lat="52.304031324540169" lon="-3.465852707116305">
+  </rtept>
+  <rtept lat="52.303996426446226" lon="-3.465349711193137">
+  </rtept>
+  <rtept lat="52.304001727311707" lon="-3.464977914693576">
+  </rtept>
+  <rtept lat="52.303584684778912" lon="-3.463826592338324">
+  </rtept>
+  <rtept lat="52.303289044771013" lon="-3.463003521794913">
+  </rtept>
+  <rtept lat="52.302656357404409" lon="-3.462347018076667">
+  </rtept>
+  <rtept lat="52.302238566574104" lon="-3.461574118804342">
+  </rtept>
+  <rtept lat="52.301083293889995" lon="-3.458574529096317">
+  </rtept>
+  <rtept lat="52.300198316289311" lon="-3.455612343341728">
+  </rtept>
+  <rtept lat="52.299943623770837" lon="-3.454394050632882">
+  </rtept>
+  <rtept lat="52.300855915091013" lon="-3.451490892059423">
+  </rtept>
+  <rtept lat="52.302071993812085" lon="-3.449477438477863">
+  </rtept>
+  <rtept lat="52.303606567085652" lon="-3.4489775690505">
+  </rtept>
+  <rtept lat="52.303949860654498" lon="-3.448475481786671">
+  </rtept>
+  <rtept lat="52.30486434559954" lon="-3.449055286885234">
+  </rtept>
+  <rtept lat="52.306089723259483" lon="-3.448105319968056">
+  </rtept>
+  <rtept lat="52.306913407218318" lon="-3.446922150811308">
+  </rtept>
+  <rtept lat="52.308149085701878" lon="-3.446962469231499">
+  </rtept>
+  <rtept lat="52.3079342955402" lon="-3.451649195443067">
+  </rtept>
+  <rtept lat="52.308583078807175" lon="-3.453723986574158">
+  </rtept>
+  <rtept lat="52.308328576397507" lon="-3.456135861241174">
+  </rtept>
+  <rtept lat="52.307199089438662" lon="-3.45840892374716">
+  </rtept>
+  <rtept lat="52.306891191260135" lon="-3.459682307579123">
+  </rtept>
+  <rtept lat="52.306614589605672" lon="-3.462056681899873">
+  </rtept>
+  <rtept lat="52.307200774905048" lon="-3.463726075934814">
+  </rtept>
+  <rtept lat="52.306209586828494" lon="-3.465710142550372">
+  </rtept>
+  <rtept lat="52.306418981225924" lon="-3.466432839293368">
+  </rtept>
+  <rtept lat="52.306081185767113" lon="-3.466947829316655">
+  </rtept>
+  <rtept lat="52.305884387484184" lon="-3.467599620300905">
+  </rtept>
+  <rtept lat="52.305784288712097" lon="-3.467799416905997">
+  </rtept>
+  <rtept lat="52.305526792495165" lon="-3.468030110858148">
+  </rtept>
+  <rtept lat="52.304938101979964" lon="-3.468252699772071">
+  </rtept>
+  <rtept lat="52.304578507511643" lon="-3.468453192488576">
+  </rtept>
+  <rtept lat="52.30431771109825" lon="-3.468705286355815">
+  </rtept>
+  <rtept lat="52.304112713792641" lon="-3.468933281300442">
+  </rtept>
+  <rtept lat="52.303198428031472" lon="-3.469372463400811">
+  </rtept>
+  <rtept lat="52.302997831496157" lon="-3.469381960169077">
+  </rtept>
+  <rtept lat="52.302510866537325" lon="-3.470034511122354">
+  </rtept>
+</rte>
+</gpx>

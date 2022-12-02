@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata><bounds minlat="53.030339103540236" minlon="-2.983318988782338" maxlat="53.035944351954456" maxlon="-2.974762941321145"/></metadata>                  
+<rte>
+  <name>Llwybr Dolen Melin y Brenin i’r Teulu</name>
+  <desc>Llwybr dolen byr sy’n dechrau ac yn gorffen ym Melin y Brenin.  Mae’n dilyn peth o Lwybr Clywedog ac ychydig o lwybrau i’r de.</desc>
+  <src>Ramblers</src>
+  <number>27</number>
+  <type>Cerdded</type>
+  <rtept lat="53.035944351954456" lon="-2.975412403929755">
+  </rtept>
+  <rtept lat="53.035796592476686" lon="-2.975066139077522">
+  </rtept>
+  <rtept lat="53.035609893747775" lon="-2.974886339817441">
+  </rtept>
+  <rtept lat="53.035486694972683" lon="-2.974824440523968">
+  </rtept>
+  <rtept lat="53.035351796356416" lon="-2.974762941321145">
+  </rtept>
+  <rtept lat="53.034538780686788" lon="-2.976102657375955">
+  </rtept>
+  <rtept lat="53.034541246264283" lon="-2.976100039319325">
+  </rtept>
+  <rtept lat="53.034080325839255" lon="-2.976589458296422">
+  </rtept>
+  <rtept lat="53.033495841296066" lon="-2.977709567295345">
+  </rtept>
+  <rtept lat="53.032442963408407" lon="-2.978938380344144">
+  </rtept>
+  <rtept lat="53.031140886584858" lon="-2.979863293998111">
+  </rtept>
+  <rtept lat="53.030592398056996" lon="-2.980512500691258">
+  </rtept>
+  <rtept lat="53.030339103540236" lon="-2.980841603878569">
+  </rtept>
+  <rtept lat="53.030591903976365" lon="-2.981393404032046">
+  </rtept>
+  <rtept lat="53.030775402538488" lon="-2.981531703157695">
+  </rtept>
+  <rtept lat="53.031449195116288" lon="-2.981719298744334">
+  </rtept>
+  <rtept lat="53.032456781475553" lon="-2.981622890704914">
+  </rtept>
+  <rtept lat="53.032804577825708" lon="-2.981745288537883">
+  </rtept>
+  <rtept lat="53.032867979028715" lon="-2.982041589218318">
+  </rtept>
+  <rtept lat="53.033062578238443" lon="-2.982292788730761">
+  </rtept>
+  <rtept lat="53.03359347844119" lon="-2.983318988782338">
+  </rtept>
+  <rtept lat="53.034104665106298" lon="-2.982376180937162">
+  </rtept>
+  <rtept lat="53.034579852246402" lon="-2.981432573407455">
+  </rtept>
+  <rtept lat="53.0349885358048" lon="-2.979831163886567">
+  </rtept>
+  <rtept lat="53.035106725683569" lon="-2.978581158080073">
+  </rtept>
+  <rtept lat="53.035227613309317" lon="-2.977005250998805">
+  </rtept>
+  <rtept lat="53.035709296101572" lon="-2.975426941144194">
+  </rtept>
+  <rtept lat="53.035786794843609" lon="-2.975394440421124">
+  </rtept>
+  <rtept lat="53.035818994262449" lon="-2.975372340087584">
+  </rtept>
+  <rtept lat="53.035833193957437" lon="-2.975355439912899">
+  </rtept>
+  <rtept lat="53.035844993649128" lon="-2.975333339736659">
+  </rtept>
+  <rtept lat="53.035888347888189" lon="-2.975296358411152">
+  </rtept>
+  <rtept lat="53.035940304648278" lon="-2.975418112351495">
+  </rtept>
+  <rtept lat="53.035944351954456" lon="-2.975412403929755">
+  </rtept>
+</rte>
+</gpx>

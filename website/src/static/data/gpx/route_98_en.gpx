@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata><bounds minlat="51.914414824087899" minlon="-2.867597732942432" maxlat="51.915931175648268" maxlon="-2.864911337740395"/></metadata>                  
+<rte>
+  <name>Castle Walk</name>
+  <desc>One of the shorter family routes, the route starts and ends at the entrance of the castle.</desc>
+  <src>Ramblers</src>
+  <number>98</number>
+  <type>Walking</type>
+  <rtept lat="51.915089084190718" lon="-2.867597732942432">
+  </rtept>
+  <rtept lat="51.915227303432964" lon="-2.86721061826519">
+  </rtept>
+  <rtept lat="51.915280301276297" lon="-2.86712051838024">
+  </rtept>
+  <rtept lat="51.91532579955399" lon="-2.867063118298278">
+  </rtept>
+  <rtept lat="51.915371297831996" lon="-2.867005718217532">
+  </rtept>
+  <rtept lat="51.915426895573191" lon="-2.86691151834116">
+  </rtept>
+  <rtept lat="51.915426895308983" lon="-2.866870518717183">
+  </rtept>
+  <rtept lat="51.915366296078425" lon="-2.866710720985476">
+  </rtept>
+  <rtept lat="51.915334196221409" lon="-2.866585122559883">
+  </rtept>
+  <rtept lat="51.915777582922246" lon="-2.866563616898439">
+  </rtept>
+  <rtept lat="51.915931175648268" lon="-2.866140218801786">
+  </rtept>
+  <rtept lat="51.915922873330096" lon="-2.865740322624104">
+  </rtept>
+  <rtept lat="51.915634878204962" lon="-2.865171331619486">
+  </rtept>
+  <rtept lat="51.915344585119897" lon="-2.864911337740395">
+  </rtept>
+  <rtept lat="51.91508279576756" lon="-2.865360637014616">
+  </rtept>
+  <rtept lat="51.914882305693183" lon="-2.865976634036584">
+  </rtept>
+  <rtept lat="51.91470133385841" lon="-2.866173517535596">
+  </rtept>
+  <rtept lat="51.914585616564501" lon="-2.866296235048029">
+  </rtept>
+  <rtept lat="51.914414824087899" lon="-2.866673833920143">
+  </rtept>
+  <rtept lat="51.914590020946662" lon="-2.866990928753993">
+  </rtept>
+  <rtept lat="51.914694318835323" lon="-2.867143025996364">
+  </rtept>
+  <rtept lat="51.914897814485784" lon="-2.86740512090841">
+  </rtept>
+  <rtept lat="51.915089084190718" lon="-2.867597732942432">
+  </rtept>
+</rte>
+</gpx>

@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata><bounds minlat="52.077303179063435" minlon="-4.149716380192208" maxlat="52.081985638200763" maxlon="-4.137618114846581"/></metadata>                  
+<rte>
+  <name>Dunbia Lunchtime Loop</name>
+  <desc>Created an additional loop as an option to take Dunbia staff out for a lunchtime walk, to showcase the project and as business engagement.</desc>
+  <src>Ramblers</src>
+  <number>140</number>
+  <type>Walking</type>
+  <rtept lat="52.07836530989487" lon="-4.149716380192208">
+  </rtept>
+  <rtept lat="52.07851220694139" lon="-4.14922918181031">
+  </rtept>
+  <rtept lat="52.078656704392024" lon="-4.148884383554062">
+  </rtept>
+  <rtept lat="52.078783802152934" lon="-4.148581385078207">
+  </rtept>
+  <rtept lat="52.078852786533687" lon="-4.148346850279508">
+  </rtept>
+  <rtept lat="52.077809115207501" lon="-4.149322971324755">
+  </rtept>
+  <rtept lat="52.077752114300807" lon="-4.148733569788737">
+  </rtept>
+  <rtept lat="52.077681513684517" lon="-4.148196168116873">
+  </rtept>
+  <rtept lat="52.077567613243936" lon="-4.147540065676285">
+  </rtept>
+  <rtept lat="52.077329513582569" lon="-4.14664856115939">
+  </rtept>
+  <rtept lat="52.077551846676243" lon="-4.146061613951973">
+  </rtept>
+  <rtept lat="52.077819437781109" lon="-4.145420449417485">
+  </rtept>
+  <rtept lat="52.078156138745776" lon="-4.144444738495229">
+  </rtept>
+  <rtept lat="52.078617991139154" lon="-4.143642876399664">
+  </rtept>
+  <rtept lat="52.078726789916651" lon="-4.14364287796543">
+  </rtept>
+  <rtept lat="52.079903775904803" lon="-4.143337094473828">
+  </rtept>
+  <rtept lat="52.080575967901424" lon="-4.143158403857923">
+  </rtept>
+  <rtept lat="52.081062432914557" lon="-4.142867211521374">
+  </rtept>
+  <rtept lat="52.081029460822997" lon="-4.142374309145901">
+  </rtept>
+  <rtept lat="52.081207556975976" lon="-4.14164221053325">
+  </rtept>
+  <rtept lat="52.081274353297758" lon="-4.140482209648043">
+  </rtept>
+  <rtept lat="52.081844742836473" lon="-4.138845714944576">
+  </rtept>
+  <rtept lat="52.081985638200763" lon="-4.137618114846581">
+  </rtept>
+  <rtept lat="52.080551260063494" lon="-4.139975398760186">
+  </rtept>
+  <rtept lat="52.07986976982378" lon="-4.140822990447141">
+  </rtept>
+  <rtept lat="52.079566573167668" lon="-4.140808486166873">
+  </rtept>
+  <rtept lat="52.079268475733009" lon="-4.140515181587221">
+  </rtept>
+  <rtept lat="52.079500375836872" lon="-4.141556686256679">
+  </rtept>
+  <rtept lat="52.078642387387816" lon="-4.142309875073422">
+  </rtept>
+  <rtept lat="52.07842849306806" lon="-4.143566273578188">
+  </rtept>
+  <rtept lat="52.078138133359587" lon="-4.144410942312235">
+  </rtept>
+  <rtept lat="52.077801094305656" lon="-4.145405234139433">
+  </rtept>
+  <rtept lat="52.077303179063435" lon="-4.146633552753687">
+  </rtept>
+  <rtept lat="52.077545978928043" lon="-4.147562665617279">
+  </rtept>
+  <rtept lat="52.077658433097405" lon="-4.14820346977407">
+  </rtept>
+  <rtept lat="52.077728860740308" lon="-4.148739973281343">
+  </rtept>
+  <rtept lat="52.077795654598589" lon="-4.149370840039527">
+  </rtept>
+  <rtept lat="52.078680624330026" lon="-4.14854547926838">
+  </rtept>
+  <rtept lat="52.07882262866768" lon="-4.148403519455069">
+  </rtept>
+  <rtept lat="52.078773727326066" lon="-4.148571649129386">
+  </rtept>
+  <rtept lat="52.078642085996989" lon="-4.148878385117912">
+  </rtept>
+  <rtept lat="52.078495370230385" lon="-4.14922623947089">
+  </rtept>
+  <rtept lat="52.078352566350787" lon="-4.149699812734335">
+  </rtept>
+  <rtept lat="52.07836530989487" lon="-4.149716380192208">
+  </rtept>
+</rte>
+</gpx>

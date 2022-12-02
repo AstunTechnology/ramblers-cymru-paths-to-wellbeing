@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata><bounds minlat="51.521444791748010" minlon="-3.555043674156020" maxlat="51.525079090493868" maxlon="-3.546917968787826"/></metadata>                  
+<rte>
+  <name>Antur y Castell</name>
+  <desc>Taith gerdded fer o gwmpas Castell Coety a'r caeau cyfagos sy'n cynnwys parc bach a meinciau i gael eich gwynt atoch.</desc>
+  <src>Ramblers</src>
+  <number>75</number>
+  <type>Cerdded</type>
+  <rtept lat="51.521864485522713" lon="-3.554999379162854">
+  </rtept>
+  <rtept lat="51.521844785310797" lon="-3.554812093840801">
+  </rtept>
+  <rtept lat="51.52175968531693" lon="-3.55419534203002">
+  </rtept>
+  <rtept lat="51.52170368620051" lon="-3.553981458730628">
+  </rtept>
+  <rtept lat="51.52144479174801" lon="-3.553276413023108">
+  </rtept>
+  <rtept lat="51.521505589333259" lon="-3.553176320574233">
+  </rtept>
+  <rtept lat="51.521600484611746" lon="-3.552797049489753">
+  </rtept>
+  <rtept lat="51.5217736777632" lon="-3.552557768223647">
+  </rtept>
+  <rtept lat="51.521812075992379" lon="-3.552449776676669">
+  </rtept>
+  <rtept lat="51.521826975303817" lon="-3.552408079951286">
+  </rtept>
+  <rtept lat="51.521807975404577" lon="-3.552283589503893">
+  </rtept>
+  <rtept lat="51.521745276421875" lon="-3.552023509265761">
+  </rtept>
+  <rtept lat="51.521725176847376" lon="-3.551961613916871">
+  </rtept>
+  <rtept lat="51.521742474973976" lon="-3.551664736860139">
+  </rtept>
+  <rtept lat="51.521974564271979" lon="-3.551158475802087">
+  </rtept>
+  <rtept lat="51.522149452015384" lon="-3.550594099192989">
+  </rtept>
+  <rtept lat="51.522351338673182" lon="-3.550046322277259">
+  </rtept>
+  <rtept lat="51.52242313200945" lon="-3.549686136907614">
+  </rtept>
+  <rtept lat="51.522466024216826" lon="-3.549134158697682">
+  </rtept>
+  <rtept lat="51.522478022027691" lon="-3.548979964788069">
+  </rtept>
+  <rtept lat="51.522479920598983" lon="-3.548859269480833">
+  </rtept>
+  <rtept lat="51.523105497172729" lon="-3.548913373673899">
+  </rtept>
+  <rtept lat="51.523178980471613" lon="-3.547776218751316">
+  </rtept>
+  <rtept lat="51.524710906898768" lon="-3.546917968787826">
+  </rtept>
+  <rtept lat="51.524632153211762" lon="-3.54751316949076">
+  </rtept>
+  <rtept lat="51.524271344014288" lon="-3.548354759368152">
+  </rtept>
+  <rtept lat="51.524250025919969" lon="-3.549561464939268">
+  </rtept>
+  <rtept lat="51.525079090493868" lon="-3.553688481931994">
+  </rtept>
+  <rtept lat="51.523576620918114" lon="-3.553214316987928">
+  </rtept>
+  <rtept lat="51.523063936384851" lon="-3.552949939168482">
+  </rtept>
+  <rtept lat="51.522699048108628" lon="-3.552863545875115">
+  </rtept>
+  <rtept lat="51.52222496280455" lon="-3.552619264605013">
+  </rtept>
+  <rtept lat="51.522229362605977" lon="-3.552608865440315">
+  </rtept>
+  <rtept lat="51.522025288411008" lon="-3.552518233807897">
+  </rtept>
+  <rtept lat="51.521826443930486" lon="-3.552451101472534">
+  </rtept>
+  <rtept lat="51.521783027249363" lon="-3.552581141079162">
+  </rtept>
+  <rtept lat="51.521611895807183" lon="-3.552808167436265">
+  </rtept>
+  <rtept lat="51.521516698437026" lon="-3.553191929606021">
+  </rtept>
+  <rtept lat="51.521463039544351" lon="-3.553282811196859">
+  </rtept>
+  <rtept lat="51.521777164320795" lon="-3.554191478968779">
+  </rtept>
+  <rtept lat="51.521857238222964" lon="-3.554796810895401">
+  </rtept>
+  <rtept lat="51.521875704818825" lon="-3.554976389002359">
+  </rtept>
+  <rtept lat="51.521961016922631" lon="-3.554983607694085">
+  </rtept>
+  <rtept lat="51.522037876871124" lon="-3.555019644707915">
+  </rtept>
+  <rtept lat="51.522192218594121" lon="-3.554588307971689">
+  </rtept>
+  <rtept lat="51.522211690071472" lon="-3.554539921587191">
+  </rtept>
+  <rtept lat="51.522347863330161" lon="-3.554312247190644">
+  </rtept>
+  <rtept lat="51.522352166953603" lon="-3.554324128779033">
+  </rtept>
+  <rtept lat="51.522215772395199" lon="-3.554550011653884">
+  </rtept>
+  <rtept lat="51.522198073156822" lon="-3.554591908457347">
+  </rtept>
+  <rtept lat="51.522038380298504" lon="-3.55504367415602">
+  </rtept>
+  <rtept lat="51.521962282509051" lon="-3.555008077620682">
+  </rtept>
+  <rtept lat="51.521864485522713" lon="-3.554999379162854">
+  </rtept>
+</rte>
+</gpx>

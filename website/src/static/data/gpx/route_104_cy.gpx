@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata><bounds minlat="51.722362377401403" minlon="-3.126247334778004" maxlat="51.724862280990891" maxlon="-3.118510136622379"/></metadata>                  
+<rte>
+  <name>Cae Pêl-droed Abertyleri</name>
+  <desc>Taith hamddenol a phleserus addas i'r teulu drwy hyfrydwch parc y Chwe Chloch, gyda bywyd gwyllt a phlanhigion arbennig sydd dan warchodaeth parc y Chwe Chloch.</desc>
+  <src>Ramblers</src>
+  <number>104</number>
+  <type>Cerdded</type>
+  <rtept lat="51.722362377401403" lon="-3.124357493487143">
+  </rtept>
+  <rtept lat="51.722537073267354" lon="-3.124108392972381">
+  </rtept>
+  <rtept lat="51.722639370920199" lon="-3.1239283931473">
+  </rtept>
+  <rtept lat="51.722955563971134" lon="-3.123269495266444">
+  </rtept>
+  <rtept lat="51.723057561922616" lon="-3.122974497127059">
+  </rtept>
+  <rtept lat="51.723130161066308" lon="-3.122433402874427">
+  </rtept>
+  <rtept lat="51.723715749663718" lon="-3.121018611340859">
+  </rtept>
+  <rtept lat="51.723810347757045" lon="-3.120862511857935">
+  </rtept>
+  <rtept lat="51.723880946427222" lon="-3.120708712786288">
+  </rtept>
+  <rtept lat="51.723934045530321" lon="-3.120550414098801">
+  </rtept>
+  <rtept lat="51.724009944087037" lon="-3.120402714893404">
+  </rtept>
+  <rtept lat="51.724635019262749" lon="-3.118995665568709">
+  </rtept>
+  <rtept lat="51.724862280990891" lon="-3.118510136622379">
+  </rtept>
+  <rtept lat="51.724856727835231" lon="-3.11913141966482">
+  </rtept>
+  <rtept lat="51.72481232769379" lon="-3.119549014107024">
+  </rtept>
+  <rtept lat="51.724782625180893" lon="-3.120720797079352">
+  </rtept>
+  <rtept lat="51.724646125247787" lon="-3.121911181815711">
+  </rtept>
+  <rtept lat="51.724610825032805" lon="-3.122319576438153">
+  </rtept>
+  <rtept lat="51.724585024887737" lon="-3.122617572533694">
+  </rtept>
+  <rtept lat="51.724440083756264" lon="-3.123379895404809">
+  </rtept>
+  <rtept lat="51.724253309726443" lon="-3.124363547343848">
+  </rtept>
+  <rtept lat="51.724167630006576" lon="-3.124807949196603">
+  </rtept>
+  <rtept lat="51.723994834051361" lon="-3.125001050169683">
+  </rtept>
+  <rtept lat="51.723928533763115" lon="-3.125909638824535">
+  </rtept>
+  <rtept lat="51.723897833836403" lon="-3.126247334778004">
+  </rtept>
+  <rtept lat="51.723304966782123" lon="-3.126011418197278">
+  </rtept>
+  <rtept lat="51.722758367762395" lon="-3.125803271313747">
+  </rtept>
+  <rtept lat="51.722792523403214" lon="-3.125640425016831">
+  </rtept>
+  <rtept lat="51.722772725503447" lon="-3.125195707968025">
+  </rtept>
+  <rtept lat="51.722715223558062" lon="-3.125041206913259">
+  </rtept>
+  <rtept lat="51.722362377401403" lon="-3.124357493487143">
+  </rtept>
+</rte>
+</gpx>

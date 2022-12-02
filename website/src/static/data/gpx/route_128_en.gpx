@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata><bounds minlat="51.742741409582770" minlon="-3.807605802663291" maxlat="51.769606890548673" maxlon="-3.777319043942698"/></metadata>                  
+<rte>
+  <name>Accessible Waterway Viewing</name>
+  <desc>A linear route that follows National Cycle Network Route 43 over the Ystalyfera Aquaduct, hugging the River Tawe with scenic valley views. This is a fully accessible and family friendly path which passes the moving Miner’s Memorial in Godre’r Graig.</desc>
+  <src>Ramblers</src>
+  <number>128</number>
+  <type>Walking</type>
+  <rtept lat="51.769606890548673" lon="-3.777499841884866">
+  </rtept>
+  <rtept lat="51.769524592240721" lon="-3.777319043942698">
+  </rtept>
+  <rtept lat="51.769019992400175" lon="-3.778386510808822">
+  </rtept>
+  <rtept lat="51.768860692084502" lon="-3.778804898661603">
+  </rtept>
+  <rtept lat="51.768400692490701" lon="-3.779738769398243">
+  </rtept>
+  <rtept lat="51.76822039190224" lon="-3.780269554502969">
+  </rtept>
+  <rtept lat="51.76788509146234" lon="-3.781121329677075">
+  </rtept>
+  <rtept lat="51.76762619224462" lon="-3.781539715538483">
+  </rtept>
+  <rtept lat="51.767041897203171" lon="-3.781797198052383">
+  </rtept>
+  <rtept lat="51.766569410654625" lon="-3.782210564644414">
+  </rtept>
+  <rtept lat="51.766233904599794" lon="-3.782092075899647">
+  </rtept>
+  <rtept lat="51.766203005207565" lon="-3.782032076537199">
+  </rtept>
+  <rtept lat="51.766050807041296" lon="-3.781990974377449">
+  </rtept>
+  <rtept lat="51.765977207684671" lon="-3.782024472221066">
+  </rtept>
+  <rtept lat="51.765620711059121" lon="-3.782130062956162">
+  </rtept>
+  <rtept lat="51.76552311242952" lon="-3.782061062460114">
+  </rtept>
+  <rtept lat="51.765273516607614" lon="-3.781737064267884">
+  </rtept>
+  <rtept lat="51.765239818215207" lon="-3.781464669278434">
+  </rtept>
+  <rtept lat="51.765133021040143" lon="-3.781098874788672">
+  </rtept>
+  <rtept lat="51.765080722120437" lon="-3.780986176102513">
+  </rtept>
+  <rtept lat="51.765024822694713" lon="-3.780992874856032">
+  </rtept>
+  <rtept lat="51.76436402878808" lon="-3.781224156948602">
+  </rtept>
+  <rtept lat="51.762988941567777" lon="-3.781682620149315">
+  </rtept>
+  <rtept lat="51.762849442863995" lon="-3.781729116415625">
+  </rtept>
+  <rtept lat="51.762398947049277" lon="-3.781879304356387">
+  </rtept>
+  <rtept lat="51.761698353716859" lon="-3.78207788633031">
+  </rtept>
+  <rtept lat="51.761316557175547" lon="-3.782224175709866">
+  </rtept>
+  <rtept lat="51.760875860742907" lon="-3.782485661512866">
+  </rtept>
+  <rtept lat="51.760498763724399" lon="-3.782724749041683">
+  </rtept>
+  <rtept lat="51.760440163986772" lon="-3.782805746186606">
+  </rtept>
+  <rtept lat="51.760388664073417" lon="-3.782908343020385">
+  </rtept>
+  <rtept lat="51.760211161636413" lon="-3.783859019618174">
+  </rtept>
+  <rtept lat="51.760087159557834" lon="-3.784704501692712">
+  </rtept>
+  <rtept lat="51.759848257727029" lon="-3.78700117870006">
+  </rtept>
+  <rtept lat="51.759775657366298" lon="-3.787631172564133">
+  </rtept>
+  <rtept lat="51.759634157218784" lon="-3.788603262948171">
+  </rtept>
+  <rtept lat="51.759570457963349" lon="-3.788614961974505">
+  </rtept>
+  <rtept lat="51.759366059765561" lon="-3.788984156453056">
+  </rtept>
+  <rtept lat="51.759266160973652" lon="-3.788986855101292">
+  </rtept>
+  <rtept lat="51.759179661765508" lon="-3.789136852897791">
+  </rtept>
+  <rtept lat="51.759119562452561" lon="-3.789163451925667">
+  </rtept>
+  <rtept lat="51.758708167627496" lon="-3.789152747572164">
+  </rtept>
+  <rtept lat="51.758405872045081" lon="-3.789187548735177">
+  </rtept>
+  <rtept lat="51.757777781260543" lon="-3.789241951333492">
+  </rtept>
+  <rtept lat="51.756933093567255" lon="-3.78939645465462">
+  </rtept>
+  <rtept lat="51.75603490660184" lon="-3.789648858333684">
+  </rtept>
+  <rtept lat="51.753917137590612" lon="-3.790305969439988">
+  </rtept>
+  <rtept lat="51.753665241307907" lon="-3.790384071011009">
+  </rtept>
+  <rtept lat="51.753154148712255" lon="-3.790789674648615">
+  </rtept>
+  <rtept lat="51.753078749823075" lon="-3.790829575207395">
+  </rtept>
+  <rtept lat="51.752656555926876" lon="-3.791295878930791">
+  </rtept>
+  <rtept lat="51.751667070412196" lon="-3.792603390414894">
+  </rtept>
+  <rtept lat="51.750662685519835" lon="-3.794150806631346">
+  </rtept>
+  <rtept lat="51.74999579672167" lon="-3.79484502230639">
+  </rtept>
+  <rtept lat="51.748677319959427" lon="-3.796174159110814">
+  </rtept>
+  <rtept lat="51.748299626645689" lon="-3.796720470854741">
+  </rtept>
+  <rtept lat="51.747404842582164" lon="-3.798014699339252">
+  </rtept>
+  <rtept lat="51.746422460233056" lon="-3.799410831525584">
+  </rtept>
+  <rtept lat="51.745026783675414" lon="-3.801869677122685">
+  </rtept>
+  <rtept lat="51.744360592160852" lon="-3.803062092202343">
+  </rtept>
+  <rtept lat="51.743983897287002" lon="-3.803581200686881">
+  </rtept>
+  <rtept lat="51.743692901415763" lon="-3.803909707249299">
+  </rtept>
+  <rtept lat="51.743420605036604" lon="-3.804285213232342">
+  </rtept>
+  <rtept lat="51.743325406223327" lon="-3.804439115274127">
+  </rtept>
+  <rtept lat="51.743222407083437" lon="-3.804739617268075">
+  </rtept>
+  <rtept lat="51.743105007348262" lon="-3.805305619166064">
+  </rtept>
+  <rtept lat="51.742826009844791" lon="-3.806034024517433">
+  </rtept>
+  <rtept lat="51.742746309973015" lon="-3.806420225720818">
+  </rtept>
+  <rtept lat="51.74274140958277" lon="-3.806568025584971">
+  </rtept>
+  <rtept lat="51.742982404825035" lon="-3.806774219692221">
+  </rtept>
+  <rtept lat="51.743240999520438" lon="-3.807066313299234">
+  </rtept>
+  <rtept lat="51.743672990566992" lon="-3.807605802663291">
+  </rtept>
+</rte>
+</gpx>
