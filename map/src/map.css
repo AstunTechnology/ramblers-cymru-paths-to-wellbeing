@@ -22,10 +22,12 @@ input[type=radio] {
 input[type=radio] + label {
   background: rgba(231,231,231,1);
   font-weight: bold;
+  cursor: pointer;
 }
 
 input[type=radio]:checked + label {
   background: rgba(249,177,4,1);
+  cursor: auto;
 }
 
 form {
