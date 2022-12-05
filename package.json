@@ -5,7 +5,9 @@
   "scripts": {
     "start": "run-p --print-label watch-map start-web",
     "watch-map": "(cd map && npm run watch)",
-    "start-web": "(cd website && npm start)"
+    "start-web": "(cd website && npm start)",
+    "install": "(cd map && npm ci) && (cd website && npm ci)",
+    "build": "(cd map && npm run build) && (cd website && npm run build)"
   },
   "repository": {
     "type": "git",
