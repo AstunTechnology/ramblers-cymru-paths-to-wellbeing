@@ -1,20 +1,12 @@
 import Overlay from 'ol/Overlay';
 
 
-// TODO Only works with the English data, should we add a 
-// numeric difficulty id property to each feature which 
-// works would be independent of language?
 let difficultyColours = {
-  'Easy Access': '35,200,35',
-  'Leisurely': '35,35,200',
-  'Easy': '35,200,200',
-  'Moderate': '200,200,35',
-  'Strenuous': '200,35,35',
-  'Mynediad Hawdd': '35,200,35',
-  'Hamddenol': '35,35,200',
-  'Hawdd': '35,200,200',
-  'Cymedrol': '200,200,35',
-  'Egnïol': '200,35,35'
+  'a': '35,200,35',
+  'c': '35,35,200',
+  'b': '35,200,200',
+  'd': '200,200,35',
+  'e': '200,35,35'
 }
 
 class Tooltip extends Overlay {

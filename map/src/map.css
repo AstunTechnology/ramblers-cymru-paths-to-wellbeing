@@ -1,13 +1,5 @@
 @import "../node_modules/ol/ol.css";
 
-.hover-pointer {
-  cursor: pointer;
-}
-
-.normal-pointer {
-  cursor: auto;
-}
-
 .app {
     display: flex;
     flex-direction: row;
@@ -61,83 +53,59 @@
   border-left: 3px solid white;
 }
 
-.app .map .ol-popup ul li.pathDifficulty-EasyAccess > div > div {
+.app .map .ol-popup ul li.pathFamilyFriendly-true > div > div {
+  background-color: rgba(51,204,51,0.1);
+}
+
+.app .map .ol-popup ul li.pathFamilyFriendly-false > div > div {
+  background-color: rgba(51,51,204,0.1);
+}
+
+.app .map .ol-popup ul li.pathDifficulty-a > div > div {
   background-color: rgba(35,200,35,0.1);
 }
 
-.app .map .ol-popup ul li.pathDifficulty-Leisurely > div > div {
-  background-color: rgba(35,35,200,0.1);
-}
-
-.app .map .ol-popup ul li.pathDifficulty-Easy > div > div {
+.app .map .ol-popup ul li.pathDifficulty-b > div > div {
   background-color: rgba(35,200,200,0.1);
 }
 
-.app .map .ol-popup ul li.pathDifficulty-Moderate > div > div {
-  background-color: rgba(200,200,35,0.1);
-}
-
-.app .map .ol-popup ul li.pathDifficulty-Strenuous > div > div {
- background-color: rgba(200,35,35,0.1);
-}
-
-.app .map .ol-popup ul li.pathDifficulty-EasyAccess > div > div:first-child {
-  border-left: 10px solid rgba(35,200,35,1.0);
-}
-
-.app .map .ol-popup ul li.pathDifficulty-Leisurely > div > div:first-child {
-  border-left: 10px solid rgba(35,35,200,1.0);
-}
-
-.app .map .ol-popup ul li.pathDifficulty-Easy > div > div:first-child {
-  border-left: 10px solid rgba(35,200,200,1.0);
-}
-
-.app .map .ol-popup ul li.pathDifficulty-Moderate > div > div:first-child {
-  border-left: 10px solid rgba(200,200,35,1.0);
-}
-
-.app .map .ol-popup ul li.pathDifficulty-Strenuous > div > div:first-child {
-  border-left: 10px solid rgba(200,35,35,1.0);
-}
-
-.app .map .ol-popup ul li.pathDifficulty-MynediadHawdd > div > div {
-  background-color: rgba(35,200,35,0.1);
-}
-
-.app .map .ol-popup ul li.pathDifficulty-Hamddenol > div > div {
+.app .map .ol-popup ul li.pathDifficulty-c > div > div {
   background-color: rgba(35,35,200,0.1);
 }
 
-.app .map .ol-popup ul li.pathDifficulty-Hawdd > div > div {
-  background-color: rgba(35,200,200,0.1);
-}
-
-.app .map .ol-popup ul li.pathDifficulty-Cymedrol > div > div {
+.app .map .ol-popup ul li.pathDifficulty-d > div > div {
   background-color: rgba(200,200,35,0.1);
 }
 
-.app .map .ol-popup ul li.pathDifficulty-Egnïol > div > div {
+.app .map .ol-popup ul li.pathDifficulty-e > div > div {
  background-color: rgba(200,35,35,0.1);
 }
 
-.app .map .ol-popup ul li.pathDifficulty-MynediadHawdd > div > div:first-child {
+.app .map .ol-popup ul li.pathFamilyFriendly-true > div > div:first-child {
+  border-left: 10px solid rgba(51,204,51);
+}
+
+.app .map .ol-popup ul li.pathFamilyFriendly-false > div > div:first-child {
+  border-left: 10px solid rgba(51,51,204);
+}
+
+.app .map .ol-popup ul li.pathDifficulty-a > div > div:first-child {
   border-left: 10px solid rgba(35,200,35,1.0);
 }
 
-.app .map .ol-popup ul li.pathDifficulty-Hamddenol > div > div:first-child {
-  border-left: 10px solid rgba(35,35,200,1.0);
-}
-
-.app .map .ol-popup ul li.pathDifficulty-Hawdd > div > div:first-child {
+.app .map .ol-popup ul li.pathDifficulty-b > div > div:first-child {
   border-left: 10px solid rgba(35,200,200,1.0);
 }
 
-.app .map .ol-popup ul li.pathDifficulty-Cymedrol > div > div:first-child {
+.app .map .ol-popup ul li.pathDifficulty-c > div > div:first-child {
+  border-left: 10px solid rgba(35,35,200,1.0);
+}
+
+.app .map .ol-popup ul li.pathDifficulty-d > div > div:first-child {
   border-left: 10px solid rgba(200,200,35,1.0);
 }
 
-.app .map .ol-popup ul li.pathDifficulty-Egnïol > div > div:first-child {
+.app .map .ol-popup ul li.pathDifficulty-e > div > div:first-child {
   border-left: 10px solid rgba(200,35,35,1.0);
 }
 
@@ -169,6 +137,93 @@
   padding-top: 0.25em;
   vertical-align: middle;
   color: #999;
+}
+
+.hover-pointer {
+  cursor: pointer;
+}
+
+.normal-pointer {
+  cursor: auto;
+}
+
+.filter-panel input[type=radio] {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.filter-panel input[type=radio] + label {
+  background: rgba(231,231,231,1);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.filter-panel input[type=radio]:checked + label {
+  background: rgba(249,177,4,1);
+  cursor: auto;
+}
+
+.filter-panel form {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.filter-panel form label {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+  padding: 1em;
+}
+
+.filterLegend {
+  width: 40%;
+  margin-top: 2em;
+}
+
+.filterLegend td {
+  padding: .5em;
+}
+
+.filterLegend .familyfriendly-true {
+  border-left: 10px solid rgba(51,204,51);
+  background-color: rgba(51,204,51,0.1);
+}
+
+.filterLegend .familyfriendly-false {
+  border-left: 10px solid rgba(51,51,204);
+  background-color: rgba(51,51,204,0.1);
+}
+
+.filterLegend .difficulty-a {
+  border-left: 10px solid rgba(35,200,35);
+  background-color: rgba(35,200,35,0.1);
+}
+
+.filterLegend .difficulty-b {
+  border-left: 10px solid rgba(35,200,200);
+  background-color: rgba(35,200,200,0.1);
+}
+
+.filterLegend .difficulty-c {
+  border-left: 10px solid rgba(35,35,200);
+  background-color: rgba(35,35,200,0.1);
+}
+
+.filterLegend .difficulty-d {
+  border-left: 10px solid rgba(200,200,35);
+  background-color: rgba(200,200,35,0.1);
+}
+
+.filterLegend .difficulty-e {
+  border-left: 10px solid rgba(200,35,35);
+  background-color: rgba(200,35,35,0.1);
 }
 
 .tooltipped {
