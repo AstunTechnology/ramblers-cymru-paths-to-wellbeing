@@ -228,7 +228,6 @@ class PathsToWellbeingMap {
     });
     this.filterPanel.$on('filterChange', (evt) => {
       this.selectedFilter = evt.detail.result;
-      console.log(this.selectedFilter);
       this.routeLyr.changed();
     })
     this.panels['filter'] = this.filterPanel;
@@ -304,7 +303,6 @@ class PathsToWellbeingMap {
   displayPopup(evt) {
     let pathClass;
     let classField;
-    console.log(this.selectedFilter);
     if (this.selectedFilter == 'Route difficulty') {
       pathClass = 'pathDifficulty';
       classField = 'difficultyuid';

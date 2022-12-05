@@ -40,6 +40,50 @@ form label {
   padding: 1em;
 }
 
+.filterLegend {
+  width: 40%;
+  margin-top: 2em;
+}
+
+.filterLegend td {
+  padding: .5em;
+}
+
+.filterLegend .familyfriendly-true {
+  border-left: 10px solid rgba(51,204,51);
+  background-color: rgba(51,204,51,0.1);
+}
+
+.filterLegend .familyfriendly-false {
+  border-left: 10px solid rgba(51,51,204);
+  background-color: rgba(51,51,204,0.1);
+}
+
+.filterLegend .difficulty-a {
+  border-left: 10px solid rgba(35,200,35);
+  background-color: rgba(35,200,35,0.1);
+}
+
+.filterLegend .difficulty-b {
+  border-left: 10px solid rgba(35,200,200);
+  background-color: rgba(35,200,200,0.1);
+}
+
+.filterLegend .difficulty-c {
+  border-left: 10px solid rgba(35,35,200);
+  background-color: rgba(35,35,200,0.1);
+}
+
+.filterLegend .difficulty-d {
+  border-left: 10px solid rgba(200,200,35);
+  background-color: rgba(200,200,35,0.1);
+}
+
+.filterLegend .difficulty-e {
+  border-left: 10px solid rgba(200,35,35);
+  background-color: rgba(200,35,35,0.1);
+}
+
 .app {
     display: flex;
     flex-direction: row;
