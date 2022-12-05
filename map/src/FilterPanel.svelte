@@ -18,7 +18,6 @@
     <h1>{i18n("Find Routes")}</h1>
   </header>
   <form>
-    <!-- Family Friendly Filter here... -->
     <input type="radio" name="selectedFilter" id="familyFriendly" value="Family-friendly" on:change={changeFilter} checked="true">
     <label for="familyFriendly">{i18n('familyfriendly_true')}</label>
     <input type="radio" name="selectedFilter" id="routeDifficulty" value="Route difficulty" on:change={changeFilter}>
