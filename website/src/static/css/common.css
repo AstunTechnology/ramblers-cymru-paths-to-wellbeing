@@ -238,6 +238,33 @@ nav ul li a.active:after {
   z-index: -1;
 }
 
+/* General page styles */
+
+.social-embed {
+  padding: 0 1em 1em 1em;
+  width: 400px;
+}
+
+@media (max-width: 500px) {
+  .social-embed {
+    width: 100%;
+  }
+}
+
+.float-left {
+  float: left;
+  padding-left: 0;
+}
+
+.float-right {
+  float: right;
+  padding-right: 0;
+}
+
+.float-clear {
+  clear: both;
+}
+
 /* Landing page */
 
 .landing {
