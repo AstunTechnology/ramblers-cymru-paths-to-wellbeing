@@ -7,6 +7,10 @@
         "cy": "Gwybodaeth llwybr agos",
         "en": "Close route information"
     },
+    "Contact Us": {
+        "cy": "Cysylltwch \u00e2 Ni",
+        "en": "Contact Us"
+    },
     "Difficulty": {
         "cy": "Anhawster",
         "en": "Difficulty"
@@ -19,9 +23,9 @@
         "cy": "Lawrlwythwch GPX",
         "en": "Download GPX"
     },
-    "Download Route Guild": {
-        "cy": "Lawrlwythwch Route Guild (PDF)",
-        "en": "Download Route Guild (PDF)"
+    "Download Route Guide": {
+        "cy": "Lawrlwythwch Route Guide (PDF)",
+        "en": "Download Route Guide (PDF)"
     },
     "Find Routes": {
         "cy": "Dod o Hyd i Lwybrau",
@@ -35,17 +39,21 @@
         "cy": "Hafan",
         "en": "Home"
     },
-    "Routes": {
-        "cy": "Llwybrau",
-        "en": "Routes"
-    },
     "Paths to Wellbeing": {
         "cy": "Llywbrau i Lesiant",
         "en": "Paths to Wellbeing"
     },
+    "Routes": {
+        "cy": "Llwybrau",
+        "en": "Routes"
+    },
     "Shape": {
         "cy": "Si\u00e2p",
         "en": "Shape"
+    },
+    "Tweets by RamblersCymru": {
+        "cy": "Tweets gan RamblersCymru",
+        "en": "Tweets by RamblersCymru"
     },
     "Visit Facebook": {
         "cy": "Visit our Facebook page (opens a new browser tab)",

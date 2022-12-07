@@ -81,7 +81,7 @@
           d="M3 15v4c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-4M17 9l-5 5-5-5M12 12.8V2.5"
         /></svg
       >
-      {i18n("Download Route Guild")}</a
+      {i18n("Download Route Guide")}</a
     >
     <a
       href="{staticUrl}gpx/route_{route.get("routeuid")}_{lang}.gpx"
