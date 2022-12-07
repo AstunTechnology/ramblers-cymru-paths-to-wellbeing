@@ -147,6 +147,12 @@
   cursor: auto;
 }
 
+.filter-panel form {
+  width: 80%;
+  background: rgba(231,231,231,1);
+  box-shadow: inset 0px 3px 5px 2px hsla(0, 0%, 0%, 0.10);
+}
+
 .filter-panel input[type=radio] {
   border: 0;
   clip: rect(0, 0, 0, 0);
@@ -159,16 +165,14 @@
 }
 
 .filter-panel input[type=radio] + label {
-  background: rgba(231,231,231,1);
   font-weight: bold;
   cursor: pointer;
-  box-shadow: inset 0px 3px 5px 2px hsla(0, 0%, 0%, 0.10);
  }
 
 .filter-panel input[type=radio]:checked + label {
   background: rgba(249,177,4,1);
   cursor: auto;
-  box-shadow: none;
+  border-radius: 5px;
   box-shadow: inset 0px -3px 5px 2px hsla(0, 0%, 0%, 0.10);
 }
 
@@ -180,7 +184,7 @@
 
 .filter-panel form label {
   display: inline-block;
-  width: 40%;
+  width: 50%;
   text-align: center;
   padding: 1em;
 }
