@@ -49,16 +49,22 @@
                   >{{ 'Home' | i18n(null, locale) }}</a
                 >
               </li>
+              {% set url %}/{{ locale }}/routes/{% endset %}
+              <li>
+                <a href="{{ url }}" class="{{ 'active' if url === page.url }}"
+                  >{{ 'Routes' | i18n(null, locale) }}</a
+                >
+              </li>
               {% set url %}/{{ locale }}/about/{% endset %}
               <li>
                 <a href="{{ url }}" class="{{ 'active' if url === page.url }}"
                   >{{ 'About' | i18n(null, locale) }}</a
                 >
               </li>
-              {% set url %}/{{ locale }}/routes/{% endset %}
+              {% set url %}/{{ locale }}/contact/{% endset %}
               <li>
                 <a href="{{ url }}" class="{{ 'active' if url === page.url }}"
-                  >{{ 'Routes' | i18n(null, locale) }}</a
+                  >{{ 'Contact Us' | i18n(null, locale) }}</a
                 >
               </li>
             </ul>
