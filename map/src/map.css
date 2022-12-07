@@ -162,11 +162,14 @@
   background: rgba(231,231,231,1);
   font-weight: bold;
   cursor: pointer;
-}
+  box-shadow: inset 0px 3px 5px 2px hsla(0, 0%, 0%, 0.10);
+ }
 
 .filter-panel input[type=radio]:checked + label {
   background: rgba(249,177,4,1);
   cursor: auto;
+  box-shadow: none;
+  box-shadow: inset 0px -3px 5px 2px hsla(0, 0%, 0%, 0.10);
 }
 
 .filter-panel form {

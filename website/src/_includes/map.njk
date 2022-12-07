@@ -1,6 +1,8 @@
 {% extends "base.njk" %}
 {% block head %}
 <link rel="stylesheet" href="/static/css/map.css" />
+<link rel="preload" as="fetch" href="/static/data/route_en.geojson" />
+<link rel="preload" as="fetch" href="/static/data/route_cy.geojson" />
 <style>
   html, body {
     height: 100%;
