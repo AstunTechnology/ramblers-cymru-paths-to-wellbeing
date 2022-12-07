@@ -283,6 +283,10 @@ section.hero .prose h1 {
   font-family: "Rucksack";
 }
 
+section.hero .prose p {
+  color: white;
+}
+
 @media (max-width: 500px) {
   section.hero {
     background-image: none;
