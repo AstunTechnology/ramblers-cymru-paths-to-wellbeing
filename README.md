@@ -29,7 +29,7 @@ Each project also defines its own scripts which can be called independently as n
 
 ## Deployment
 
-This repo is integrated with [AWS Amplify](). Amplify monitors specified branches, builds from them when changes are committed, and deploys them to AWS.
+This repo is integrated with [AWS Amplify](https://aws.amazon.com/amplify/). Amplify monitors specified branches, builds from them when changes are committed, and deploys them to AWS.
 
 |Branch|Address|
 |------|-------|
