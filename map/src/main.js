@@ -352,15 +352,15 @@ class PathsToWellbeingMap {
       filterStyle = this.routeFamilyFriendlyStyle(feature, mode);
     }
     if (selected) {
-      return [start, ...this.routeSelectedStyle, filterStyle];
+      return [start, this.routeOutlineStyle(mode), ...this.routeSelectedStyle, filterStyle];
     }
     if (
       this.clickRouteUid.includes(feature.get('routeuid')) ||
       this.hoverRouteUid.includes(feature.get('routeuid'))
     ) {
-      return [start, ...this.routeHighlightStyle, filterStyle];
+      return [start, this.routeOutlineStyle(mode), ...this.routeHighlightStyle, filterStyle];
     }
-    return [start, filterStyle];
+    return [start, this.routeOutlineStyle(mode), filterStyle];
   }
 
   startPointStyle(feature, mode) {
@@ -381,6 +381,20 @@ class PathsToWellbeingMap {
         const coordinates = feature.getGeometry().getFirstCoordinate();
         return new Point(coordinates);
       },
+    });
+    if (mode === 'selected') {
+      style.setZIndex(1);
+    }
+    return style;
+  }
+
+  routeOutlineStyle(mode) {
+    let opacity = mode === 'muted' ? 0.5 : 1;
+    let style = new Style({
+      stroke: new Stroke({
+        color: 'black',
+        width: 7,
+      }),
     });
     if (mode === 'selected') {
       style.setZIndex(1);
