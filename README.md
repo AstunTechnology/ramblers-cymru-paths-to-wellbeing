@@ -1,9 +1,9 @@
 # Paths to Wellbeing
 
-Monorepo for Ramblers Cymru Paths to Wellbeing website.
+Ramblers Cymru Paths to Wellbeing website.
 
 * `map` contains the source for the OpenLayers map
-* `website` contains the Elevently website
+* `website` contains the Eleventy website
 
 Both projects need to be built in order to end up with a website containing a map.
 
@@ -25,4 +25,12 @@ The root project provides a `start` npm script which should spawn the `watch` np
 npm start
 ```
 
-Each project also defines it's own scripts which can be called independantly as needed.
+Each project also defines its own scripts which can be called independently as needed.
+
+## Deployment
+
+This repo is deployed with [AWS Amplify](https://aws.amazon.com/amplify/). Amplify monitors specified branches, builds from them when changes are committed, and deploys them to AWS.
+
+|Branch|URL|
+|------|-------|
+|`main`|https://main.d2ymvhh1lvqxri.amplifyapp.com/|
