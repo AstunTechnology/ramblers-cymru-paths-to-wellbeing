@@ -254,7 +254,7 @@ nav ul li a.active:after {
 }
 
 @media (max-width: 500px) {
-  .social-embed {
+  .social-embed, .photo {
     width: 100%;
   }
 }
@@ -271,6 +271,14 @@ nav ul li a.active:after {
 
 .float-clear {
   clear: both;
+}
+
+.photo {
+  max-width: 100%;
+}
+
+.photo.float-right, .photo.float-left {
+  max-width: 50%;
 }
 
 /* Landing page */
@@ -330,6 +338,48 @@ section.hero .prose p {
   section.hero .prose {
     max-width: 100%;
   }
+}
+
+/* About page */
+
+
+.about-header {
+  background-image: url("/static/img/about_header.jpg");
+}
+
+.about-header p {
+  padding: 0 1rem;
+}
+
+.about-header h1 {
+  margin-top: 0;
+  padding: 1rem 1rem 0 1rem;
+}
+
+.about-header img {
+  width: 100%;
+}
+
+.communities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.communities section {
+  flex: 0 1 calc(50% - 1em);
+  padding: 1em;
+}
+
+.supporter-logos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.supporter-logos img {
+  height: 100px;
+  padding: 0.25em;
 }
 
 /* Panels */

@@ -13,14 +13,22 @@ Paths to Wellbeing is giving 18 communities across Wales the tools and training 
 </div>
 </section>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## Putting walking at the hearts of communities 
 
+### Improving access to nature in Wales 
+Ramblers Cymru’s Paths to Wellbeing project is a great example of how the Ramblers open the way for everyone to enjoy the simple pleasures of walking in nature.  The project puts walking at the heart of 18 communities across Wales by giving them the tools and training to improve nature and access to walking in their local areas.  
+
+We are giving the selected communities the free tools and training needed to identify and design new walking routes and to improve existing routes. 
+ 
 <div class="social-embed float-right">
 <a class="twitter-timeline" data-height="500" href="https://twitter.com/RamblersCymru?ref_src=twsrc%5Etfw">{{ 'Tweets by RamblersCymru' | i18n }}</a>
 </div>
 
-Ipsum a arcu cursus vitae congue mauris. Morbi non arcu risus quis varius quam quisque id diam. Aliquet risus feugiat in ante metus dictum at tempor commodo. Viverra vitae congue eu consequat ac felis donec. Commodo viverra maecenas accumsan lacus. Pulvinar pellentesque habitant morbi tristique senectus. Quam nulla porttitor massa id neque aliquam. Arcu dui vivamus arcu felis bibendum ut. Turpis egestas integer eget aliquet nibh praesent tristique magna. Euismod nisi porta lorem mollis aliquam ut porttitor leo. Molestie at elementum eu facilisis sed odio.
+Together with 22 local authorities, Wildlife Trust Wales and Coed Cadw, the Woodland Trust in Wales we will also be enhancing the local environment for nature to thrive. With activities such as tree planting, wildflower sowing and wildlife activity days, there will be plenty of activities for those of all ages and backgrounds. 
 
-Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus. Egestas congue quisque egestas diam in arcu cursus euismod. Dictum sit amet justo donec enim diam vulputate ut pharetra. Sit amet aliquam id diam maecenas ultricies. Varius vel pharetra vel turpis nunc. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet. Ante in nibh mauris cursus mattis molestie. Auctor eu augue ut lectus arcu. Adipiscing elit pellentesque habitant morbi tristique. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Placerat vestibulum lectus mauris ultrices eros in. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Auctor urna nunc id cursus metus aliquam eleifend. Et tortor at risus viverra. Suspendisse faucibus interdum posuere lorem ipsum dolor. Morbi quis commodo odio aenean sed adipiscing. Consectetur purus ut faucibus pulvinar elementum. Arcu non odio euismod lacinia at quis risus sed.
+### Led by the community, for the community 
+Ramblers Cymru believes that community engagement with paths and green spaces will be strengthened by investing in upskilling, equipping, supporting, and leading local volunteers to manage and undertake practical path and habitat maintenance and improvements. Ultimately this will connect people to the health and wellbeing benefits of nature and walking. 
+
+We are working with local volunteers and community members to deliver their community needs. Those taking part will gain new skills with expert support and guidance from Ramblers Cymru and our partners. 
 
 <div class="float-clear"></div>
