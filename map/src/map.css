@@ -152,7 +152,7 @@
   background: rgba(231,231,231,1);
   box-shadow: inset 0px 3px 5px 2px hsla(0, 0%, 0%, 0.10);
   border-radius: 5px;
-  border: 1px solid #404141;
+  border: 1px solid #bdbdbd;
 }
 
 .filter-panel input[type=radio] {
