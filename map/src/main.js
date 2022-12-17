@@ -16,7 +16,8 @@ import { transform as transformCoord, transformExtent } from 'ol/proj';
 
 import Popup from 'ol-popup';
 
-import { difficultyColours, Tooltip } from './config.js';
+import { difficultyColours } from './config.js';
+import { Tooltip } from './Tooltip.js';
 import InfoPanel from './InfoPanel.svelte';
 import FilterPanel from './FilterPanel.svelte';
 import Gazetteer from './Gazetteer.svelte';
