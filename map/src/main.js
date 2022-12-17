@@ -12,7 +12,7 @@ import VectorSource from 'ol/source/Vector';
 import VectorLayer from 'ol/layer/Vector';
 import Point from 'ol/geom/Point';
 import { Circle, Fill, Stroke, Style, Text } from 'ol/style';
-import { transform as transformPoint, transformExtent } from 'ol/proj';
+import { transform as transformCoord, transformExtent } from 'ol/proj';
 
 import Popup from 'ol-popup';
 
@@ -196,7 +196,7 @@ class PathsToWellbeingMap {
           );
           this.map.getView().fit(extent, FIT_OPTIONS);
         } else {
-          let center = transformPoint(
+          let center = transformCoord(
             [result.lng, result.lat],
             'EPSG:4326',
             'EPSG:3857'

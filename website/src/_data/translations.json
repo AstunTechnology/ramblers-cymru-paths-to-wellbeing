@@ -126,5 +126,9 @@
     "zoom_out": {
         "cy": "Chwyddo allan",
         "en": "Zoom out"
+    },
+    "Google Directions": {
+        "cy": "Directions to start (Google Maps)",
+        "en": "Directions to start (Google Maps)"
     }
 }
