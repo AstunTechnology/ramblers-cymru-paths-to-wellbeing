@@ -15,7 +15,7 @@ Paths to Wellbeing is giving 18 communities across Wales the tools and training 
 
 ## Putting walking at the hearts of communities 
 
-### Improving access to  in Wales 
+### Improving access to nature in Wales 
 Ramblers Cymru’s Paths to Wellbeing project is a great example of how the Ramblers open the way for everyone to enjoy the simple pleasures of walking in nature.  The project puts walking at the heart of 18 communities across Wales by giving them the tools and training to improve nature and access to walking in their local areas.  
 
 We are giving the selected communities the free tools and training needed to identify and design new walking routes and to improve existing routes. 
