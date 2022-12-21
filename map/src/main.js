@@ -341,6 +341,12 @@ class PathsToWellbeingMap {
     // and if it's not whether another route is selected.
     let selected = feature === this.selectedRoute;
     let mode = 'normal';
+    if (
+      this.clickRouteUid.includes(feature.get('routeuid')) ||
+      this.hoverRouteUid.includes(feature.get('routeuid'))
+    ) {
+      mode = 'hover';
+    }
     if (selected) {
       mode = 'selected';
     } else if (this.selectedRoute) {
@@ -356,10 +362,7 @@ class PathsToWellbeingMap {
     if (selected) {
       return [start, this.routeOutlineStyle(mode), ...this.routeSelectedStyle, filterStyle];
     }
-    if (
-      this.clickRouteUid.includes(feature.get('routeuid')) ||
-      this.hoverRouteUid.includes(feature.get('routeuid'))
-    ) {
+    if (mode == 'hover') {
       return [start, this.routeOutlineStyle(mode), ...this.routeHighlightStyle, filterStyle];
     }
     return [start, this.routeOutlineStyle(mode), filterStyle];
@@ -398,7 +401,7 @@ class PathsToWellbeingMap {
         width: 7,
       }),
     });
-    if (mode === 'selected') {
+    if (mode === 'hover' || mode === 'selected') {
       style.setZIndex(1);
     }
     return style;
@@ -415,7 +418,7 @@ class PathsToWellbeingMap {
         width: 5,
       }),
     });
-    if (mode === 'selected') {
+    if (mode === 'hover' || mode === 'selected') {
       style.setZIndex(1);
     }
     return style;
