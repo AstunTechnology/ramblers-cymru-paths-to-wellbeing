@@ -19,6 +19,22 @@
   flex: 4;
 }
 
+@media (orientation: portrait) {
+  .app {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .app .map,
+  .app .panel {
+    height: 400px;
+    flex: auto;
+  }
+  .app .panel {
+    padding-top: 1em;
+  }
+}
+
+
 .app .panel .panel-content {
   display: none;
 }
@@ -147,8 +163,82 @@
   cursor: auto;
 }
 
+/* Panels */
+
+.info-panel, .filter-panel {
+  padding: 1em;
+}
+
+.info-panel header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info-panel header h1 {
+  margin-top: 0;
+}
+
+.info-panel header button {
+  display: block;
+  height: 24px;
+  width: 24px;
+  padding: 0;
+  background-color: white;
+  border: 2px solid #404141;
+}
+
+.info-panel p {
+  margin: 1em 2em 1em 1em;
+}
+
+.info-panel table.stats {
+}
+
+.info-panel table.stats th {
+  text-align: right;
+}
+
+.info-panel table.stats th,
+.info-panel table.stats td {
+  padding-bottom: 0.5em;
+}
+
+.info-panel table.stats td {
+  padding-right: 0.5em;
+}
+
+.info-panel .download a {
+  display: block;
+  margin: 0.5em 0.5em 0.5em 1em;
+}
+
+.info-panel img.photo {
+  max-width: 100%;
+  display: block;
+  padding: 1em;
+}
+
+/* Filter Panel */
+
+.filter-panel h1 {
+    margin: 0 0 0.5em 0;
+}
+
+.filter-panel legend {
+  font-weight: bold;
+}
+
+.filter-panel .instructions legend {
+  display: flex;
+  align-items: center;
+}
+
+.filter-panel .gazetteer .autocomplete {
+  width: 100%;
+}
 .filter-panel form {
-  width: 80%;
+  width: 100%;
   background: rgba(231,231,231,1);
   box-shadow: inset 0px 3px 5px 2px hsla(0, 0%, 0%, 0.10);
   border-radius: 5px;
@@ -191,9 +281,19 @@
   padding: 1em;
 }
 
+.filter-panel fieldset {
+  border: 1px solid lightgrey;
+  margin: 1em 0;
+}
+
+.filter-panel h4.legend {
+  margin-bottom: 0;
+  margin-top: 0.5em;
+}
+
 .filterLegend {
   width: 40%;
-  margin-top: 2em;
+  margin-top: 0.5em;
 }
 
 .filterLegend td {
@@ -234,6 +334,8 @@
   border-left: 10px solid rgba(200,35,35);
   background-color: rgba(200,35,35,0.1);
 }
+
+/* Tooltip */
 
 .tooltipped {
   position: relative;

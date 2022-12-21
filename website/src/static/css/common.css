@@ -342,7 +342,6 @@ section.hero .prose p {
 
 /* About page */
 
-
 .about-header {
   background-image: url("/static/img/about_header.jpg");
 }
@@ -381,70 +380,3 @@ section.hero .prose p {
   height: 100px;
   padding: 0.25em;
 }
-
-/* Panels */
-
-.info-panel, .filter-panel {
-  padding: 1em;
-}
-
-.info-panel header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.info-panel header h1 {
-  margin-top: 0;
-}
-
-.info-panel header button {
-  display: block;
-  height: 24px;
-  width: 24px;
-  padding: 0;
-  background-color: white;
-  border: 2px solid #404141;
-}
-
-.info-panel p {
-  margin: 1em 2em 1em 1em;
-}
-
-.info-panel table.stats {
-}
-
-.info-panel table.stats th {
-  text-align: right;
-}
-
-.info-panel table.stats th,
-.info-panel table.stats td {
-  padding-bottom: 0.5em;
-}
-
-.info-panel table.stats td {
-  padding-right: 0.5em;
-}
-
-.info-panel .download a {
-  display: block;
-  margin: 0.5em 0.5em 0.5em 1em;
-}
-
-.info-panel img.photo {
-  max-width: 100%;
-  display: block;
-  padding: 1em;
-}
-
-/* Gazetteer */
-
-.gazetteer {
-  padding: 0 1em;
-}
-
-.gazetteer .autocomplete {
-  width: 100%;
-}
-

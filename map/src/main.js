@@ -146,6 +146,7 @@ class PathsToWellbeingMap {
     this.popup = new Popup();
     this.map.addOverlay(this.popup);
     this.popup.getElement().addEventListener('click', (evt) => {
+      evt.preventDefault();
       this.handlePopupClick(evt);
     });
     this.popup.closer.addEventListener('click', () => {
@@ -160,8 +161,12 @@ class PathsToWellbeingMap {
     this.clickRouteUid = [];
     this.map.on('pointermove', (evt) => this.handleMapHover(evt));
     this.map.on('singleclick', (evt) => this.handleMapClick(evt));
-    
+
     this.selectedFilter = "Family-friendly";
+    this.map.getView().on('change:resolution', (evt) => {
+      const res = evt.target.getResolution();
+      this.filterPanel.setMapState(res < DISPLAY_COMMUNITY_UNTIL_RES ? 'route' : 'community')
+    });
   }
 
   buildUi(target) {
@@ -173,14 +178,34 @@ class PathsToWellbeingMap {
     this.mapElm = document.createElement('div');
     this.mapElm.className = 'map';
     this.containerElm.appendChild(this.mapElm);
-    this.gazetteer = new Gazetteer({
+    this.infoPanel = new InfoPanel({
       target: this.panelElm,
       props: {
+        staticUrl: this.staticUrl,
         lang: this.lang,
         i18n: (key) => this.i18n(key),
       },
     });
-    this.gazetteer.$on('select', (evt) => {
+    this.infoPanel.$on('close', (evt) => {
+      this.selectedRoute = null;
+      this.routeLyr.changed();
+      this.showPanel('filter');
+    });
+    this.panels['info'] = this.infoPanel;
+    this.filterPanel = new FilterPanel({
+      target: this.panelElm,
+      props: {
+        staticUrl: this.staticUrl,
+        i18n: (key) => this.i18n(key),
+      },
+    });
+    this.filterPanel.$on('filterChange', (evt) => {
+      this.selectedFilter = evt.detail.selectedFilter;
+      this.routeLyr.changed();
+    })
+    this.panels['filter'] = this.filterPanel;
+    this.panels['filter'].default = true;
+    this.filterPanel.$on('select', (evt) => {
       // TODO Extract into a method which is passed `result`
       const result = evt.detail.result;
       if (result) {
@@ -206,33 +231,6 @@ class PathsToWellbeingMap {
         }
       }
     });
-    this.infoPanel = new InfoPanel({
-      target: this.panelElm,
-      props: {
-        staticUrl: this.staticUrl,
-        lang: this.lang,
-        i18n: (key) => this.i18n(key),
-      },
-    });
-    this.infoPanel.$on('close', (evt) => {
-      this.selectedRoute = null;
-      this.routeLyr.changed();
-      this.showPanel('filter');
-    });
-    this.panels['info'] = this.infoPanel;
-    this.filterPanel = new FilterPanel({
-      target: this.panelElm,
-      props: {
-        staticUrl: this.staticUrl,
-        i18n: (key) => this.i18n(key),
-      },
-    });
-    this.filterPanel.$on('filterChange', (evt) => {
-      this.selectedFilter = evt.detail.result;
-      this.routeLyr.changed();
-    })
-    this.panels['filter'] = this.filterPanel;
-    this.panels['filter'].default = true;
     return this.containerElm;
   }
 

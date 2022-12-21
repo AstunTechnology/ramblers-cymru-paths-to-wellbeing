@@ -7,6 +7,10 @@
         "cy": "Gwybodaeth llwybr agos",
         "en": "Close route information"
     },
+    "Colour routes by": {
+        "cy": "Colour routes by",
+        "en": "Colour routes by"
+    },
     "Contact": {
         "cy": "Cysylltwch",
         "en": "Contact"
@@ -32,12 +36,24 @@
         "en": "Find Routes"
     },
     "Find Routes Instructions": {
-        "cy": "<p>Cliciwch ar gymuned i weld llwybrau.</p><p>Cliciwch ar lwybr i weld y manylion.</p>",
-        "en": "<p>Click on a community to view routes.</p><p>Click on a route to view details.</p>"
+        "cy": "<p>Cliciwch ar gymuned i weld llwybrau.</p>",
+        "en": "<p>To view routes either click on a community, search for a place or zoom into the map.</p>"
+    },
+    "Google Directions": {
+        "cy": "Directions to start (Google Maps)",
+        "en": "Directions to start (Google Maps)"
     },
     "Home": {
         "cy": "Hafan",
         "en": "Home"
+    },
+    "Instructions": {
+        "cy": "Instructions",
+        "en": "Instructions"
+    },
+    "Legend": {
+        "cy": "Legend",
+        "en": "Legend"
     },
     "Paths to Wellbeing": {
         "cy": "Llywbrau i Lesiant",
@@ -46,6 +62,10 @@
     "Routes": {
         "cy": "Llwybrau",
         "en": "Routes"
+    },
+    "Select Route Instructions": {
+        "cy": "<p>Cliciwch ar lwybr i weld y manylion.</p>",
+        "en": "<p>Click on a route to view details.</p>"
     },
     "Shape": {
         "cy": "Si\u00e2p",
@@ -126,9 +146,5 @@
     "zoom_out": {
         "cy": "Chwyddo allan",
         "en": "Zoom out"
-    },
-    "Google Directions": {
-        "cy": "Directions to start (Google Maps)",
-        "en": "Directions to start (Google Maps)"
     }
 }
