@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="53.073873654373017" minlon="-3.293717635276114" maxlat="53.080675394953417" maxlon="-3.274055306902532"/></metadata>                  
+<metadata><bounds minlat="53.073943143083376" minlon="-3.293717635276114" maxlat="53.080675394953417" maxlon="-3.274055306902532"/></metadata>                  
 <rte>
   <name>Link Path B</name>
   <desc>A second link path across the Vale linking the two community  routes in Graig Fechan and Pwll Glas.</desc>
@@ -27,17 +27,15 @@
   </rtept>
   <rtept lat="53.079890519342378" lon="-3.276668626604862">
   </rtept>
-  <rtept lat="53.080003607192147" lon="-3.278044263286352">
+  <rtept lat="53.080093078267602" lon="-3.277575714584672">
   </rtept>
-  <rtept lat="53.079674434286382" lon="-3.278931014834962">
+  <rtept lat="53.080048629624102" lon="-3.277929432968726">
   </rtept>
-  <rtept lat="53.080163173292945" lon="-3.279169632848774">
+  <rtept lat="53.079782803629996" lon="-3.278709130589773">
   </rtept>
-  <rtept lat="53.080220868383577" lon="-3.279198868236862">
+  <rtept lat="53.080196072530299" lon="-3.279196420159225">
   </rtept>
-  <rtept lat="53.080497445425351" lon="-3.279350591664514">
-  </rtept>
-  <rtept lat="53.080472623149277" lon="-3.279790790723078">
+  <rtept lat="53.080474865969698" lon="-3.279734753152579">
   </rtept>
   <rtept lat="53.080433491103953" lon="-3.28004710739073">
   </rtept>
@@ -129,15 +127,11 @@
   </rtept>
   <rtept lat="53.073965744551018" lon="-3.284843569158487">
   </rtept>
-  <rtept lat="53.073873654373017" lon="-3.285604657943924">
+  <rtept lat="53.074106709326777" lon="-3.285149541749556">
   </rtept>
-  <rtept lat="53.073930967551561" lon="-3.286539345801655">
+  <rtept lat="53.074187598900302" lon="-3.287386866748229">
   </rtept>
-  <rtept lat="53.074008284013978" lon="-3.287698430742563">
-  </rtept>
-  <rtept lat="53.074403399143257" lon="-3.288568522222195">
-  </rtept>
-  <rtept lat="53.074953818628842" lon="-3.289629812029344">
+  <rtept lat="53.074959785056137" lon="-3.289536108408394">
   </rtept>
   <rtept lat="53.074986235349243" lon="-3.290787696113739">
   </rtept>

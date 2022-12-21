@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="51.760422445169759" minlon="-3.794995128968021" maxlat="51.768318251406107" maxlon="-3.786431914763582"/></metadata>                  
+<metadata><bounds minlat="51.760422445169759" minlon="-3.794572932808937" maxlat="51.768431673123381" maxlon="-3.786431914763582"/></metadata>                  
 <rte>
   <name>Llwybr Grisiau Cwm Tawe</name>
   <desc>Er mai llwybr gweddol fyr yw hwn, mae'n sicr o gyflymu'r galon gan ei fod yn esgyn bron i 100 gris i'r coetir lleol. </desc>
@@ -41,17 +41,15 @@
   </rtept>
   <rtept lat="51.761732118144145" lon="-3.794169732404296">
   </rtept>
-  <rtept lat="51.762089881789734" lon="-3.794396948873102">
+  <rtept lat="51.762151612240714" lon="-3.794229634149724">
+  </rtept>
+  <rtept lat="51.762330909352485" lon="-3.794390533304093">
+  </rtept>
+  <rtept lat="51.762543406280912" lon="-3.794444133825687">
   </rtept>
   <rtept lat="51.762643004553013" lon="-3.794572932808937">
   </rtept>
-  <rtept lat="51.762915799583915" lon="-3.794995128968021">
-  </rtept>
-  <rtept lat="51.763595891227894" lon="-3.794623637076473">
-  </rtept>
-  <rtept lat="51.764353481712696" lon="-3.794327645263274">
-  </rtept>
-  <rtept lat="51.765141471150052" lon="-3.7942501508571">
+  <rtept lat="51.765201580219674" lon="-3.794003368824174">
   </rtept>
   <rtept lat="51.765305870037885" lon="-3.793928456916555">
   </rtept>
@@ -63,15 +61,7 @@
   </rtept>
   <rtept lat="51.766148166347037" lon="-3.791884797171293">
   </rtept>
-  <rtept lat="51.766401968387356" lon="-3.792016184687203">
-  </rtept>
-  <rtept lat="51.766873059440378" lon="-3.791257315218701">
-  </rtept>
-  <rtept lat="51.767549355307146" lon="-3.790396441943229">
-  </rtept>
-  <rtept lat="51.768318251406107" lon="-3.789358076024601">
-  </rtept>
-  <rtept lat="51.768243253177033" lon="-3.789119579099782">
+  <rtept lat="51.768431673123381" lon="-3.78926894961921">
   </rtept>
   <rtept lat="51.768287435469311" lon="-3.788818636874112">
   </rtept>

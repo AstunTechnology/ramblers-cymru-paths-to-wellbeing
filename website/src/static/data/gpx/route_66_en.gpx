@@ -2,7 +2,7 @@
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata><bounds minlat="53.225125519276197" minlon="-3.932554226177738" maxlat="53.267824345658745" maxlon="-3.880878909555357"/></metadata>                  
 <rte>
-  <name>Huw Tom Return</name>
+  <name>Caer Bach Loop</name>
   <desc>Huw Tom trail return leg via Roman Road and Tal Y Fan. Resultant circular avoids steep descent and ascent to/from Rowen and includes viewpoints at Tal Y Fan, along with hillfort and burial mound. </desc>
   <src>Ramblers</src>
   <number>66</number>

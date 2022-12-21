@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="51.669103155193206" minlon="-3.539301091441035" maxlat="51.674394883204315" maxlon="-3.530480845315433"/></metadata>                  
+<metadata><bounds minlat="51.669103155193206" minlon="-3.539049449941327" maxlat="51.674371202507800" maxlon="-3.530480845315433"/></metadata>                  
 <rte>
   <name>Park and Pixie Bridge Loop</name>
   <desc>Starting at the station, head in to Cwm Saerbren and follow the path close to the railway line. Cross the stream at the end of the path and loop back around toward the pixie bridge and stream.</desc>
@@ -31,47 +31,53 @@
   </rtept>
   <rtept lat="51.672402803305182" lon="-3.536319394453266">
   </rtept>
-  <rtept lat="51.672508800583628" lon="-3.536297717522348">
+  <rtept lat="51.672694529894017" lon="-3.536077971672186">
   </rtept>
-  <rtept lat="51.672634449558622" lon="-3.536558711490237">
-  </rtept>
-  <rtept lat="51.672875343155816" lon="-3.537166773384178">
-  </rtept>
-  <rtept lat="51.673038850012716" lon="-3.537628275397562">
-  </rtept>
-  <rtept lat="51.673393662007513" lon="-3.538346380099829">
-  </rtept>
-  <rtept lat="51.673506161639658" lon="-3.538132081850961">
-  </rtept>
-  <rtept lat="51.673525061384154" lon="-3.538075082153997">
-  </rtept>
-  <rtept lat="51.674088879106989" lon="-3.539119190016598">
-  </rtept>
-  <rtept lat="51.674187982154344" lon="-3.539301091441035">
-  </rtept>
-  <rtept lat="51.674394883204315" lon="-3.539092594572367">
-  </rtept>
-  <rtept lat="51.674334478560823" lon="-3.538670393767606">
-  </rtept>
-  <rtept lat="51.674354312931754" lon="-3.537758655533068">
-  </rtept>
-  <rtept lat="51.67434586288357" lon="-3.537496155298249">
-  </rtept>
-  <rtept lat="51.674199650371314" lon="-3.536860252399314">
-  </rtept>
-  <rtept lat="51.674010676423229" lon="-3.536247488784922">
-  </rtept>
-  <rtept lat="51.673814447411786" lon="-3.536095387142237">
-  </rtept>
-  <rtept lat="51.673628545866769" lon="-3.536239284505295">
-  </rtept>
-  <rtept lat="51.673045642569541" lon="-3.536836876020562">
+  <rtept lat="51.672732292954336" lon="-3.536049922392023">
   </rtept>
   <rtept lat="51.67288803628027" lon="-3.536430774092935">
   </rtept>
-  <rtept lat="51.672730130170237" lon="-3.536049472186148">
+  <rtept lat="51.673045642569541" lon="-3.536836876020562">
   </rtept>
-  <rtept lat="51.672694529894017" lon="-3.536077971672186">
+  <rtept lat="51.673628545866769" lon="-3.536239284505295">
+  </rtept>
+  <rtept lat="51.673814447411786" lon="-3.536095387142237">
+  </rtept>
+  <rtept lat="51.674010676423229" lon="-3.536247488784922">
+  </rtept>
+  <rtept lat="51.674199650371314" lon="-3.536860252399314">
+  </rtept>
+  <rtept lat="51.67434586288357" lon="-3.537496155298249">
+  </rtept>
+  <rtept lat="51.674354312931754" lon="-3.537758655533068">
+  </rtept>
+  <rtept lat="51.674334478560823" lon="-3.538670393767606">
+  </rtept>
+  <rtept lat="51.6743712025078" lon="-3.539049449941327">
+  </rtept>
+  <rtept lat="51.674160805394379" lon="-3.538657947442834">
+  </rtept>
+  <rtept lat="51.673814836819041" lon="-3.538006719733549">
+  </rtept>
+  <rtept lat="51.673702454480285" lon="-3.537793258392277">
+  </rtept>
+  <rtept lat="51.67367866004308" lon="-3.537766938900109">
+  </rtept>
+  <rtept lat="51.673589846401669" lon="-3.537649674777577">
+  </rtept>
+  <rtept lat="51.673477993462697" lon="-3.53734305448816">
+  </rtept>
+  <rtept lat="51.6733140985002" lon="-3.536928738420446">
+  </rtept>
+  <rtept lat="51.673220196792762" lon="-3.536673201081441">
+  </rtept>
+  <rtept lat="51.673043315756225" lon="-3.536855787491214">
+  </rtept>
+  <rtept lat="51.672879190389423" lon="-3.536432595350481">
+  </rtept>
+  <rtept lat="51.672756561710806" lon="-3.53613227380454">
+  </rtept>
+  <rtept lat="51.672719464907182" lon="-3.536042000843365">
   </rtept>
   <rtept lat="51.672399927581054" lon="-3.536307567397751">
   </rtept>
@@ -125,9 +131,9 @@
   </rtept>
   <rtept lat="51.669729337870372" lon="-3.532167950787603">
   </rtept>
-  <rtept lat="51.669980052731887" lon="-3.53305683470863">
+  <rtept lat="51.670053462126248" lon="-3.53302424447533">
   </rtept>
-  <rtept lat="51.67014639393026" lon="-3.533710543078306">
+  <rtept lat="51.670247487507687" lon="-3.533856598346933">
   </rtept>
   <rtept lat="51.670202770763098" lon="-3.533959642323296">
   </rtept>

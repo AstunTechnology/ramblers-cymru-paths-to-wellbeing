@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="52.063149130529219" minlon="-4.604315666677117" maxlat="52.082315902513798" maxlon="-4.579424846692030"/></metadata>                  
+<metadata><bounds minlat="52.063149130529219" minlon="-4.604315666677117" maxlat="52.082315902513798" maxlon="-4.579462456916556"/></metadata>                  
 <rte>
   <name>Hall East Loop</name>
   <desc>A circular route that starts and finishes at Coracle Hall, Llechryd, taking approx. 2 hours to walk.</desc>
@@ -155,11 +155,9 @@
   </rtept>
   <rtept lat="52.065371516633476" lon="-4.585545597258635">
   </rtept>
-  <rtept lat="52.066176203796886" lon="-4.585551018054559">
+  <rtept lat="52.067097290532516" lon="-4.585291439979613">
   </rtept>
-  <rtept lat="52.066921493019571" lon="-4.585341835857656">
-  </rtept>
-  <rtept lat="52.068181176492381" lon="-4.584901963750478">
+  <rtept lat="52.068180976097544" lon="-4.584978764270975">
   </rtept>
   <rtept lat="52.068192877221392" lon="-4.584727762844099">
   </rtept>
@@ -181,15 +179,11 @@
   </rtept>
   <rtept lat="52.06842519958699" lon="-4.579859332588742">
   </rtept>
-  <rtept lat="52.068850594908135" lon="-4.579526740470053">
-  </rtept>
-  <rtept lat="52.0691374910975" lon="-4.57942484669203">
+  <rtept lat="52.068865794904397" lon="-4.57948384052153">
   </rtept>
   <rtept lat="52.069546384702321" lon="-4.579462456916556">
   </rtept>
-  <rtept lat="52.069895878986244" lon="-4.579542866014938">
-  </rtept>
-  <rtept lat="52.070341072379847" lon="-4.579516076645111">
+  <rtept lat="52.070394271661726" lon="-4.579499077812779">
   </rtept>
   <rtept lat="52.070987362283205" lon="-4.579575092805916">
   </rtept>

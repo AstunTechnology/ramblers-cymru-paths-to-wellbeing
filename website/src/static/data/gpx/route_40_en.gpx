@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="53.090641860503716" minlon="-3.093960318619100" maxlat="53.117968184395103" maxlon="-3.065488972685075"/></metadata>                  
+<metadata><bounds minlat="53.090641860503716" minlon="-3.093960318619100" maxlat="53.117584325491009" maxlon="-3.065488972685075"/></metadata>                  
 <rte>
   <name>Llanfynydd Circular</name>
   <desc>A route starting and finishing in Ffrith and looping around Llanfynydd.</desc>
@@ -629,19 +629,13 @@
   </rtept>
   <rtept lat="53.117584325491009" lon="-3.089027751360828">
   </rtept>
-  <rtept lat="53.117968184395103" lon="-3.089196214783708">
+  <rtept lat="53.116908220346239" lon="-3.088397844837258">
   </rtept>
-  <rtept lat="53.117025714128104" lon="-3.088402445688931">
+  <rtept lat="53.116936516662008" lon="-3.087763541990986">
   </rtept>
-  <rtept lat="53.116991873622652" lon="-3.088030162209813">
+  <rtept lat="53.116548112892538" lon="-3.087230738241859">
   </rtept>
-  <rtept lat="53.116703797522213" lon="-3.087713365126858">
-  </rtept>
-  <rtept lat="53.116583240378652" lon="-3.087065922481782">
-  </rtept>
-  <rtept lat="53.116307763623816" lon="-3.086892891186153">
-  </rtept>
-  <rtept lat="53.116171303183485" lon="-3.086632084500764">
+  <rtept lat="53.116227708795051" lon="-3.086625034391121">
   </rtept>
   <rtept lat="53.115871163381073" lon="-3.0863614260899">
   </rtept>

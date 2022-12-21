@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="51.583448961723825" minlon="-2.992994231198294" maxlat="51.591223460558162" maxlon="-2.982732987127017"/></metadata>                  
+<metadata><bounds minlat="51.583448961723825" minlon="-2.992994231198294" maxlat="51.591414359215328" maxlon="-2.981694055882741"/></metadata>                  
 <rte>
   <name>Llwybr Cylchol Glan yr Afon</name>
   <desc>Llwybr cylchol pleserus gan fwynhau'r afon a bywyd y ddinas.</desc>
@@ -43,11 +43,21 @@
   </rtept>
   <rtept lat="51.591223460558162" lon="-2.989782657310398">
   </rtept>
+  <rtept lat="51.591265455778718" lon="-2.989859706523382">
+  </rtept>
+  <rtept lat="51.591291060556181" lon="-2.98995905726461">
+  </rtept>
+  <rtept lat="51.591414359215328" lon="-2.990028758407038">
+  </rtept>
+  <rtept lat="51.591378060595865" lon="-2.990190157215162">
+  </rtept>
+  <rtept lat="51.591280375140279" lon="-2.990352004120186">
+  </rtept>
   <rtept lat="51.591212964952661" lon="-2.99057945333878">
   </rtept>
   <rtept lat="51.590743680868634" lon="-2.992462637698983">
   </rtept>
-  <rtept lat="51.590672581489592" lon="-2.992409036990158">
+  <rtept lat="51.59065702581178" lon="-2.992848428872107">
   </rtept>
   <rtept lat="51.590582884904144" lon="-2.992869333283342">
   </rtept>
@@ -159,7 +169,45 @@
   </rtept>
   <rtept lat="51.584683299337726" lon="-2.98367122358932">
   </rtept>
-  <rtept lat="51.584708437804004" lon="-2.983708637436855">
+  <rtept lat="51.584939229863892" lon="-2.983117141793172">
+  </rtept>
+  <rtept lat="51.584939029480147" lon="-2.983059142060923">
+  </rtept>
+  <rtept lat="51.585162123171003" lon="-2.982702645137912">
+  </rtept>
+  <rtept lat="51.585305019407265" lon="-2.982519046860702">
+  </rtept>
+  <rtept lat="51.585675110346202" lon="-2.98215415071159">
+  </rtept>
+  <rtept lat="51.585790107965288" lon="-2.982105851606527">
+  </rtept>
+  <rtept lat="51.586197097871377" lon="-2.981703255619022">
+  </rtept>
+  <rtept lat="51.58623659709793" lon="-2.981694055882741">
+  </rtept>
+  <rtept lat="51.586276696601068" lon="-2.981725355994294">
+  </rtept>
+  <rtept lat="51.58516402442028" lon="-2.98289274429393">
+  </rtept>
+  <rtept lat="51.585113124786545" lon="-2.982814444318426">
+  </rtept>
+  <rtept lat="51.584966025741565" lon="-2.982570544497683">
+  </rtept>
+  <rtept lat="51.58488462653736" lon="-2.982474244434846">
+  </rtept>
+  <rtept lat="51.584736426963161" lon="-2.982142245090673">
+  </rtept>
+  <rtept lat="51.584493533237151" lon="-2.982441142156664">
+  </rtept>
+  <rtept lat="51.584419935528402" lon="-2.982593040946647">
+  </rtept>
+  <rtept lat="51.584262040199256" lon="-2.982884738477741">
+  </rtept>
+  <rtept lat="51.58424954077379" lon="-2.982939738118624">
+  </rtept>
+  <rtept lat="51.584254441269771" lon="-2.983029837695379">
+  </rtept>
+  <rtept lat="51.584444639925096" lon="-2.983334337442449">
   </rtept>
   <rtept lat="51.585059735325153" lon="-2.984244037445694">
   </rtept>

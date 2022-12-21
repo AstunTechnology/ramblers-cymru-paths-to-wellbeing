@@ -1,12 +1,36 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="53.252976810843634" minlon="-3.939073739101913" maxlat="53.267696583429434" maxlon="-3.917831434750791"/></metadata>                  
+<metadata><bounds minlat="53.252976810843634" minlon="-3.939031301333971" maxlat="53.267696583429434" maxlon="-3.917831434750791"/></metadata>                  
 <rte>
   <name>Quarry Loop</name>
   <desc>Circular route from Penmaenmawr following former quarrymens' path to upland and returning via Graiglwyd farm and allotment footpath.</desc>
   <src>Ramblers</src>
   <number>63</number>
   <type>Walking</type>
+  <rtept lat="53.266766447281917" lon="-3.935706473626167">
+  </rtept>
+  <rtept lat="53.266478643287378" lon="-3.936409267459123">
+  </rtept>
+  <rtept lat="53.266105037734199" lon="-3.937397358854508">
+  </rtept>
+  <rtept lat="53.265837536715942" lon="-3.937467957276473">
+  </rtept>
+  <rtept lat="53.265589635945616" lon="-3.937496056082967">
+  </rtept>
+  <rtept lat="53.265482735061255" lon="-3.937626354706927">
+  </rtept>
+  <rtept lat="53.265446733856813" lon="-3.93786425282882">
+  </rtept>
+  <rtept lat="53.265432832728969" lon="-3.938097951069206">
+  </rtept>
+  <rtept lat="53.265192931911876" lon="-3.938139549795445">
+  </rtept>
+  <rtept lat="53.265026130813027" lon="-3.938281748079201">
+  </rtept>
+  <rtept lat="53.26410042498587" lon="-3.939008538944472">
+  </rtept>
+  <rtept lat="53.26315066073829" lon="-3.937682187335837">
+  </rtept>
   <rtept lat="53.262898331097269" lon="-3.937053948664618">
   </rtept>
   <rtept lat="53.262825029938057" lon="-3.937258746837231">
@@ -545,21 +569,41 @@
   </rtept>
   <rtept lat="53.267231460893157" lon="-3.933082693641212">
   </rtept>
-  <rtept lat="53.267133453589565" lon="-3.934554582978294">
+  <rtept lat="53.267073756276147" lon="-3.933958287056235">
   </rtept>
-  <rtept lat="53.267042648393925" lon="-3.935624575106101">
+  <rtept lat="53.26702625540004" lon="-3.934114685833958">
   </rtept>
-  <rtept lat="53.266815536369762" lon="-3.938086356743425">
+  <rtept lat="53.267019755127443" lon="-3.93416808544023">
   </rtept>
-  <rtept lat="53.266719216522446" lon="-3.938148019182281">
+  <rtept lat="53.267009554696827" lon="-3.934252484818145">
   </rtept>
-  <rtept lat="53.265135632257298" lon="-3.938033950336149">
+  <rtept lat="53.26698295326544" lon="-3.934537282738132">
   </rtept>
-  <rtept lat="53.264255725086059" lon="-3.939073739101913">
+  <rtept lat="53.26691035283978" lon="-3.934586382204123">
   </rtept>
-  <rtept lat="53.26315066073829" lon="-3.937682187335837">
+  <rtept lat="53.266900652685663" lon="-3.934614381967137">
   </rtept>
-  <rtept lat="53.262898331097269" lon="-3.937053948664618">
+  <rtept lat="53.266883851062595" lon="-3.93495527946105">
+  </rtept>
+  <rtept lat="53.266925751115501" lon="-3.934966979524435">
+  </rtept>
+  <rtept lat="53.26688804982804" lon="-3.935223777552782">
+  </rtept>
+  <rtept lat="53.266820949637193" lon="-3.935228477263895">
+  </rtept>
+  <rtept lat="53.266784649480776" lon="-3.935242477025389">
+  </rtept>
+  <rtept lat="53.266770749348318" lon="-3.935263476821808">
+  </rtept>
+  <rtept lat="53.266755349103448" lon="-3.935307876444511">
+  </rtept>
+  <rtept lat="53.266745548840213" lon="-3.935359276038205">
+  </rtept>
+  <rtept lat="53.266739748556859" lon="-3.935417175600427">
+  </rtept>
+  <rtept lat="53.266751848449594" lon="-3.935446875433452">
+  </rtept>
+  <rtept lat="53.266766447281917" lon="-3.935706473626167">
   </rtept>
 </rte>
 </gpx>

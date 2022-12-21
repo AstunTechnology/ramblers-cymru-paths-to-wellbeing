@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="51.982144188625782" minlon="-4.781799510203693" maxlat="51.988808011857955" maxlon="-4.763634618175639"/></metadata>                  
+<metadata><bounds minlat="51.982144188625782" minlon="-4.781799510203693" maxlat="51.988808011857955" maxlon="-4.763608685830306"/></metadata>                  
 <rte>
   <name>Short Brynberian Loop</name>
   <desc>A family friendly, circular route this starts and finishes at the Grade II listed Brynberian Independent Chapel, it offers standing stones viewing opportunities.</desc>
@@ -9,9 +9,13 @@
   <type>Walking</type>
   <rtept lat="51.983183645558178" lon="-4.763634618175639">
   </rtept>
-  <rtept lat="51.982796647322864" lon="-4.764383704316652">
+  <rtept lat="51.983142572632509" lon="-4.763608685830306">
   </rtept>
-  <rtept lat="51.982796647322125" lon="-4.76438380431551">
+  <rtept lat="51.98282582660768" lon="-4.763725149852353">
+  </rtept>
+  <rtept lat="51.982645186406238" lon="-4.763837758757181">
+  </rtept>
+  <rtept lat="51.982710741363199" lon="-4.764335381139664">
   </rtept>
   <rtept lat="51.982835633926847" lon="-4.766102785195118">
   </rtept>

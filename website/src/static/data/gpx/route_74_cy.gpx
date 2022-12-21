@@ -2,7 +2,7 @@
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata><bounds minlat="51.524174450264439" minlon="-3.562241960517818" maxlat="51.527513827198817" maxlon="-3.555579574329534"/></metadata>                  
 <rte>
-  <name>Llwybr Hygyrch Parc Derwen</name>
+  <name>Llwybr Teulu Parc Derwen</name>
   <desc>Llwybr palmantog hygyrch drwy Barc Derwen, yn mynd heibio meysydd chwarae a meinciau. </desc>
   <src>Ramblers</src>
   <number>74</number>
@@ -153,9 +153,7 @@
   </rtept>
   <rtept lat="51.525282432736844" lon="-3.561692721194555">
   </rtept>
-  <rtept lat="51.525450831989744" lon="-3.562095476248656">
-  </rtept>
-  <rtept lat="51.525454726587824" lon="-3.562094012366199">
+  <rtept lat="51.525397939667627" lon="-3.562044079585297">
   </rtept>
   <rtept lat="51.525541225820575" lon="-3.561824906468377">
   </rtept>

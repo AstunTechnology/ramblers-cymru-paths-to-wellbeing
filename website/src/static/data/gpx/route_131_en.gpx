@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="51.974900723157930" minlon="-4.779643700077525" maxlat="51.989892317601495" maxlon="-4.761984430533409"/></metadata>                  
+<metadata><bounds minlat="51.974900723157930" minlon="-4.779643700077525" maxlat="51.989892317601495" maxlon="-4.763262377501707"/></metadata>                  
 <rte>
   <name>Waundir Preseli</name>
   <desc>A circular route that starts and finishes at the Canolfan, travelling through the village of Brynberian it ascends onto Preseli Moor.</desc>
@@ -97,59 +97,13 @@
   </rtept>
   <rtept lat="51.983026949854782" lon="-4.76345171812225">
   </rtept>
-  <rtept lat="51.983013750812063" lon="-4.76335551904107">
+  <rtept lat="51.982465332554092" lon="-4.763262377501707">
   </rtept>
-  <rtept lat="51.983000352332361" lon="-4.763183420824578">
+  <rtept lat="51.981948687659106" lon="-4.763277391763071">
   </rtept>
-  <rtept lat="51.982994254365977" lon="-4.762923023716977">
+  <rtept lat="51.981516831350817" lon="-4.763406139670553">
   </rtept>
-  <rtept lat="51.982984955339745" lon="-4.762814624828774">
-  </rtept>
-  <rtept lat="51.9829151591928" lon="-4.762469927815988">
-  </rtept>
-  <rtept lat="51.98286736187432" lon="-4.76222802992941">
-  </rtept>
-  <rtept lat="51.982843363067694" lon="-4.762127330753545">
-  </rtept>
-  <rtept lat="51.98282186388392" lon="-4.762071431099695">
-  </rtept>
-  <rtept lat="51.982802364570425" lon="-4.762028031330249">
-  </rtept>
-  <rtept lat="51.982772665305042" lon="-4.762004131198952">
-  </rtept>
-  <rtept lat="51.982707266680031" lon="-4.761984430533409">
-  </rtept>
-  <rtept lat="51.982656767515486" lon="-4.761999929668261">
-  </rtept>
-  <rtept lat="51.982485970110112" lon="-4.762083726382722">
-  </rtept>
-  <rtept lat="51.982133975265157" lon="-4.762282619308518">
-  </rtept>
-  <rtept lat="51.981907378741397" lon="-4.762389314996749">
-  </rtept>
-  <rtept lat="51.981838079876226" lon="-4.762412213789376">
-  </rtept>
-  <rtept lat="51.9817598813271" lon="-4.762414912692241">
-  </rtept>
-  <rtept lat="51.98170708248869" lon="-4.762392012235066">
-  </rtept>
-  <rtept lat="51.9816666834597" lon="-4.762363312013558">
-  </rtept>
-  <rtept lat="51.981623484537806" lon="-4.762327211838872">
-  </rtept>
-  <rtept lat="51.981587185427983" lon="-4.762299011667684">
-  </rtept>
-  <rtept lat="51.981573685018937" lon="-4.762389110449716">
-  </rtept>
-  <rtept lat="51.981535084866401" lon="-4.762508508553124">
-  </rtept>
-  <rtept lat="51.981382485035404" lon="-4.762875702255825">
-  </rtept>
-  <rtept lat="51.981291185309843" lon="-4.763071898756192">
-  </rtept>
-  <rtept lat="51.981000585232543" lon="-4.763825986118993">
-  </rtept>
-  <rtept lat="51.9809425853081" lon="-4.763964183736494">
+  <rtept lat="51.981351659899033" lon="-4.76365182639053">
   </rtept>
   <rtept lat="51.980869285699683" lon="-4.764098581187691">
   </rtept>

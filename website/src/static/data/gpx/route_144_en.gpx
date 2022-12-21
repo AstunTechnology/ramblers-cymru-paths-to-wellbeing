@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="51.764340375636912" minlon="-3.815971322523991" maxlat="51.781655733609021" maxlon="-3.784483855389644"/></metadata>                  
+<metadata><bounds minlat="51.762598124065661" minlon="-3.815971322523991" maxlat="51.781655733609021" maxlon="-3.784483855389644"/></metadata>                  
 <rte>
   <name>Ystalyfera Cwmtwrch Isaf Loop</name>
   <desc>A circular route that travels through a well walked local area known as the Patches and peaceful farmland. It has extensive valley and mountain views.</desc>
@@ -9,17 +9,15 @@
   <type>Walking</type>
   <rtept lat="51.780485949174384" lon="-3.804226769996613">
   </rtept>
-  <rtept lat="51.780527058387356" lon="-3.804333718708761">
+  <rtept lat="51.780561600151856" lon="-3.804432767773509">
   </rtept>
-  <rtept lat="51.780543058062321" lon="-3.804373418275853">
+  <rtept lat="51.780161486337015" lon="-3.806222583551834">
   </rtept>
-  <rtept lat="51.780953949617604" lon="-3.805421906318829">
+  <rtept lat="51.780203576657392" lon="-3.806892076241767">
   </rtept>
-  <rtept lat="51.781013648413392" lon="-3.805568104658016">
+  <rtept lat="51.780136759608538" lon="-3.807565002525675">
   </rtept>
-  <rtept lat="51.781510838398297" lon="-3.80678429043353">
-  </rtept>
-  <rtept lat="51.781602336298732" lon="-3.80708098627152">
+  <rtept lat="51.780849658881905" lon="-3.807397049918062">
   </rtept>
   <rtept lat="51.781655733609021" lon="-3.807667675514635">
   </rtept>
@@ -123,13 +121,17 @@
   </rtept>
   <rtept lat="51.769419688972818" lon="-3.802330961325471">
   </rtept>
-  <rtept lat="51.76958119321057" lon="-3.800353787819284">
+  <rtept lat="51.769147992887682" lon="-3.801872360546913">
   </rtept>
-  <rtept lat="51.769312010814659" lon="-3.796726753327227">
+  <rtept lat="51.769325525821813" lon="-3.800759473026948">
   </rtept>
-  <rtept lat="51.769343314748085" lon="-3.795680473981703">
+  <rtept lat="51.769280152171582" lon="-3.796261550642017">
   </rtept>
-  <rtept lat="51.769084122509874" lon="-3.794448093143095">
+  <rtept lat="51.769343394607617" lon="-3.795796069643213">
+  </rtept>
+  <rtept lat="51.769339626706547" lon="-3.795244319849637">
+  </rtept>
+  <rtept lat="51.769194506500149" lon="-3.794679202133624">
   </rtept>
   <rtept lat="51.768922324655023" lon="-3.794341292346468">
   </rtept>
@@ -159,7 +161,21 @@
   </rtept>
   <rtept lat="51.764340375636912" lon="-3.796242917359141">
   </rtept>
-  <rtept lat="51.765084271505501" lon="-3.794373248610571">
+  <rtept lat="51.764183977208489" lon="-3.796450713955204">
+  </rtept>
+  <rtept lat="51.763988500739146" lon="-3.796592048002649">
+  </rtept>
+  <rtept lat="51.763612894651587" lon="-3.79664166117843">
+  </rtept>
+  <rtept lat="51.762886889943253" lon="-3.796624500508825">
+  </rtept>
+  <rtept lat="51.762598124065661" lon="-3.796566354040186">
+  </rtept>
+  <rtept lat="51.764172122289267" lon="-3.795797995742464">
+  </rtept>
+  <rtept lat="51.765056369115513" lon="-3.794028502830379">
+  </rtept>
+  <rtept lat="51.765201580219674" lon="-3.794003368824174">
   </rtept>
   <rtept lat="51.765305870037885" lon="-3.793928456916555">
   </rtept>

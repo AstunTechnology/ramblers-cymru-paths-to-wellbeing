@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="51.722362377401403" minlon="-3.136768239983016" maxlat="51.760604649863545" maxlon="-3.123188858461919"/></metadata>                  
+<metadata><bounds minlat="51.722362377401403" minlon="-3.136768239983016" maxlat="51.760852142250478" maxlon="-3.123188858461919"/></metadata>                  
 <rte>
   <name>Chwe Chloch i Frig y Cwm</name>
   <desc>Taith gerdded gylchol, heriol sy'n dechrau ym Mharc y Chwe Chloch ac yn mynd i fyny cwm Nant y Groes drwy lwybr serth sy'n cyrraedd brig y bryniau. </desc>
@@ -322,6 +322,8 @@
   <rtept lat="51.759878667437896" lon="-3.126952291879546">
   </rtept>
   <rtept lat="51.760604649863545" lon="-3.126118311152556">
+  </rtept>
+  <rtept lat="51.760852142250478" lon="-3.125427420067474">
   </rtept>
   <rtept lat="51.76024302337585" lon="-3.125978498019751">
   </rtept>

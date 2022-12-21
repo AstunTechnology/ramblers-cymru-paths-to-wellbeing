@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="53.056599807136358" minlon="-3.309103038926984" maxlat="53.074959785056137" maxlon="-3.283761658046549"/></metadata>                  
+<metadata><bounds minlat="53.056599807136358" minlon="-3.309103038926984" maxlat="53.074986235349243" maxlon="-3.283761658046549"/></metadata>                  
 <rte>
   <name>Llanbenwch Link up</name>
   <desc>A new permissive path through Llanbenwch Caravan Park. This short stretch will keep people off the busy and dangerous main road. It will give holiday makers safe access to the footpath network and give local walkers access to the campsite shop and cafe for refreshments.</desc>
@@ -135,9 +135,13 @@
   </rtept>
   <rtept lat="53.074663196259912" lon="-3.293846267359017">
   </rtept>
-  <rtept lat="53.074540573818972" lon="-3.293827750778749">
+  <rtept lat="53.074598034413349" lon="-3.293769426582169">
   </rtept>
-  <rtept lat="53.074937029934837" lon="-3.291212552629732">
+  <rtept lat="53.074350227859519" lon="-3.293717635276114">
+  </rtept>
+  <rtept lat="53.074516656954529" lon="-3.292639467017774">
+  </rtept>
+  <rtept lat="53.074986235349243" lon="-3.290787696113739">
   </rtept>
   <rtept lat="53.074957955492295" lon="-3.289990035091182">
   </rtept>
@@ -147,9 +151,13 @@
   </rtept>
   <rtept lat="53.074106709326777" lon="-3.285149541749556">
   </rtept>
-  <rtept lat="53.074008361211654" lon="-3.285071633874187">
+  <rtept lat="53.073945243784081" lon="-3.284796969590666">
   </rtept>
-  <rtept lat="53.074033037191121" lon="-3.284681601590209">
+  <rtept lat="53.073943143083376" lon="-3.28474677025164">
+  </rtept>
+  <rtept lat="53.073951442688418" lon="-3.284714170775831">
+  </rtept>
+  <rtept lat="53.073966842489348" lon="-3.284692671219308">
   </rtept>
   <rtept lat="53.074094943126717" lon="-3.28468127263505">
   </rtept>

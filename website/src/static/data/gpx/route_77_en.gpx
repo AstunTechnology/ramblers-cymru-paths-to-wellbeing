@@ -2,7 +2,7 @@
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata><bounds minlat="51.521308013581198" minlon="-3.331251634376999" maxlat="51.524312548648368" maxlon="-3.321990326238059"/></metadata>                  
 <rte>
-  <name>Creigiau Disability</name>
+  <name>Frog and Duck Pond</name>
   <desc>Access friendly route within Creigiau that takes in some green spaces, such as the pond.</desc>
   <src>Ramblers</src>
   <number>77</number>
@@ -11,13 +11,9 @@
   </rtept>
   <rtept lat="51.524256776039564" lon="-3.3244754506727">
   </rtept>
-  <rtept lat="51.524255807629856" lon="-3.32408832541731">
+  <rtept lat="51.524256047210727" lon="-3.32414674279698">
   </rtept>
-  <rtept lat="51.524242294923717" lon="-3.323577193567199">
-  </rtept>
-  <rtept lat="51.524251422183234" lon="-3.323577117342984">
-  </rtept>
-  <rtept lat="51.524266164768655" lon="-3.324096880525568">
+  <rtept lat="51.524266595898283" lon="-3.324148838232992">
   </rtept>
   <rtept lat="51.52426555958472" lon="-3.324483068283624">
   </rtept>

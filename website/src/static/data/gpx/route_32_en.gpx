@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="53.079675092613826" minlon="-3.280412557834185" maxlat="53.087808646587447" maxlon="-3.273298383306995"/></metadata>                  
+<metadata><bounds minlat="53.079610002751622" minlon="-3.280412557834185" maxlat="53.087743100759454" maxlon="-3.273298383306995"/></metadata>                  
 <rte>
   <name>Graig Fechan Family Loop</name>
   <desc>A short family friendly loop on flattish terrain from the village of Graig Fechan.</desc>
@@ -25,21 +25,17 @@
   </rtept>
   <rtept lat="53.080196072530299" lon="-3.279196420159225">
   </rtept>
-  <rtept lat="53.079929265439063" lon="-3.27892722264099">
+  <rtept lat="53.079782803629996" lon="-3.278709130589773">
   </rtept>
-  <rtept lat="53.080120944315077" lon="-3.2778132434736">
+  <rtept lat="53.080048629624102" lon="-3.277929432968726">
   </rtept>
-  <rtept lat="53.079844912481818" lon="-3.276312267216692">
+  <rtept lat="53.080093078267602" lon="-3.277575714584672">
   </rtept>
-  <rtept lat="53.079675092613826" lon="-3.275374182093377">
+  <rtept lat="53.079890519342378" lon="-3.276668626604862">
+  </rtept>
+  <rtept lat="53.079610002751622" lon="-3.27555935761661">
   </rtept>
   <rtept lat="53.079751357896008" lon="-3.274894478472382">
-  </rtept>
-  <rtept lat="53.079869083904931" lon="-3.274879092215762">
-  </rtept>
-  <rtept lat="53.079871380716177" lon="-3.274719294999717">
-  </rtept>
-  <rtept lat="53.079870176052381" lon="-3.274486999010428">
   </rtept>
   <rtept lat="53.07987307270507" lon="-3.274319101939276">
   </rtept>
@@ -59,7 +55,7 @@
   </rtept>
   <rtept lat="53.079996660841161" lon="-3.273688813829115">
   </rtept>
-  <rtept lat="53.080046858890427" lon="-3.273575916180957">
+  <rtept lat="53.080007101302606" lon="-3.273659039933108">
   </rtept>
   <rtept lat="53.080188658140955" lon="-3.273672659795264">
   </rtept>
@@ -95,11 +91,11 @@
   </rtept>
   <rtept lat="53.087743100759454" lon="-3.273298383306995">
   </rtept>
-  <rtept lat="53.087799321969939" lon="-3.274345265968492">
+  <rtept lat="53.087715672626977" lon="-3.273762877833579">
   </rtept>
-  <rtept lat="53.087808646587447" lon="-3.275577445092486">
+  <rtept lat="53.087652749114859" lon="-3.275824217064398">
   </rtept>
-  <rtept lat="53.087547570924343" lon="-3.27687622081873">
+  <rtept lat="53.087501866879855" lon="-3.276842870079334">
   </rtept>
   <rtept lat="53.087147202588383" lon="-3.278581388424419">
   </rtept>
