@@ -347,7 +347,12 @@ class PathsToWellbeingMap {
     // and if it's not whether another route is selected.
     let selected = feature === this.selectedRoute;
     let mode = 'normal';
-    if (selected) {
+    if (
+      this.clickRouteUid.includes(feature.get('routeuid')) ||
+      this.hoverRouteUid.includes(feature.get('routeuid'))
+    ) {
+      mode = 'hover';
+    } else if (selected) {
       mode = 'selected';
     } else if (this.selectedRoute) {
       mode = 'muted';
@@ -362,11 +367,8 @@ class PathsToWellbeingMap {
     if (selected) {
       return [start, this.routeOutlineStyle(mode), ...this.routeSelectedStyle, filterStyle];
     }
-    if (
-      this.clickRouteUid.includes(feature.get('routeuid')) ||
-      this.hoverRouteUid.includes(feature.get('routeuid'))
-    ) {
-      return [start, this.routeOutlineStyle(mode), ...this.routeHighlightStyle, filterStyle];
+    if (mode == 'hover') {
+      return [start, this.routeOutlineStyle(mode), this.routeHighlightStyle(mode), filterStyle];
     }
     return [start, this.routeOutlineStyle(mode), filterStyle];
   }
@@ -390,7 +392,7 @@ class PathsToWellbeingMap {
         return new Point(coordinates);
       },
     });
-    if (mode === 'selected') {
+    if (mode === 'hover' || mode === 'selected') {
       style.setZIndex(1);
     }
     return style;
@@ -404,7 +406,7 @@ class PathsToWellbeingMap {
         width: 7,
       }),
     });
-    if (mode === 'selected') {
+    if (mode === 'hover' || mode === 'selected') {
       style.setZIndex(1);
     }
     return style;
@@ -421,7 +423,7 @@ class PathsToWellbeingMap {
         width: 5,
       }),
     });
-    if (mode === 'selected') {
+    if (mode === 'hover' || mode === 'selected') {
       style.setZIndex(1);
     }
     return style;
@@ -429,27 +431,33 @@ class PathsToWellbeingMap {
 
   routeFamilyFriendlyStyle(feature, mode) {
     let opacity = mode === 'muted' ? 0.5 : 1;
-    let color = feature.get('family_friendly') ? '#3c3' : '#33c';
+    let color = `rgba(${
+      feature.get('family_friendly') ? '51,204,51' : '51,51,204'
+    },${opacity})`;
     let style = new Style({
       stroke: new Stroke({
         color: color,
         width: 5,
       }),
     });
-    if (mode === 'selected') {
+    if (mode == 'hover' || mode === 'selected') {
       style.setZIndex(1);
     }
     return style;
   }
 
-  routeHighlightStyle = [
-    new Style({
+  routeHighlightStyle(mode) {
+    let style = new Style({
       stroke: new Stroke({
         color: 'yellow',
         width: 11,
       }),
-    }),
-  ];
+    });
+    if (mode = 'hover' || mode === 'selected') {
+      style.setZIndex(1);
+    }
+    return style;
+  }
 
   routeSelectedStyle = [
     new Style({
