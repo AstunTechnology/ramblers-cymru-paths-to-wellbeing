@@ -166,10 +166,11 @@ class PathsToWellbeingMap {
     this.selectedFilter = "Family-friendly";
     this.map.getView().on('change:resolution', (evt) => {
       const res = evt.target.getResolution();
-      if (res >= DISPLAY_COMMUNITY_UNTIL_RES) {
-        this.showPanel('filter');
+      const mapState = res < DISPLAY_COMMUNITY_UNTIL_RES ? 'route' : 'community';
+      if (mapState === 'community') {
+        this.clearRouteInfo();
       }
-      this.filterPanel.setMapState(res < DISPLAY_COMMUNITY_UNTIL_RES ? 'route' : 'community')
+      this.filterPanel.setMapState(mapState)
     });
   }
 
@@ -191,9 +192,7 @@ class PathsToWellbeingMap {
       },
     });
     this.infoPanel.$on('close', (evt) => {
-      this.selectedRoute = null;
-      this.routeLyr.changed();
-      this.showPanel('filter');
+      this.clearRouteInfo();
     });
     this.panels['info'] = this.infoPanel;
     this.filterPanel = new FilterPanel({
@@ -334,6 +333,12 @@ class PathsToWellbeingMap {
     this.showPanel('info');
     this.map.getView().fit(route.getGeometry(), FIT_OPTIONS);
     this.selectedRoute = route;
+    this.routeLyr.changed();
+  }
+
+  clearRouteInfo() {
+    this.showPanel('filter');
+    this.selectedRoute = null;
     this.routeLyr.changed();
   }
 
