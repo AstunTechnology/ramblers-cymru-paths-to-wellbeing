@@ -386,7 +386,7 @@ class PathsToWellbeingMap {
         return new Point(coordinates);
       },
     });
-    if (mode === 'selected') {
+    if (mode === 'hover' || mode === 'selected') {
       style.setZIndex(1);
     }
     return style;
