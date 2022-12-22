@@ -150,7 +150,7 @@
 .filter-panel form {
   width: 80%;
   background: rgba(231,231,231,1);
-  box-shadow: inset 0px 3px 5px 2px hsla(0, 0%, 0%, 0.10);
+  box-shadow: inset 0px 3px 5px 2px hsla(0, 0%, 0%, 0.075);
   border-radius: 5px;
   border: 1px solid #bdbdbd;
 }
@@ -169,13 +169,15 @@
 .filter-panel input[type=radio] + label {
   font-weight: bold;
   cursor: pointer;
- }
+  color: #999;
+}
 
 .filter-panel input[type=radio]:checked + label {
   background: rgba(249,177,4,1);
   cursor: auto;
   border-radius: 5px;
-  box-shadow: inset 0px -3px 5px 2px hsla(0, 0%, 0%, 0.10);
+  box-shadow: inset 0px -3px 5px 2px hsla(0, 0%, 0%, 0.075);
+  color: rgb(64, 65, 65);
 }
 
 .filter-panel form {
