@@ -434,7 +434,7 @@ class PathsToWellbeingMap {
         width: 5,
       }),
     });
-    if (mode = 'hover' || mode === 'selected') {
+    if (mode == 'hover' || mode === 'selected') {
       style.setZIndex(1);
     }
     return style;
