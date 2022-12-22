@@ -166,6 +166,9 @@ class PathsToWellbeingMap {
     this.selectedFilter = "Family-friendly";
     this.map.getView().on('change:resolution', (evt) => {
       const res = evt.target.getResolution();
+      if (res >= DISPLAY_COMMUNITY_UNTIL_RES) {
+        this.showPanel('filter');
+      }
       this.filterPanel.setMapState(res < DISPLAY_COMMUNITY_UNTIL_RES ? 'route' : 'community')
     });
   }
