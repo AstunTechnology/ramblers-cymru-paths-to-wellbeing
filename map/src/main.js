@@ -445,7 +445,7 @@ class PathsToWellbeingMap {
   routeHighlightStyle(mode) {
     let style = new Style({
       stroke: new Stroke({
-        color: 'yellow',
+        color: 'white',
         width: 11,
       }),
     });
