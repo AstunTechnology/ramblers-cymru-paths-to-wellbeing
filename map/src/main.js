@@ -16,7 +16,7 @@ import { transform as transformCoord, transformExtent } from 'ol/proj';
 
 import Popup from 'ol-popup';
 
-import { difficultyColours } from './config.js';
+import { difficultyColours, difficultyColoursMuted, familyFriendlyColours, familyFriendlyColoursMuted } from './config.js';
 import { Tooltip } from './Tooltip.js';
 import InfoPanel from './InfoPanel.svelte';
 import FilterPanel from './FilterPanel.svelte';
@@ -399,10 +399,10 @@ class PathsToWellbeingMap {
   }
 
   routeOutlineStyle(mode) {
-    let opacity = mode === 'muted' ? 0.5 : 1;
+    let outlineColor = mode === 'muted' ? '#aaa' : 'black';
     let style = new Style({
       stroke: new Stroke({
-        color: 'black',
+        color: outlineColor,
         width: 7,
       }),
     });
@@ -413,10 +413,8 @@ class PathsToWellbeingMap {
   }
 
   routeDifficultyStyle(feature, mode) {
-    let opacity = mode === 'muted' ? 0.5 : 1;
-    let color = `rgba(${
-      difficultyColours[feature.get('difficultyuid')]
-    },${opacity})`;
+    let colors = mode === 'muted' ? difficultyColoursMuted : difficultyColours;
+    let color = `rgb(${colors[feature.get('difficultyuid')]})`;
     let style = new Style({
       stroke: new Stroke({
         color,
@@ -430,13 +428,11 @@ class PathsToWellbeingMap {
   }
 
   routeFamilyFriendlyStyle(feature, mode) {
-    let opacity = mode === 'muted' ? 0.5 : 1;
-    let color = `rgba(${
-      feature.get('family_friendly') ? '51,204,51' : '51,51,204'
-    },${opacity})`;
+    let colors = mode === 'muted' ? familyFriendlyColoursMuted : familyFriendlyColours;
+    let color = `rgb(${colors[feature.get('family_friendly')]})`;
     let style = new Style({
       stroke: new Stroke({
-        color: color,
+        color,
         width: 5,
       }),
     });
@@ -463,7 +459,7 @@ class PathsToWellbeingMap {
     new Style({
       zIndex: 1,
       stroke: new Stroke({
-        color: 'rgba(249,177,41)',
+        color: 'yellow',
         width: 13,
       }),
     }),
