@@ -13,6 +13,7 @@
 
 .app .panel {
   flex: 2;
+  overflow: auto;
 }
 
 .app .map {
@@ -31,6 +32,8 @@
   }
   .app .panel {
     padding-top: 1em;
+    /* Allow content to overflow */
+    overflow: visible;
   }
 }
 

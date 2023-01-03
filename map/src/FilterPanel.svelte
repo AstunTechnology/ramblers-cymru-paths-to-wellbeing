@@ -22,7 +22,7 @@
   }
 </script>
 
-<main class="panel-content filter-panel">
+<div class="panel-content filter-panel">
   <h1>{i18n("Find Routes")}</h1>
   <Gazetteer on:select {lang} {i18n} />
   {#if mapState === "route"}
@@ -96,4 +96,4 @@
       {@html i18n("Select Route Instructions")}
     {/if}
   </fieldset>
-</main>
+</div>

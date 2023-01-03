@@ -85,7 +85,16 @@ a:hover {
 }
 
 #content main {
-  flex: 1 0 auto;
+  flex: auto;
+  overflow: hidden;
+}
+
+@media (orientation: portrait) {
+  /* Allow the page to overflow */
+  #content main {
+    overflow: visible;
+  }
+
 }
 
 #content footer {

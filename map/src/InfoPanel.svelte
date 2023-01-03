@@ -45,7 +45,7 @@
   }
 </script>
 
-<main class="panel-content info-panel">
+<div class="panel-content info-panel">
   <header>
     <h1>{route.get("name")}</h1>
     <button on:click={onCloseClick}
@@ -151,4 +151,4 @@
     class="photo"
     alt={route.get("name")}
   />
-</main>
+</div>
