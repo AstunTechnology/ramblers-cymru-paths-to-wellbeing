@@ -147,7 +147,7 @@
     >
   </div>
   <img
-    src="{staticUrl}photo/route_{route.get('routeuid')}.jpeg"
+    src="{staticUrl}photo/route_{route.get('routeuid')}.jpg"
     class="photo"
     alt={route.get("name")}
   />
