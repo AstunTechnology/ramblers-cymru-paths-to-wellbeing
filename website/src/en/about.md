@@ -43,7 +43,7 @@ Penrhyndeudraeth (Gwynedd)
 <section>
 
 #### Mid Wales  
-Llechryd / Llangoedmor(Ceredigion)  
+Llechryd / Llangoedmor (Ceredigion)  
 Penparcau (Ceredigion)  
 Llanwrthwl and Rhayader (Powys)  
 </section>
