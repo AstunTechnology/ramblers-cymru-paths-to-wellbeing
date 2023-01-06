@@ -1,13 +1,13 @@
-import Overlay from 'ol/Overlay';
+import Overlay from "ol/Overlay";
 
 class Tooltip extends Overlay {
   constructor(opt_options) {
-    const elm = document.createElement('div');
-    elm.classList.add('tooltip', 'tooltipped');
+    const elm = document.createElement("div");
+    elm.classList.add("tooltip", "tooltipped");
 
     const opts = {
       element: elm,
-      positioning: 'center-center',
+      positioning: "center-center",
       stopEvent: false,
     };
     for (key in opt_options) {
@@ -20,22 +20,22 @@ class Tooltip extends Overlay {
     const map = this.getMap();
     const px = map.getPixelFromCoordinate(coord);
     const size = map.getSize();
-    const direction = px[0] < size[0] / 2 ? 'tooltipped-e' : 'tooltipped-w';
-    this.getElement().classList.remove('tooltipped-e', 'tooltipped-w');
+    const direction = px[0] < size[0] / 2 ? "tooltipped-e" : "tooltipped-w";
+    this.getElement().classList.remove("tooltipped-e", "tooltipped-w");
     this.getElement().classList.add(direction);
-    this.getElement().setAttribute('aria-label', text);
+    this.getElement().setAttribute("aria-label", text);
     this.setPosition(coord);
     if (manual) {
-      this.getElement().classList.add('tooltipped-manual');
+      this.getElement().classList.add("tooltipped-manual");
     }
   }
 
   hide() {
-    this.getElement().classList.remove('tooltipped-manual');
+    this.getElement().classList.remove("tooltipped-manual");
   }
 
   manual() {
-    this.getElement().classList.contains('tooltipped-manual');
+    this.getElement().classList.contains("tooltipped-manual");
   }
 }
 

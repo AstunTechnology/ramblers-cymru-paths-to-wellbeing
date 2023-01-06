@@ -21,9 +21,9 @@
   }
 
   $: startCoord = transformCoord(
-      route.getGeometry().getFirstCoordinate(),
-      "EPSG:3857",
-      "EPSG:4326"
+    route.getGeometry().getFirstCoordinate(),
+    "EPSG:3857",
+    "EPSG:4326"
   );
 
   function defaultRoute() {
