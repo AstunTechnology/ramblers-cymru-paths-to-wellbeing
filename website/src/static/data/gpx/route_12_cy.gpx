@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="52.058536221469602" minlon="-4.604308552290121" maxlat="52.065037339649457" maxlon="-4.586056233664905"/></metadata>                  
+<metadata><bounds minlat="52.058536221469602" minlon="-4.604302321864605" maxlat="52.065043860300854" maxlon="-4.586056233664905"/></metadata>                  
 <rte>
   <name>Eglwys Manordeifi</name>
   <src>Ramblers</src>
   <number>12</number>
   <type>Cerdded</type>
-  <rtept lat="52.065037339649457" lon="-4.604308552290121">
+  <rtept lat="52.065043860300854" lon="-4.604302321864605">
   </rtept>
-  <rtept lat="52.065017422607291" lon="-4.604275803262932">
+  <rtept lat="52.064971547072247" lon="-4.604191920774033">
   </rtept>
   <rtept lat="52.064819327524354" lon="-4.603912496440799">
   </rtept>

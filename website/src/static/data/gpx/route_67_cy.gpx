@@ -1,13 +1,15 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="53.275372332835850" minlon="-3.878457785290837" maxlat="53.282924614681768" maxlon="-3.861613349822794"/></metadata>                  
+<metadata><bounds minlat="53.275372620161278" minlon="-3.878457785290837" maxlat="53.282924614681768" maxlon="-3.861613349822794"/></metadata>                  
 <rte>
   <name>Mynydd y Dref</name>
   <desc>Llwybr byr gyda golygfeydd anhygoel o Ddyffryn Conwy, Castell Conwy, y Gogarth Fawr, a mwy. Yn dilyn Llwybr Gogledd Cymru a Llwybr yr Arfordir.</desc>
   <src>Ramblers</src>
   <number>67</number>
   <type>Cerdded</type>
-  <rtept lat="53.27537233283585" lon="-3.876649184717665">
+  <rtept lat="53.275373298909074" lon="-3.87664459198618">
+  </rtept>
+  <rtept lat="53.275372620161278" lon="-3.876648823207511">
   </rtept>
   <rtept lat="53.275402332899404" lon="-3.876657484880909">
   </rtept>
@@ -333,9 +335,9 @@
   </rtept>
   <rtept lat="53.275402337915487" lon="-3.8766485501914">
   </rtept>
-  <rtept lat="53.275373957024549" lon="-3.876640854040454">
+  <rtept lat="53.275374201333825" lon="-3.876639560630788">
   </rtept>
-  <rtept lat="53.27537233283585" lon="-3.876649184717665">
+  <rtept lat="53.275373298909074" lon="-3.87664459198618">
   </rtept>
 </rte>
 </gpx>

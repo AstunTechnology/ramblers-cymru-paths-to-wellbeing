@@ -1,13 +1,15 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="52.255984281582137" minlon="-3.531682506028487" maxlat="52.269925281807659" maxlon="-3.502007441480648"/></metadata>                  
+<metadata><bounds minlat="52.255984281582137" minlon="-3.531682506028487" maxlat="52.269925281807659" maxlon="-3.502007645051471"/></metadata>                  
 <rte>
   <name>Graig Ddu Llanwrthwl</name>
   <desc>Llwybr cylchol sy'n dechrau ac yn gorffen yn Eglwys St Gwrthwl, Llanwrthwl, a chymerir oddeutu 2 awr i'w gwblhau.</desc>
   <src>Ramblers</src>
   <number>23</number>
   <type>Cerdded</type>
-  <rtept lat="52.262347541617757" lon="-3.502007441480648">
+  <rtept lat="52.262351771751369" lon="-3.502010402846584">
+  </rtept>
+  <rtept lat="52.262347949917498" lon="-3.502007645051471">
   </rtept>
   <rtept lat="52.262337609102758" lon="-3.5021370792335">
   </rtept>
@@ -253,7 +255,7 @@
   </rtept>
   <rtept lat="52.262356641155904" lon="-3.50201391989878">
   </rtept>
-  <rtept lat="52.262347541617757" lon="-3.502007441480648">
+  <rtept lat="52.262351771751369" lon="-3.502010402846584">
   </rtept>
 </rte>
 </gpx>

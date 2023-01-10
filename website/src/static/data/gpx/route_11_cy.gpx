@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="52.061526589749114" minlon="-4.604315122449141" maxlat="52.078785470390557" maxlon="-4.571042504656241"/></metadata>                  
+<metadata><bounds minlat="52.061526589749114" minlon="-4.604302321864605" maxlat="52.078785470390557" maxlon="-4.571042504656241"/></metadata>                  
 <rte>
   <name>Llwybr Penrallteifed</name>
   <desc>Llwybr cylchol sy'n dechrau ac yn gorffen yn Neuadd Cwrwgl, Llechryd, a chymerir oddeutu 2 awr a hanner i'w gwblhau.</desc>
   <src>Ramblers</src>
   <number>11</number>
   <type>Cerdded</type>
-  <rtept lat="52.065035495768427" lon="-4.604315122449141">
+  <rtept lat="52.065043860300854" lon="-4.604302321864605">
   </rtept>
   <rtept lat="52.06579167044184" lon="-4.602679981772843">
   </rtept>
@@ -507,9 +507,9 @@
   </rtept>
   <rtept lat="52.064962415317616" lon="-4.604175570841452">
   </rtept>
-  <rtept lat="52.065017422607291" lon="-4.604275803262932">
+  <rtept lat="52.065019650185128" lon="-4.60427109683941">
   </rtept>
-  <rtept lat="52.065035495768427" lon="-4.604315122449141">
+  <rtept lat="52.065043860300854" lon="-4.604302321864605">
   </rtept>
 </rte>
 </gpx>

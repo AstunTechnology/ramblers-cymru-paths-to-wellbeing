@@ -1,41 +1,15 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="53.279830376330786" minlon="-4.638801342211033" maxlat="53.307269780653741" maxlon="-4.607698511737820"/></metadata>                  
+<metadata><bounds minlat="53.279830376330786" minlon="-4.638801342211033" maxlat="53.306213884608312" maxlon="-4.607698511737820"/></metadata>                  
 <rte>
   <name>Bae Trearddur</name>
   <desc>Llwybr cylchol yn cysylltu Bae Trearddur a Chaergybi. Yn cynnwys golygfeydd arfordirol godidog a llwybrau cefn gwlad tawel, ynghyd â siambr gladdu neolithig a maen hir.</desc>
   <src>Ramblers</src>
   <number>60</number>
   <type>Cerdded</type>
-  <rtept lat="53.305603211115063" lon="-4.631981705331969">
+  <rtept lat="53.306213856021941" lon="-4.632092985433623">
   </rtept>
-  <rtept lat="53.305798983548101" lon="-4.632007915743233">
-  </rtept>
-  <rtept lat="53.306214232106882" lon="-4.632081035779592">
-  </rtept>
-  <rtept lat="53.306205378074182" lon="-4.631936414320776">
-  </rtept>
-  <rtept lat="53.306234907051106" lon="-4.631809068920508">
-  </rtept>
-  <rtept lat="53.306262374059983" lon="-4.631619204269616">
-  </rtept>
-  <rtept lat="53.306299017022575" lon="-4.630969077109806">
-  </rtept>
-  <rtept lat="53.307269780653741" lon="-4.631202572632175">
-  </rtept>
-  <rtept lat="53.307269007564159" lon="-4.63121192328153">
-  </rtept>
-  <rtept lat="53.30630770682157" lon="-4.630982010110087">
-  </rtept>
-  <rtept lat="53.306280708810583" lon="-4.631459411795507">
-  </rtept>
-  <rtept lat="53.306269409479647" lon="-4.631619912332796">
-  </rtept>
-  <rtept lat="53.306242410289308" lon="-4.63181351280913">
-  </rtept>
-  <rtept lat="53.306214710823149" lon="-4.631940712993568">
-  </rtept>
-  <rtept lat="53.306223111465549" lon="-4.632095813758085">
+  <rtept lat="53.306213542904047" lon="-4.632099214499768">
   </rtept>
   <rtept lat="53.305798211226616" lon="-4.6320180079816">
   </rtept>
@@ -739,7 +713,13 @@
   </rtept>
   <rtept lat="53.30533061037918" lon="-4.631790301057404">
   </rtept>
-  <rtept lat="53.305603211115063" lon="-4.631981705331969">
+  <rtept lat="53.305605685569788" lon="-4.631983388955762">
+  </rtept>
+  <rtept lat="53.305799557780801" lon="-4.632003706796104">
+  </rtept>
+  <rtept lat="53.306213884608312" lon="-4.632085704256951">
+  </rtept>
+  <rtept lat="53.306213856021941" lon="-4.632092985433623">
   </rtept>
 </rte>
 </gpx>

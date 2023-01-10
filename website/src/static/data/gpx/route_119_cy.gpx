@@ -1,19 +1,17 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="51.721285502632988" minlon="-3.161101883378443" maxlat="51.772222454119017" maxlon="-3.124350389362698"/></metadata>                  
+<metadata><bounds minlat="51.721285502632988" minlon="-3.161101883378443" maxlat="51.772222454119017" maxlon="-3.125395437611756"/></metadata>                  
 <rte>
   <name>Llwybr Chwe Chloch i Flaenau</name>
   <desc>Llwybr cylchol, hir o ganol Abertyleri, gan ddilyn llwybr Ebwy Fach ar hyd yr afon tuag at Blaenau. </desc>
   <src>Ramblers</src>
   <number>119</number>
   <type>Cerdded</type>
-  <rtept lat="51.722362377401403" lon="-3.124357493487143">
+  <rtept lat="51.722783012042711" lon="-3.125395528020492">
   </rtept>
-  <rtept lat="51.722717567245581" lon="-3.125046977199923">
+  <rtept lat="51.722777558352455" lon="-3.125395437611756">
   </rtept>
-  <rtept lat="51.722771265625113" lon="-3.125190274190893">
-  </rtept>
-  <rtept lat="51.722794164325776" lon="-3.125641467870449">
+  <rtept lat="51.722791703326976" lon="-3.125641609699001">
   </rtept>
   <rtept lat="51.72276166495741" lon="-3.125789466690173">
   </rtept>
@@ -775,15 +773,11 @@
   </rtept>
   <rtept lat="51.722770342129117" lon="-3.125791920394318">
   </rtept>
-  <rtept lat="51.722803823616509" lon="-3.125635490021433">
+  <rtept lat="51.722800662618795" lon="-3.125640751332864">
   </rtept>
-  <rtept lat="51.722779959627907" lon="-3.125190967436006">
+  <rtept lat="51.72278891404256" lon="-3.125395539486208">
   </rtept>
-  <rtept lat="51.72272192495447" lon="-3.125032375421285">
-  </rtept>
-  <rtept lat="51.722367088965569" lon="-3.124350389362698">
-  </rtept>
-  <rtept lat="51.722362377401403" lon="-3.124357493487143">
+  <rtept lat="51.722783012042711" lon="-3.125395528020492">
   </rtept>
 </rte>
 </gpx>

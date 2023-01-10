@@ -1,13 +1,15 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="52.278299181570752" minlon="-3.538987434484969" maxlat="52.300464051021663" maxlon="-3.510384978614918"/></metadata>                  
+<metadata><bounds minlat="52.278299181570752" minlon="-3.538987434484969" maxlat="52.300464814694713" maxlon="-3.510381503939961"/></metadata>                  
 <rte>
   <name>Glyn Bridge Loop</name>
   <desc>A circular family friendly route that starts and finishes at Rhayader Clock Tower, taking approx. 2 and half hours to walk. The route navigates gentle contours through farmsteads passing Glyn bridge where you can cross the River Wye to pick up other routes.</desc>
   <src>Ramblers</src>
   <number>19</number>
   <type>Walking</type>
-  <rtept lat="52.300456953002161" lon="-3.510384978614918">
+  <rtept lat="52.300460223876883" lon="-3.510386894746485">
+  </rtept>
+  <rtept lat="52.300457056326103" lon="-3.510381503939961">
   </rtept>
   <rtept lat="52.299948628215041" lon="-3.511513278253665">
   </rtept>
@@ -651,9 +653,9 @@
   </rtept>
   <rtept lat="52.299958084669314" lon="-3.51153265456009">
   </rtept>
-  <rtept lat="52.300464051021663" lon="-3.510399888568905">
+  <rtept lat="52.300464814694713" lon="-3.510395837466418">
   </rtept>
-  <rtept lat="52.300456953002161" lon="-3.510384978614918">
+  <rtept lat="52.300460223876883" lon="-3.510386894746485">
   </rtept>
 </rte>
 </gpx>

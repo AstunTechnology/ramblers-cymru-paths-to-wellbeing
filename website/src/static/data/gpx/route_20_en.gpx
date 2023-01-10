@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="52.299943623770837" minlon="-3.470034511122354" maxlat="52.308583078807175" maxlon="-3.446922150811308"/></metadata>                  
+<metadata><bounds minlat="52.299943623770837" minlon="-3.470033813035611" maxlat="52.308583078807175" maxlon="-3.446922150811308"/></metadata>                  
 <rte>
   <name>Castle Hill Loop</name>
   <desc>A circular family friendly route that starts and finishes at Gaulfron, taking approx. 1 and a half hours to walk.</desc>
   <src>Ramblers</src>
   <number>20</number>
   <type>Walking</type>
-  <rtept lat="52.302510866537325" lon="-3.470034511122354">
+  <rtept lat="52.302508454972518" lon="-3.47002953428034">
   </rtept>
   <rtept lat="52.302505238862636" lon="-3.470022743915403">
   </rtept>
@@ -103,7 +103,9 @@
   </rtept>
   <rtept lat="52.302997831496157" lon="-3.469381960169077">
   </rtept>
-  <rtept lat="52.302510866537325" lon="-3.470034511122354">
+  <rtept lat="52.302510715835595" lon="-3.470033813035611">
+  </rtept>
+  <rtept lat="52.302508454972518" lon="-3.47002953428034">
   </rtept>
 </rte>
 </gpx>

@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="52.065043546052223" minlon="-4.607647237532666" maxlat="52.070398859040907" maxlon="-4.597380653199258"/></metadata>                  
+<metadata><bounds minlat="52.065043860300854" minlon="-4.607647237532666" maxlat="52.070398859040907" maxlon="-4.597380653199258"/></metadata>                  
 <rte>
   <name>Short Circular</name>
   <desc>A circular route for family that starts and finishes at Coracle Hall Llechryd, taking approx half hour to walk. The route currently has an opening onto a main road so should be walked in an clockwise direction.</desc>
   <src>Ramblers</src>
   <number>3</number>
   <type>Walking</type>
-  <rtept lat="52.065043546052223" lon="-4.60432635193274">
+  <rtept lat="52.065043860300854" lon="-4.604302321864605">
   </rtept>
   <rtept lat="52.065115720266888" lon="-4.604437706564322">
   </rtept>
@@ -145,7 +145,7 @@
   </rtept>
   <rtept lat="52.065307324545223" lon="-4.603738093952445">
   </rtept>
-  <rtept lat="52.065043546052223" lon="-4.60432635193274">
+  <rtept lat="52.065043860300854" lon="-4.604302321864605">
   </rtept>
 </rte>
 </gpx>

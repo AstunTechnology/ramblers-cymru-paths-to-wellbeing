@@ -1,12 +1,56 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="52.929076658100087" minlon="-4.061573865773240" maxlat="52.939352153218479" maxlon="-4.039103604865891"/></metadata>                  
+<metadata><bounds minlat="52.928930474320552" minlon="-4.068261909518137" maxlat="52.939352153218479" maxlon="-4.039103604865891"/></metadata>                  
 <rte>
   <name>Slate Quay</name>
   <desc>Route from Penrhyndeudraeth to the historic slate quay site at Tyddyn Isaf. </desc>
   <src>Ramblers</src>
   <number>70</number>
   <type>Walking</type>
+  <rtept lat="52.931627856849047" lon="-4.068048227347829">
+  </rtept>
+  <rtept lat="52.931629395830953" lon="-4.068051710149034">
+  </rtept>
+  <rtept lat="52.931412096646397" lon="-4.068261909518137">
+  </rtept>
+  <rtept lat="52.931221195471885" lon="-4.068115407971337">
+  </rtept>
+  <rtept lat="52.931151695043326" lon="-4.068062007407513">
+  </rtept>
+  <rtept lat="52.931096694734052" lon="-4.06802500697697">
+  </rtept>
+  <rtept lat="52.930703492704325" lon="-4.067786103862184">
+  </rtept>
+  <rtept lat="52.930562691956091" lon="-4.067691002623539">
+  </rtept>
+  <rtept lat="52.929971085922311" lon="-4.066729394858517">
+  </rtept>
+  <rtept lat="52.929930585502809" lon="-4.066661594312544">
+  </rtept>
+  <rtept lat="52.929871284889835" lon="-4.06656239351214">
+  </rtept>
+  <rtept lat="52.929794184022434" lon="-4.066419492406323">
+  </rtept>
+  <rtept lat="52.929741383348784" lon="-4.066305991576682">
+  </rtept>
+  <rtept lat="52.929584581609475" lon="-4.06601838932799">
+  </rtept>
+  <rtept lat="52.929544580751376" lon="-4.065864288385515">
+  </rtept>
+  <rtept lat="52.928995175628415" lon="-4.065032181205972">
+  </rtept>
+  <rtept lat="52.928949074949706" lon="-4.064912780368728">
+  </rtept>
+  <rtept lat="52.928930474320552" lon="-4.064794779707417">
+  </rtept>
+  <rtept lat="52.928950672868481" lon="-4.064503778487251">
+  </rtept>
+  <rtept lat="52.929160060711247" lon="-4.062064968585437">
+  </rtept>
+  <rtept lat="52.929160060025914" lon="-4.061930867968888">
+  </rtept>
+  <rtept lat="52.929142259359466" lon="-4.061804767271368">
+  </rtept>
   <rtept lat="52.929076658100087" lon="-4.06157386577324">
   </rtept>
   <rtept lat="52.92926125621085" lon="-4.061160965107064">

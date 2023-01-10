@@ -1,19 +1,17 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="51.722362377401403" minlon="-3.136768239983016" maxlat="51.760852142250478" maxlon="-3.123188858461919"/></metadata>                  
+<metadata><bounds minlat="51.722377571793764" minlon="-3.136768239983016" maxlat="51.760852142250478" maxlon="-3.123188858461919"/></metadata>                  
 <rte>
   <name>Six Bells to Top of The Valley</name>
   <desc>A challenging circular that starts at Six Bells Park and moves up into the Nant y Groes valley by a steep path onto the tops of the hills. </desc>
   <src>Ramblers</src>
   <number>118</number>
   <type>Walking</type>
-  <rtept lat="51.722362377401403" lon="-3.124357493487143">
+  <rtept lat="51.722783012042711" lon="-3.125395528020492">
   </rtept>
-  <rtept lat="51.722717567245581" lon="-3.125046977199923">
+  <rtept lat="51.722778110064091" lon="-3.12539537440471">
   </rtept>
-  <rtept lat="51.722771265625113" lon="-3.125190274190893">
-  </rtept>
-  <rtept lat="51.722794164325776" lon="-3.125641467870449">
+  <rtept lat="51.722791893254126" lon="-3.125638693225298">
   </rtept>
   <rtept lat="51.72276166495741" lon="-3.125789466690173">
   </rtept>
@@ -603,15 +601,11 @@
   </rtept>
   <rtept lat="51.722770685305385" lon="-3.125793424514679">
   </rtept>
-  <rtept lat="51.722805774883959" lon="-3.125634350105434">
+  <rtept lat="51.7228030804946" lon="-3.125643423034664">
   </rtept>
-  <rtept lat="51.722781297689096" lon="-3.125192015893987">
+  <rtept lat="51.722789384477686" lon="-3.125395515293086">
   </rtept>
-  <rtept lat="51.722726120418884" lon="-3.125037884925847">
-  </rtept>
-  <rtept lat="51.722369234194133" lon="-3.124347697554895">
-  </rtept>
-  <rtept lat="51.722362377401403" lon="-3.124357493487143">
+  <rtept lat="51.722783012042711" lon="-3.125395528020492">
   </rtept>
 </rte>
 </gpx>

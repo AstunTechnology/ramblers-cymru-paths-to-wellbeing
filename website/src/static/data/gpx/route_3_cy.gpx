@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="52.065043546052223" minlon="-4.607647237532666" maxlat="52.070398859040907" maxlon="-4.597380653199258"/></metadata>                  
+<metadata><bounds minlat="52.065043860300854" minlon="-4.607647237532666" maxlat="52.070398859040907" maxlon="-4.597380653199258"/></metadata>                  
 <rte>
   <name>Llwybr Byr</name>
   <desc>Llwybr cylchol i'r teulu sy'n dechrau ac yn gorffen yn Neuadd Cwrwgl Llechryd, sy'n cymryd oddeutu hanner awr i'w gwblhau. Ar hyn o bryd, mae'r llwybr yn agor i'r brif ffordd felly dylid ei gerdded yn glocwedd..</desc>
   <src>Ramblers</src>
   <number>3</number>
   <type>Cerdded</type>
-  <rtept lat="52.065043546052223" lon="-4.60432635193274">
+  <rtept lat="52.065043860300854" lon="-4.604302321864605">
   </rtept>
   <rtept lat="52.065115720266888" lon="-4.604437706564322">
   </rtept>
@@ -145,7 +145,7 @@
   </rtept>
   <rtept lat="52.065307324545223" lon="-4.603738093952445">
   </rtept>
-  <rtept lat="52.065043546052223" lon="-4.60432635193274">
+  <rtept lat="52.065043860300854" lon="-4.604302321864605">
   </rtept>
 </rte>
 </gpx>

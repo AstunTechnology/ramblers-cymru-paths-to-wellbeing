@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="53.079920722692471" minlon="-3.274366203024165" maxlat="53.098621690239334" maxlon="-3.261090919934985"/></metadata>                  
+<metadata><bounds minlat="53.079920722692471" minlon="-3.274361717879794" maxlat="53.098621690239334" maxlon="-3.261090919934985"/></metadata>                  
 <rte>
   <name>Yng Nghysgod Moel y Plas</name>
   <desc>Llwybr o dafarn y Three Pigeons yng Nghraig Fechan tua’r gogledd trwy warchodfa natur Graig Wyllt ac i lethrau is Bryniau Clwyd cyn dychwelyd ar lwybr sydd ychydig yn uwch. Mae yna olygfeydd gwych ar draws y dyffryn ar y llwybr hwn.</desc>
   <src>Ramblers</src>
   <number>44</number>
   <type>Cerdded</type>
-  <rtept lat="53.08067311908367" lon="-3.274366203024165">
+  <rtept lat="53.080674916101415" lon="-3.274354043887609">
   </rtept>
   <rtept lat="53.080677624000536" lon="-3.274340942635629">
   </rtept>
@@ -345,7 +345,9 @@
   </rtept>
   <rtept lat="53.079920722692471" lon="-3.274062414731534">
   </rtept>
-  <rtept lat="53.08067311908367" lon="-3.274366203024165">
+  <rtept lat="53.080673337974005" lon="-3.274361717879794">
+  </rtept>
+  <rtept lat="53.080674916101415" lon="-3.274354043887609">
   </rtept>
 </rte>
 </gpx>

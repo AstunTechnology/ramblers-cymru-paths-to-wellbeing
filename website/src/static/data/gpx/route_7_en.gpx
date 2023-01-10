@@ -1,17 +1,13 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="52.259681594612708" minlon="-3.507377581016899" maxlat="52.263099315806024" maxlon="-3.501718223446332"/></metadata>                  
+<metadata><bounds minlat="52.259681594612708" minlon="-3.507377581016899" maxlat="52.263099315806024" maxlon="-3.501721105636582"/></metadata>                  
 <rte>
   <name>Llanwrthwl Loop</name>
   <desc>A family friendly circular route that starts and finishes at St Gwrthwl’s Church, Llanwrthwl, taking approx. 20 mins to walk. Mainly on the flat encompassing the village of Llanwrthwl being suitable for the youngest and oldest walker.</desc>
   <src>Ramblers</src>
   <number>7</number>
   <type>Walking</type>
-  <rtept lat="52.261984326708898" lon="-3.501718223446332">
-  </rtept>
-  <rtept lat="52.26210594310384" lon="-3.501816890849812">
-  </rtept>
-  <rtept lat="52.262348936938558" lon="-3.502009189443691">
+  <rtept lat="52.262351771751369" lon="-3.502010402846584">
   </rtept>
   <rtept lat="52.26233873703103" lon="-3.50213858914739">
   </rtept>
@@ -99,7 +95,11 @@
   </rtept>
   <rtept lat="52.261935573698743" lon="-3.501884986448617">
   </rtept>
-  <rtept lat="52.261984326708898" lon="-3.501718223446332">
+  <rtept lat="52.261982102209558" lon="-3.501721105636582">
+  </rtept>
+  <rtept lat="52.262107088639034" lon="-3.501818587574781">
+  </rtept>
+  <rtept lat="52.262351771751369" lon="-3.502010402846584">
   </rtept>
 </rte>
 </gpx>

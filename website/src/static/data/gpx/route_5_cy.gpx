@@ -1,13 +1,15 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="52.400595351842249" minlon="-4.075008674253989" maxlat="52.419936831507307" maxlon="-4.045993657695279"/></metadata>                  
+<metadata><bounds minlat="52.400591064003073" minlon="-4.075008674253989" maxlat="52.419936831507307" maxlon="-4.045993657695279"/></metadata>                  
 <rte>
   <name>Llwybr y Waun Fawr</name>
   <desc>Llwybr cylchol yn groes i'r cloc sy'n dechrau ac yn gorffen yn Hwb Penparcau, a chymerir oddeutu 2 awr a hanner i'w gwblhau. Mae hwn yn llwybr trefol sy'n dringo o Penparcau i fyny'n raddol at frig Waun Fawr.</desc>
   <src>Ramblers</src>
   <number>5</number>
   <type>Cerdded</type>
-  <rtept lat="52.400606228488272" lon="-4.071199228529202">
+  <rtept lat="52.400592866532499" lon="-4.07123661849149">
+  </rtept>
+  <rtept lat="52.400595429306918" lon="-4.071238130167966">
   </rtept>
   <rtept lat="52.400812984202624" lon="-4.070445293652423">
   </rtept>
@@ -599,9 +601,9 @@
   </rtept>
   <rtept lat="52.400806876879884" lon="-4.070442473651558">
   </rtept>
-  <rtept lat="52.400597783211509" lon="-4.071191165946662">
+  <rtept lat="52.400591064003073" lon="-4.071235325151129">
   </rtept>
-  <rtept lat="52.400606228488272" lon="-4.071199228529202">
+  <rtept lat="52.400592866532499" lon="-4.07123661849149">
   </rtept>
 </rte>
 </gpx>

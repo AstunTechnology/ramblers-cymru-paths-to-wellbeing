@@ -1,13 +1,15 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="52.063149130529219" minlon="-4.604315666677117" maxlat="52.082315902513798" maxlon="-4.579462456916556"/></metadata>                  
+<metadata><bounds minlat="52.063149130529219" minlon="-4.604307058067315" maxlat="52.082315902513798" maxlon="-4.579462456916556"/></metadata>                  
 <rte>
   <name>Llwybr Dwyrain y Neuadd</name>
   <desc>Llwybr cylchol sy'n dechrau ac yn gorffen yn Neuadd Cwrwgl, Llechryd, a chymerir oddeutu 2 awr i'w gwblhau.</desc>
   <src>Ramblers</src>
   <number>14</number>
   <type>Cerdded</type>
-  <rtept lat="52.065039245401088" lon="-4.604311628326384">
+  <rtept lat="52.065043860300854" lon="-4.604302321864605">
+  </rtept>
+  <rtept lat="52.065041190599331" lon="-4.604297985495101">
   </rtept>
   <rtept lat="52.065780419913658" lon="-4.602668917698465">
   </rtept>
@@ -551,9 +553,9 @@
   </rtept>
   <rtept lat="52.065783858594074" lon="-4.602673646254519">
   </rtept>
-  <rtept lat="52.065042205906337" lon="-4.604315666677117">
+  <rtept lat="52.06504662149738" lon="-4.604307058067315">
   </rtept>
-  <rtept lat="52.065039245401088" lon="-4.604311628326384">
+  <rtept lat="52.065043860300854" lon="-4.604302321864605">
   </rtept>
 </rte>
 </gpx>
