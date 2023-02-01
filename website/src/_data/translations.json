@@ -146,5 +146,13 @@
     "zoom_out": {
         "cy": "Chwyddo allan",
         "en": "Zoom out"
+    },
+    "zoom_to": {
+        "cy": "Zoom to ",
+        "en": "Zoom to "
+    },
+    "routes": {
+        "cy": " llwybrau",
+        "en": " routes"
     }
 }

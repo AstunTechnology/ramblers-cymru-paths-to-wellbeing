@@ -284,7 +284,7 @@ class PathsToWellbeingMap {
         this.hovering = true;
         this.tooltip.show(
           evt.coordinate,
-          `Zoom to ${feature.get("name")} routes`
+          this.i18n("zoom_to") + feature.get("name") + this.i18n("routes")
         );
         return true;
       }
