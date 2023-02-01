@@ -77,7 +77,7 @@
     </tr>
     <tr>
       <th>{i18n("Shape")}:</th><td>{route.get("shape")}</td>
-      <th /><td />
+      <th>{i18n("average_walk_time")}:</th><td>{route.get("avg_walk_time")}</td>
     </tr>
   </table>
   <p>{route.get("routesummary")}</p>
