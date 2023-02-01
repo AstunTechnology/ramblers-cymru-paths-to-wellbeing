@@ -172,10 +172,15 @@
   padding: 1em;
 }
 
-.info-panel header {
+.info-panel header div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.info-panel header p {
+  margin: 0;
+  color: #999;
 }
 
 .info-panel header h1 {
