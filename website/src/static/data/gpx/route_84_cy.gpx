@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
-<metadata><bounds minlat="51.521444791372971" minlon="-3.570331688822532" maxlat="51.533296503868854" maxlon="-3.546049114637186"/></metadata>                  
+<metadata><bounds minlat="51.521444791372971" minlon="-3.571130455464258" maxlat="51.533296503868854" maxlon="-3.546049114637186"/></metadata>                  
 <rte>
   <name>Llwybr Cylchol Parc Derwen</name>
   <desc>Mae'r llwybr hwn yn cynnig cyfuniad o amgylcheddau, gan gynnwys stad newydd Parc Derwen, Castell Coety, llwybr coediog a chan fynd o gwmpas Carchar Parc ar y llwybr du newydd.</desc>
@@ -67,25 +67,13 @@
   </rtept>
   <rtept lat="51.529231079035057" lon="-3.548624025314479">
   </rtept>
-  <rtept lat="51.530049330401845" lon="-3.548616051362023">
+  <rtept lat="51.529931230000294" lon="-3.548596740657866">
   </rtept>
   <rtept lat="51.530081612040689" lon="-3.547835173760968">
   </rtept>
-  <rtept lat="51.530102917878992" lon="-3.547788446408117">
+  <rtept lat="51.530100555648609" lon="-3.547548631475928">
   </rtept>
-  <rtept lat="51.530201098131322" lon="-3.547537185204581">
-  </rtept>
-  <rtept lat="51.530337896949931" lon="-3.547842981469461">
-  </rtept>
-  <rtept lat="51.530461397473424" lon="-3.548213074884913">
-  </rtept>
-  <rtept lat="51.530664999485566" lon="-3.548867562992732">
-  </rtept>
-  <rtept lat="51.530655008271303" lon="-3.549237653139425">
-  </rtept>
-  <rtept lat="51.531129173133586" lon="-3.548901376859655">
-  </rtept>
-  <rtept lat="51.53114823215499" lon="-3.548941537031572">
+  <rtept lat="51.531276721357436" lon="-3.548851696958464">
   </rtept>
   <rtept lat="51.53131236283452" lon="-3.5489372810498">
   </rtept>
@@ -227,15 +215,35 @@
   </rtept>
   <rtept lat="51.529533135521881" lon="-3.570331688822532">
   </rtept>
-  <rtept lat="51.529347337405966" lon="-3.569710486848746">
+  <rtept lat="51.52899396381531" lon="-3.570881449193831">
   </rtept>
-  <rtept lat="51.52916474124401" lon="-3.56919638406245">
+  <rtept lat="51.52874223981982" lon="-3.571130455464258">
   </rtept>
-  <rtept lat="51.527889183854732" lon="-3.568105306553662">
+  <rtept lat="51.528272718553715" lon="-3.570480580641386">
   </rtept>
-  <rtept lat="51.526722625226697" lon="-3.567445262133086">
+  <rtept lat="51.527828331190157" lon="-3.569780168607909">
   </rtept>
-  <rtept lat="51.526614807469912" lon="-3.567365108905842">
+  <rtept lat="51.527732945539562" lon="-3.569592217303149">
+  </rtept>
+  <rtept lat="51.527607539199167" lon="-3.569441226925696">
+  </rtept>
+  <rtept lat="51.527433185627615" lon="-3.569348034121214">
+  </rtept>
+  <rtept lat="51.527273631650068" lon="-3.569310159702905">
+  </rtept>
+  <rtept lat="51.527032574371155" lon="-3.569324291023889">
+  </rtept>
+  <rtept lat="51.526900351310118" lon="-3.569363341139121">
+  </rtept>
+  <rtept lat="51.526856114426373" lon="-3.569301406154709">
+  </rtept>
+  <rtept lat="51.526759365257199" lon="-3.568953971352045">
+  </rtept>
+  <rtept lat="51.526641877962192" lon="-3.568356075385255">
+  </rtept>
+  <rtept lat="51.526658501825054" lon="-3.567722929853161">
+  </rtept>
+  <rtept lat="51.526626279762489" lon="-3.567546811219648">
   </rtept>
   <rtept lat="51.526576830755367" lon="-3.567427953139076">
   </rtept>

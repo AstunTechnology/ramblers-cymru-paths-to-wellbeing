@@ -2,7 +2,7 @@
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata><bounds minlat="53.080041848264663" minlon="-3.119481000672111" maxlat="53.103820823526100" maxlon="-3.077613881024041"/></metadata>                  
 <rte>
-  <name>Pen Llan y Gwr</name>
+  <name>Pen Llan y-gwr</name>
   <desc>Llwybr sy’n dechrau ym Maes Offa, Llanfynydd ac yn dringo’n raddol i gyrraedd y piler triongli uwchben coedwig Nant y Ffrith. Yn dychwelyd ymhellach i’r gogledd i wneud llwybr cylchol tua 12km o hyd.</desc>
   <src>Ramblers</src>
   <number>41</number>
