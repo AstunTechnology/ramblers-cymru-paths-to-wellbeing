@@ -398,7 +398,7 @@ class PathsToWellbeingMap {
       return [
         start,
         this.routeOutlineStyle(mode),
-        ...this.routeSelectedStyle,
+        this.routeSelectedStyle,
         filterStyle,
       ];
     }
@@ -432,7 +432,9 @@ class PathsToWellbeingMap {
         return new Point(coordinates);
       },
     });
-    if (mode === "hover" || mode === "selected") {
+    if (mode === "hover") {
+      style.setZIndex(2);
+    } else if (mode === "selected") {
       style.setZIndex(1);
     }
     return style;
@@ -446,7 +448,9 @@ class PathsToWellbeingMap {
         width: 7,
       }),
     });
-    if (mode === "hover" || mode === "selected") {
+    if (mode === "hover") {
+      style.setZIndex(2);
+    } else if (mode === "selected") {
       style.setZIndex(1);
     }
     return style;
@@ -461,7 +465,9 @@ class PathsToWellbeingMap {
         width: 5,
       }),
     });
-    if (mode === "hover" || mode === "selected") {
+    if (mode === "hover") {
+      style.setZIndex(2);
+    } else if (mode === "selected") {
       style.setZIndex(1);
     }
     return style;
@@ -477,7 +483,9 @@ class PathsToWellbeingMap {
         width: 5,
       }),
     });
-    if (mode === "hover" || mode === "selected") {
+    if (mode === "hover") {
+      style.setZIndex(2);
+    } else if (mode === "selected") {
       style.setZIndex(1);
     }
     return style;
@@ -490,21 +498,21 @@ class PathsToWellbeingMap {
         width: 11,
       }),
     });
-    if (mode === "hover" || mode === "selected") {
+    if (mode === "hover") {
+      style.setZIndex(2);
+    } else if (mode === "selected") {
       style.setZIndex(1);
     }
     return style;
   }
 
-  routeSelectedStyle = [
-    new Style({
-      zIndex: 1,
-      stroke: new Stroke({
-        color: "yellow",
-        width: 13,
-      }),
+  routeSelectedStyle = new Style({
+    zIndex: 1,
+    stroke: new Stroke({
+      color: "yellow",
+      width: 13,
     }),
-  ];
+  });
 
   getRouteByRouteUid(routeuid) {
     return this.routeLyr

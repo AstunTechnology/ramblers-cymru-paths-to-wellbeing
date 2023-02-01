@@ -35,7 +35,7 @@
           id="familyFriendly"
           value="Family-friendly"
           on:change={changeFilter}
-          checked="true"
+          checked={selectedFilter === "Family-friendly"}
         />
         <label for="familyFriendly">{i18n("familyfriendly_true")}</label>
         <input
@@ -44,6 +44,7 @@
           id="routeDifficulty"
           value="Route difficulty"
           on:change={changeFilter}
+          checked={selectedFilter === "Route difficulty"}
         />
         <label for="routeDifficulty">{i18n("Difficulty")}</label>
       </form>
