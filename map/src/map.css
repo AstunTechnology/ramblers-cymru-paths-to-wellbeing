@@ -178,7 +178,7 @@
     justify-content: space-between;
 }
 
-.info-panel header p {
+.info-panel header p:first-child {
   margin: 0;
   color: #999;
 }

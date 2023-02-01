@@ -14,6 +14,7 @@
 
   export function setRoute(route_) {
     if (route_) {
+      console.log(route_);
       route = route_;
     } else {
       route = defaultRoute();
@@ -61,6 +62,10 @@
           /></svg
         ></button
       ></div>
+      <ul>
+        <li>{route.get("tagline")}</li>
+        <li>{route.get("paths")}</li>
+      </ul>
   </header>
   <table class="stats">
     <tr>
