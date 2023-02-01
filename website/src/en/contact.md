@@ -5,7 +5,7 @@ title: Contact Us
 
 # {{ title }}
 
-<img class="photo float-right" src="/static/img/Heart_13.jpg" alt="Hands in shape of heart" />
+<img class="photo float-right" src="/static/img/Contact_Header.jpg" alt="Hands in shape of heart" />
 
 The best way to contact the team is via email: <a href="mailto:pathtowellbeing@ramblers.org.uk">PathstoWellbeing@ramblers.org.uk</a>.
 

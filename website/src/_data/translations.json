@@ -16,7 +16,7 @@
         "en": "Contact"
     },
     "Difficulty": {
-        "cy": "Anhawster",
+        "cy": "Gradd y llwybr",
         "en": "Difficulty"
     },
     "Distance": {
@@ -24,15 +24,15 @@
         "en": "Distance"
     },
     "Download GPX": {
-        "cy": "Lawrlwythwch GPX",
+        "cy": "Lawrlwythwch y GPX",
         "en": "Download GPX"
     },
     "Download Route Guide": {
-        "cy": "Lawrlwythwch Route Guide (PDF)",
+        "cy": "Lawrlwythwch y canllaw llwybr (PDF)",
         "en": "Download Route Guide (PDF)"
     },
     "Find Routes": {
-        "cy": "Dod o Hyd i Lwybrau",
+        "cy": "Dod o hyd i Lwybrau",
         "en": "Find Routes"
     },
     "Find Routes Instructions": {
@@ -40,7 +40,7 @@
         "en": "<p>To view routes either click on a community, search for a place or zoom into the map.</p>"
     },
     "Google Directions": {
-        "cy": "Directions to start (Google Maps)",
+        "cy": "Cyfarwyddiadau i'r man dechrau (Google)",
         "en": "Directions to start (Google Maps)"
     },
     "Home": {
@@ -48,7 +48,7 @@
         "en": "Home"
     },
     "Instructions": {
-        "cy": "Instructions",
+        "cy": "Cyfarwyddiadau",
         "en": "Instructions"
     },
     "Legend": {
@@ -76,15 +76,15 @@
         "en": "Tweets by RamblersCymru"
     },
     "Visit Facebook": {
-        "cy": "Visit our Facebook page (opens a new browser tab)",
+        "cy": "Dilynwch ein tudalen Facebook (yn agor mewn tab porwr newydd)",
         "en": "Visit our Facebook page (opens a new browser tab)"
     },
     "Visit Instagram": {
-        "cy": "Visit our Instagram page (opens a new browser tab)",
+        "cy": "Dilynwch ein tudalen Instagram (yn agor mewn tab porwr newydd)",
         "en": "Visit our Instagram page (opens a new browser tab)"
     },
     "Visit Twitter": {
-        "cy": "Visit our Twitter page (opens a new browser tab)",
+        "cy": "Dilynwch ein tudalen Twitter (yn agor mewn tab porwr newydd)",
         "en": "Visit our Twitter page (opens a new browser tab)"
     },
     "areas": {
