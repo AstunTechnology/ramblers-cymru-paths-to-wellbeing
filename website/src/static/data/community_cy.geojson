@@ -65,9 +65,9 @@
                 "type": "Polygon"
             },
             "properties": {
-                "name": "Clywedog",
+                "name": "Dyffryn Clywedog/Parc Caia",
                 "offsetx": "20",
-                "offsety": "0",
+                "offsety": "10",
                 "textalign": "left"
             },
             "type": "Feature"
@@ -209,7 +209,7 @@
                 "type": "Polygon"
             },
             "properties": {
-                "name": "Pwllglas",
+                "name": "Pwll Glas/Graig Fechan",
                 "offsetx": "-20",
                 "offsety": "0",
                 "textalign": "right"
@@ -283,7 +283,7 @@
             "properties": {
                 "name": "Llanfynydd",
                 "offsetx": "20",
-                "offsety": "0",
+                "offsety": "-10",
                 "textalign": "left"
             },
             "type": "Feature"
@@ -461,9 +461,9 @@
                 "type": "Polygon"
             },
             "properties": {
-                "name": "Pen-tyrch",
+                "name": "Pentyrch",
                 "offsetx": "20",
-                "offsety": "0",
+                "offsety": "10",
                 "textalign": "left"
             },
             "type": "Feature"
@@ -498,9 +498,9 @@
             },
             "properties": {
                 "name": "Treherbert",
-                "offsetx": "20",
-                "offsety": "0",
-                "textalign": "left"
+                "offsetx": "-20",
+                "offsety": "10",
+                "textalign": "right"
             },
             "type": "Feature"
         },
@@ -642,9 +642,9 @@
             },
             "properties": {
                 "name": "Llechryd",
-                "offsetx": "20",
+                "offsetx": "-20",
                 "offsety": "0",
-                "textalign": "left"
+                "textalign": "right"
             },
             "type": "Feature"
         }
