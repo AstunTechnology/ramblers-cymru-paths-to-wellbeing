@@ -8,8 +8,8 @@
         "en": "Close route information"
     },
     "Colour routes by": {
-        "cy": "Colour routes by",
-        "en": "Colour routes by"
+        "cy": "Gweler llwybrau",
+        "en": "View routes by"
     },
     "Contact": {
         "cy": "Cysylltwch",
@@ -52,8 +52,8 @@
         "en": "Instructions"
     },
     "Legend": {
-        "cy": "Legend",
-        "en": "Legend"
+        "cy": "Allwedd",
+        "en": "Key"
     },
     "Paths to Wellbeing": {
         "cy": "Llywbrau i Lesiant",
@@ -68,8 +68,8 @@
         "en": "<p>Click on a route to view details.</p>"
     },
     "Shape": {
-        "cy": "Si\u00e2p",
-        "en": "Shape"
+        "cy": "Math",
+        "en": "Type"
     },
     "Tweets by RamblersCymru": {
         "cy": "Tweets gan RamblersCymru",
@@ -146,5 +146,17 @@
     "zoom_out": {
         "cy": "Chwyddo allan",
         "en": "Zoom out"
+    },
+    "zoom_to": {
+        "cy": "Cliciwch i weld y llwybrau yn ",
+        "en": "Zoom to "
+    },
+    "routes": {
+        "cy": " llwybrau",
+        "en": " routes"
+    },
+    "average_walk_time": {
+        "cy": "Amser",
+        "en": "Time"
     }
 }

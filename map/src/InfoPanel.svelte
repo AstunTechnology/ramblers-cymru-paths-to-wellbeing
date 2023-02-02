@@ -14,6 +14,7 @@
 
   export function setRoute(route_) {
     if (route_) {
+      console.log(route_);
       route = route_;
     } else {
       route = defaultRoute();
@@ -47,18 +48,24 @@
 
 <div class="panel-content info-panel">
   <header>
-    <h1>{route.get("name")}</h1>
-    <button on:click={onCloseClick}
-      ><svg
-        width="20px"
-        height="20px"
-        viewBox="0 0 512 512"
-        xmlns="http://www.w3.org/2000/svg"
-        ><title>{i18n("Close route information")}</title><path
-          d="M289.94,256l95-95A24,24,0,0,0,351,127l-95,95-95-95A24,24,0,0,0,127,161l95,95-95,95A24,24,0,1,0,161,385l95-95,95,95A24,24,0,0,0,385,351Z"
-        /></svg
-      ></button
-    >
+    <p>{route.get("community")}</p>
+    <div>
+      <h1>{route.get("name")}</h1>
+      <button on:click={onCloseClick}
+        ><svg
+          width="20px"
+          height="20px"
+          viewBox="0 0 512 512"
+          xmlns="http://www.w3.org/2000/svg"
+          ><title>{i18n("Close route information")}</title><path
+            d="M289.94,256l95-95A24,24,0,0,0,351,127l-95,95-95-95A24,24,0,0,0,127,161l95,95-95,95A24,24,0,1,0,161,385l95-95,95,95A24,24,0,0,0,385,351Z"
+          /></svg
+        ></button
+      ></div>
+      <ul>
+        <li>{route.get("tagline")}</li>
+        <li>{route.get("paths")}</li>
+      </ul>
   </header>
   <table class="stats">
     <tr>
@@ -70,7 +77,7 @@
     </tr>
     <tr>
       <th>{i18n("Shape")}:</th><td>{route.get("shape")}</td>
-      <th /><td />
+      <th>{i18n("average_walk_time")}:</th><td>{route.get("avg_walk_time")}</td>
     </tr>
   </table>
   <p>{route.get("routesummary")}</p>

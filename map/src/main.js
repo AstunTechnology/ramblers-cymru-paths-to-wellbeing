@@ -6,6 +6,7 @@ import { Map, View, Feature } from "ol";
 import { defaults as controlDefaults } from "ol/control/defaults";
 import TileLayer from "ol/layer/Tile";
 import OSM from "ol/source/OSM";
+import XYZ from 'ol/source/XYZ';
 import GeoJSON from "ol/format/GeoJSON";
 import TopoJSON from "ol/format/TopoJSON";
 import VectorSource from "ol/source/Vector";
@@ -15,6 +16,7 @@ import { Circle, Fill, Stroke, Style, Text } from "ol/style";
 import { transform as transformCoord, transformExtent } from "ol/proj";
 
 import Popup from "ol-popup";
+import LayerSwitcher from 'ol-layerswitcher';
 
 import {
   difficultyColours,
@@ -49,7 +51,6 @@ class PathsToWellbeingMap {
     });
 
     this.routeLyr = new VectorLayer({
-      title: this.i18n("paths"),
       maxResolution: DISPLAY_COMMUNITY_UNTIL_RES,
       source: new VectorSource({
         format: new GeoJSON(),
@@ -60,7 +61,6 @@ class PathsToWellbeingMap {
     });
 
     this.communityLyr = new VectorLayer({
-      title: this.i18n("communities"),
       minResolution: DISPLAY_COMMUNITY_UNTIL_RES,
       source: new VectorSource({
         format: new GeoJSON(),
@@ -84,7 +84,6 @@ class PathsToWellbeingMap {
     });
 
     this.labelLyr = new VectorLayer({
-      title: "labels",
       minResolution: DISPLAY_COMMUNITY_UNTIL_RES,
       source: new VectorSource({
         format: new GeoJSON(),
@@ -117,7 +116,6 @@ class PathsToWellbeingMap {
     });
 
     this.borderLyr = new VectorLayer({
-      title: "Border",
       source: new VectorSource({
         format: new GeoJSON(),
         url: this.staticUrl + "border.geojson",
@@ -136,6 +134,15 @@ class PathsToWellbeingMap {
       layers: [
         new TileLayer({
           source: new OSM(),
+          title: "OpenStreetMap",
+          type: "base"
+        }),
+        new TileLayer({
+          source: new XYZ({
+            url: "https://api.os.uk/maps/raster/v1/zxy/Outdoor_3857/{z}/{x}/{y}.png?key=QppHDwjuIsQjcEX6HoAOcjtSX3BjCPSZ"
+          }),
+          title: "OS",
+          type: "base"
         }),
         this.borderLyr,
         this.routeLyr,
@@ -146,6 +153,7 @@ class PathsToWellbeingMap {
         center: [-421000, 6877000],
         zoom: 8,
         minZoom: 8,
+        maxZoom: 18
       }),
     });
 
@@ -161,6 +169,14 @@ class PathsToWellbeingMap {
 
     this.tooltip = new Tooltip();
     this.map.addOverlay(this.tooltip);
+
+    const layerSwitcher = new LayerSwitcher({
+      reverse: true,
+      groupSelectStyle: 'group',
+      startActive: true
+    });
+    layerSwitcher.hidePanel = function() {};
+    this.map.addControl(layerSwitcher);
 
     this.selectedRoute = null;
     this.hoverRouteUid = [];
@@ -269,7 +285,7 @@ class PathsToWellbeingMap {
         this.hovering = true;
         this.tooltip.show(
           evt.coordinate,
-          `Zoom to ${feature.get("name")} routes`
+          this.i18n("zoom_to") + feature.get("name") + this.i18n("routes")
         );
         return true;
       }
@@ -329,13 +345,13 @@ class PathsToWellbeingMap {
         popupText += feature.get("name");
         popupText += "</a></div>";
         popupText +=
-          '<div><div class="distance"><div class="material-icons">hiking</div> ' +
+          '<div><div class="distance"><img src="/static/img/icon_distance.svg" alt="Distance" /> ' +
           feature.get("length").toFixed(1) +
           "km</div>";
         popupText +=
-          '<div class="ascent"><div class="material-icons">trending_up</div> ' +
-          feature.get("total_ascent") +
-          "m</div></div></li>";
+          '<div class="time"><img src="/static/img/icon_time.svg" alt="Time" /> ' +
+          feature.get("avg_walk_time") +
+          "</div></div></li>";
       }
     });
     popupText += "</ul>";
