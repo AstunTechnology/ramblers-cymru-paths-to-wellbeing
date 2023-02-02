@@ -153,6 +153,7 @@ class PathsToWellbeingMap {
         center: [-421000, 6877000],
         zoom: 8,
         minZoom: 8,
+        maxZoom: 18
       }),
     });
 
