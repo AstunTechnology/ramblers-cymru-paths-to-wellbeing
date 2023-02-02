@@ -65,9 +65,9 @@
                 "type": "Polygon"
             },
             "properties": {
-                "name": "Clywedog",
+                "name": "Clywedog Valley/Caia Park",
                 "offsetx": "20",
-                "offsety": "0",
+                "offsety": "10",
                 "textalign": "left"
             },
             "type": "Feature"
@@ -209,7 +209,7 @@
                 "type": "Polygon"
             },
             "properties": {
-                "name": "Pwllglas",
+                "name": "Pwllglas/Graigfechan",
                 "offsetx": "-20",
                 "offsety": "0",
                 "textalign": "right"
@@ -463,7 +463,7 @@
             "properties": {
                 "name": "Pentyrch",
                 "offsetx": "20",
-                "offsety": "0",
+                "offsety": "10",
                 "textalign": "left"
             },
             "type": "Feature"
@@ -498,9 +498,9 @@
             },
             "properties": {
                 "name": "Treherbert",
-                "offsetx": "20",
-                "offsety": "0",
-                "textalign": "left"
+                "offsetx": "-20",
+                "offsety": "10",
+                "textalign": "right"
             },
             "type": "Feature"
         },
@@ -642,9 +642,9 @@
             },
             "properties": {
                 "name": "Llechryd",
-                "offsetx": "20",
+                "offsetx": "-20",
                 "offsety": "0",
-                "textalign": "left"
+                "textalign": "right"
             },
             "type": "Feature"
         }

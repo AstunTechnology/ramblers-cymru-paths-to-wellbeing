@@ -50,6 +50,11 @@
   min-width: 250px;
 }
 
+.app .map .ol-popup .ol-popup-closer {
+  font-size: initial;
+  padding: 0;
+}
+
 .app .map .ol-popup ul {
   list-style-type: none;
   padding-left: 0em;
@@ -141,12 +146,9 @@
   layout: flex;
 }
 
-/* .app .map .ol-popup ul li a:after {
-  content: ' >';
-} */
-
 .app .map .ol-popup ul a {
-  font-size: 14pt;
+  font-size: 1rem;
+  font-family: "Rucksack";
 }
 
 .app .map .ol-popup ul a:after {
@@ -173,6 +175,16 @@
 
 .normal-pointer {
   cursor: auto;
+}
+
+/* Page styles */
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
 }
 
 /* Panels */
@@ -254,6 +266,11 @@
 .filter-panel .gazetteer .autocomplete {
   width: 100%;
 }
+
+#content main.gazetteer {
+  overflow: visible;
+}
+
 .filter-panel form {
   width: 100%;
   background: rgba(231,231,231,1);

@@ -3,16 +3,29 @@ layout: base.njk
 title: Contact Us
 ---
 
+<section class="hero contact">
+<div class="prose">
+
 # {{ title }}
 
-<img class="photo float-right" src="/static/img/Contact_Header.jpg" alt="Hands in shape of heart" />
+The best way to contact the team is via email: <a href="mailto:pathtowellbeing@ramblers.org.uk">PathstoWellbeing@ramblers.org.uk</a>
 
-The best way to contact the team is via email: <a href="mailto:pathtowellbeing@ramblers.org.uk">PathstoWellbeing@ramblers.org.uk</a>.
+</div>
+</section>
 
-You can also find us on Social Media:
+<div class="box">
+<div class="inner">
+
+## You can also find us on Social Media:
 
 * [@RamblersCymru on Facebook](https://en-gb.facebook.com/RamblersCymru/)
 * [@ramblerscymru on Twitter](https://twitter.com/ramblerscymru/)
 * [@ramblers_cymru on Instagram](https://www.instagram.com/ramblers_cymru/)
+* [Ramblers Cymru on LinkedIn](https://www.linkedin.com/company/ramblerscymru/)
+
+[Ramblers Cymru](https://beta.ramblers.org.uk/wales).
+
+</div>
+</div>
 
 <div class="float-clear"></div>
