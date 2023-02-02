@@ -156,7 +156,7 @@
         "en": " routes"
     },
     "average_walk_time": {
-        "cy": "Average walk time ",
-        "en": "Average walk time"
+        "cy": "Amser (HH:MM) ",
+        "en": "Time (HH:MM)"
     }
 }
