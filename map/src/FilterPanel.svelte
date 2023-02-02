@@ -50,6 +50,7 @@
       </form>
       <h4 class="legend">{i18n("Legend")}</h4>
       {#if selectedFilter === "Family-friendly"}
+      <div style="display: flex; width: 100%;">
         <table class="filterLegend">
           <tr>
             <td class="familyfriendly-true">{i18n("familyfriendly_true")}</td>
@@ -58,7 +59,10 @@
             <td class="familyfriendly-false">{i18n("familyfriendly_false")}</td>
           </tr>
         </table>
+        <img src="/static/img/key_path.svg" style="margin-left: 5em;" />
+        </div>
       {:else}
+      <div style="display: flex; width: 100%;">
         <table class="filterLegend">
           <tr>
             <td class="difficulty-a">{i18n("difficulty_a")}</td>
@@ -76,6 +80,8 @@
             <td class="difficulty-e">{i18n("difficulty_e")}</td>
           </tr>
         </table>
+        <img src="/static/img/key_path.svg" style="margin-left: 5em;" />
+        </div>
         <p><a target="_blank" href="https://www.ramblers.org.uk/go-walking/routes-and-places-to-walk/about-ramblers-routes/route-finder/ramblers-routes-difficulty-ratings.aspx">Ramblers route difficulty definitions</a></p>
       {/if}
     </fieldset>
