@@ -76,6 +76,7 @@
             <td class="difficulty-e">{i18n("difficulty_e")}</td>
           </tr>
         </table>
+        <p><a target="_blank" href="https://www.ramblers.org.uk/go-walking/routes-and-places-to-walk/about-ramblers-routes/route-finder/ramblers-routes-difficulty-ratings.aspx">Ramblers route difficulty definitions</a></p>
       {/if}
     </fieldset>
   {/if}
