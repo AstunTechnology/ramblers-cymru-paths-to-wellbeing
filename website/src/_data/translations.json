@@ -148,7 +148,7 @@
         "en": "Zoom out"
     },
     "zoom_to": {
-        "cy": "Cliciwch i weld y llwybrau yn ",
+        "cy": "Cliciwch i weld y llwybrau yn",
         "en": "Zoom to "
     },
     "routes": {
@@ -156,7 +156,7 @@
         "en": " routes"
     },
     "average_walk_time": {
-        "cy": "Amser (AA:MM) ",
+        "cy": "Amser (AA:MM)",
         "en": "Time (HH:MM)"
     }
 }
