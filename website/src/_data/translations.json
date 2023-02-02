@@ -156,8 +156,8 @@
         "en": " routes"
     },
     "average_walk_time": {
-        "cy": "Amser",
-        "en": "Time"
+        "cy": "Amser Cerdded",
+        "en": "Walking Time"
     },
     "Legals": {
         "cy": "Legals",
@@ -168,7 +168,7 @@
         "en": "Privacy Policy"
     },
     "Terms and Conditions": {
-        "cy": "Telerau ac Amodau",
+        "cy": "Amodau a Thelerau",
         "en": "Terms and Conditions"
     },
     "Cookie Policy": {
