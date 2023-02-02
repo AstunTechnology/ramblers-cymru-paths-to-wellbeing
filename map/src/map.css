@@ -372,8 +372,9 @@ h2 {
 }
 
 #map .layer-switcher {
-    top: 0.5rem;
-    right: 0.5rem;
+    top: 0.5em;
+    right: 0.5em;
+    z-index: -1;
 }
 
 #map .layer-switcher ul {
@@ -384,6 +385,7 @@ h2 {
 #map .layer-switcher li {
     padding: 0;
     margin: 0;
+    display: inline-block;
 }
 
 #map .layer-switcher .panel ul li label:hover {
@@ -401,14 +403,14 @@ h2 {
 
 #map .layer-switcher li label {
     padding: 5px;
-    margin: 5px;
+    margin: 0 0 0 5px;
     border: 1px solid lightgray;
     display: block;
     background-color: white;
 }
 
 #map .layer-switcher li input:checked + label {
-    text-shadow:0px 0px 1px black;
+    text-shadow: 0px 0px 1px black;
 }
 
 /* Tooltip */
