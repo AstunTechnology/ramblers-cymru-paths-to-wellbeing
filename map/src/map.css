@@ -266,6 +266,11 @@ h2 {
 .filter-panel .gazetteer .autocomplete {
   width: 100%;
 }
+
+#content main.gazetteer {
+  overflow: visible;
+}
+
 .filter-panel form {
   width: 100%;
   background: rgba(231,231,231,1);
