@@ -3,24 +3,46 @@ layout: base.njk
 title: Hafan
 ---
 
-<section class="hero">
+<section class="hero home">
 <div class="prose">
 
 <h1>{{ 'Paths to Wellbeing' | i18n }}</h1>
 
-Mae Llwybrau at Les yn rhoi’r offer a’r hyfforddiant i 18 o gymunedau ledled Cymru i wella natur a mynediad i gerdded yn eu hardaloedd lleol!
+<h2>Rhoi cerdded wrth galonnau cymunedau</h2>
+
+Mae’r prosiect Llwybrau i Lesiant yn rhoi'r offer a'r hyfforddiant i 18 cymuned ar draws Cymru i wella natur a mynediad at gerdded yn eu hardaloedd lleol!
 
 </div>
 </section>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<div class="box">
+<div class="inner">
 
-<div class="social-embed float-right">
-<a class="twitter-timeline" data-height="500" href="https://twitter.com/RamblersCymru?ref_src=twsrc%5Etfw">{{ 'Tweets by RamblersCymru' | i18n }}</a>
+## Gwella mynediad at natur yng Nghymru
+
+Mae prosiect Llwybrau i Lesiant gan Ramblers Cymru yn enghraifft wych o sut mae'r Ramblers yn agor y ffordd i bawb fwynhau pleserau syml cerdded ym myd natur.  Mae'r prosiect yn rhoi cerdded wrth galon 18 o gymunedau ledled Cymru drwy roi'r offer a'r hyfforddiant iddynt wella natur a mynediad at gerdded yn eu hardaloedd lleol.
+
+Rydym yn rhoi'r offer a'r hyfforddiant rhad ac am ddim sydd eu hangen ar y cymunedau dethol i nodi a dylunio llwybrau cerdded newydd ac i wella llwybrau presennol.
+
+Ynghyd â 22 o awdurdodau lleol, Ymddiriedolaeth Bywyd Gwyllt Cymru a Coed Cadw, rydym hefyd yn gwella'r amgylchedd lleol er mwyn i natur i ffynnu. Gyda gweithgareddau fel plannu coed, hau blodau gwyllt a dyddiau gweithgareddau bywyd gwyllt, bydd digon o weithgareddau i bobl o bob oed a chefndir.
+
+</div>
 </div>
 
-Ipsum a arcu cursus vitae congue mauris. Morbi non arcu risus quis varius quam quisque id diam. Aliquet risus feugiat in ante metus dictum at tempor commodo. Viverra vitae congue eu consequat ac felis donec. Commodo viverra maecenas accumsan lacus. Pulvinar pellentesque habitant morbi tristique senectus. Quam nulla porttitor massa id neque aliquam. Arcu dui vivamus arcu felis bibendum ut. Turpis egestas integer eget aliquet nibh praesent tristique magna. Euismod nisi porta lorem mollis aliquam ut porttitor leo. Molestie at elementum eu facilisis sed odio.
+<div class="box">
+<div class="inner">
 
-Nisi scelerisque eu ultrices vitae auctor eu augue ut lectus. Egestas congue quisque egestas diam in arcu cursus euismod. Dictum sit amet justo donec enim diam vulputate ut pharetra. Sit amet aliquam id diam maecenas ultricies. Varius vel pharetra vel turpis nunc. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet. Ante in nibh mauris cursus mattis molestie. Auctor eu augue ut lectus arcu. Adipiscing elit pellentesque habitant morbi tristique. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Placerat vestibulum lectus mauris ultrices eros in. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Auctor urna nunc id cursus metus aliquam eleifend. Et tortor at risus viverra. Suspendisse faucibus interdum posuere lorem ipsum dolor. Morbi quis commodo odio aenean sed adipiscing. Consectetur purus ut faucibus pulvinar elementum. Arcu non odio euismod lacinia at quis risus sed.
+## Dan arweiniad y gymuned, i'r gymuned
+
+Mae Ramblers Cymru yn credu y bydd cysylltu cymunedau â llwybrau a mannau gwyrdd yn cael eu cryfhau drwy fuddsoddi mewn uwchsgilio, darparu offer, cefnogi, a chael gwirfoddolwyr lleol blaenllaw i reoli ac ymgymryd â llwybrau yn ymarferol a chynnal a chadw a gwella cynefinoedd. Yn y pen draw, bydd hyn yn cysylltu pobl â manteision iechyd a lles natur a cherdded.
+
+Rydym yn gweithio gyda gwirfoddolwyr lleol ac aelodau'r gymuned i gyflawni eu hanghenion cymunedol. Bydd y rhai sy'n cymryd rhan yn y prosiect yn ennill sgiliau newydd gyda chymorth ac arweiniad arbenigol gan Ramblers Cymru a'n partneriaid.
+
+</div>
+</div>
+
+<div class="social-embed">
+<a class="twitter-timeline" data-height="500" href="https://twitter.com/RamblersCymru?ref_src=twsrc%5Etfw">{{ 'Tweets by RamblersCymru' | i18n }}</a>
+</div>
 
 <div class="float-clear"></div>
