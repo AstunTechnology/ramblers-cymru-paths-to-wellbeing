@@ -158,5 +158,33 @@
     "average_walk_time": {
         "cy": "Amser",
         "en": "Time"
+    },
+    "Legals": {
+        "cy": "Legals",
+        "en": "Legals"
+    },
+    "Privacy Policy": {
+        "cy": "Polisi Preifatrwydd",
+        "en": "Privacy Policy"
+    },
+    "Terms and Conditions": {
+        "cy": "Telerau ac Amodau",
+        "en": "Terms and Conditions"
+    },
+    "Cookie Policy": {
+        "cy": "Polisi Cwcis",
+        "en": "Cookie Policy"
+    },
+    "Funded by": {
+        "cy": "Ariennir gan",
+        "en": "Funded by"
+    },
+    "Peoples Postcode Lottery Logo": {
+      "cy": "Logo Peoples Postcode Lottery",
+      "en": "Peoples Postcode Lottery Logo"
+    },
+    "Welsh Government Logo": {
+      "cy": "Logo Llywodraeth Cymru",
+      "en": "Welsh Government Logo"
     }
 }
