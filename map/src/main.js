@@ -30,7 +30,7 @@ import FilterPanel from "./FilterPanel.svelte";
 import Gazetteer from "./Gazetteer.svelte";
 
 const DISPLAY_COMMUNITY_UNTIL_RES = 150;
-const FIT_OPTIONS = { duration: 1000, padding: [20, 20, 20, 20] };
+const FIT_OPTIONS = { duration: 1000, padding: [60, 20, 20, 20] };
 
 class PathsToWellbeingMap {
   constructor(options) {
