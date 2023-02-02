@@ -31,7 +31,6 @@
     flex: auto;
   }
   .app .panel {
-    padding-top: 1em;
     /* Allow content to overflow */
     overflow: visible;
   }
