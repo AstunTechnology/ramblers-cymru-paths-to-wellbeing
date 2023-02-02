@@ -141,7 +141,7 @@ class PathsToWellbeingMap {
           source: new XYZ({
             url: "https://api.os.uk/maps/raster/v1/zxy/Outdoor_3857/{z}/{x}/{y}.png?key=QppHDwjuIsQjcEX6HoAOcjtSX3BjCPSZ"
           }),
-          title: "OS",
+          title: "Ordnance Survey",
           type: "base"
         }),
         this.borderLyr,
@@ -397,7 +397,7 @@ class PathsToWellbeingMap {
     }
     if (selected) {
       return [
-        start,
+        ...start,
         this.routeOutlineStyle(mode),
         this.routeSelectedStyle,
         filterStyle,
@@ -405,20 +405,21 @@ class PathsToWellbeingMap {
     }
     if (mode == "hover") {
       return [
-        start,
+        ...start,
         this.routeOutlineStyle(mode),
         this.routeHighlightStyle(mode),
         filterStyle,
       ];
     }
-    return [start, this.routeOutlineStyle(mode), filterStyle];
+    return [...start, this.routeOutlineStyle(mode), filterStyle];
   }
 
   startPointStyle(feature, mode) {
+    console.log(feature.get('shape'));
     let opacity = mode === "muted" ? 0.5 : 1;
-    let style = new Style({
+    let style = [new Style({
       image: new Circle({
-        radius: 5,
+        radius: 10,
         fill: new Fill({
           color: `rgba(255,255,255,${opacity})`,
         }),
@@ -432,11 +433,35 @@ class PathsToWellbeingMap {
         const coordinates = feature.getGeometry().getFirstCoordinate();
         return new Point(coordinates);
       },
-    });
+    })];
     if (mode === "hover") {
-      style.setZIndex(2);
+      style[0].setZIndex(2);
     } else if (mode === "selected") {
-      style.setZIndex(1);
+      style[0].setZIndex(1);
+    }
+    if (feature.get('shape') === "Linear") {
+      style.push(new Style({
+        image: new Circle({
+          radius: 5,
+          fill: new Fill({
+            color: `rgba(255,255,255,${opacity})`,
+          }),
+          stroke: new Stroke({
+            color: `rgba(0,0,255,${opacity})`,
+            width: 2,
+          }),
+        }),
+        geometry: function (feature) {
+          // return the coordinates of the first ring of the polygon
+          const coordinates = feature.getGeometry().getLastCoordinate();
+          return new Point(coordinates);
+        },
+      }));
+      if (mode === "hover") {
+        style[1].setZIndex(2);
+      } else if (mode === "selected") {
+        style[1].setZIndex(1);
+      }
     }
     return style;
   }
