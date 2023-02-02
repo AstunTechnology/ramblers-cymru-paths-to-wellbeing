@@ -344,13 +344,13 @@ class PathsToWellbeingMap {
         popupText += feature.get("name");
         popupText += "</a></div>";
         popupText +=
-          '<div><div class="distance"><div class="material-icons">hiking</div> ' +
+          '<div><div class="distance"><img src="/static/img/icon_distance.svg" alt="Distance" /> ' +
           feature.get("length").toFixed(1) +
           "km</div>";
         popupText +=
-          '<div class="ascent"><div class="material-icons">trending_up</div> ' +
-          feature.get("total_ascent") +
-          "m</div></div></li>";
+          '<div class="time"><img src="/static/img/icon_time.svg" alt="Time" /> ' +
+          feature.get("avg_walk_time") +
+          "</div></div></li>";
       }
     });
     popupText += "</ul>";
