@@ -231,6 +231,7 @@ h2 {
   padding: 1em;
   border-left: 10px solid #339;
   margin-bottom: 2em;
+  margin-left: -10px;
 }
 
 .info-panel table.stats th {
