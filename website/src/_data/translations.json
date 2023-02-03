@@ -147,13 +147,9 @@
         "cy": "Chwyddo allan",
         "en": "Zoom out"
     },
-    "zoom_to": {
+    "zoom_to_routes_in": {
         "cy": "Cliciwch i weld y llwybrau yn ",
-        "en": "Zoom to "
-    },
-    "routes": {
-        "cy": " llwybrau",
-        "en": " routes"
+        "en": "Zoom to routes in "
     },
     "average_walk_time": {
         "cy": "Amser",

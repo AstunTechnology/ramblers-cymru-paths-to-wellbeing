@@ -59,7 +59,7 @@
             <td class="familyfriendly-false">{i18n("familyfriendly_false")}</td>
           </tr>
         </table>
-        <img src="/static/img/key_path.svg" style="margin-left: 5em;" />
+        <img src="/static/img/key_path.svg" alt="Key to path symbols" style="margin-left: 5em;" />
         </div>
       {:else}
       <div style="display: flex; width: 100%;">
@@ -80,7 +80,7 @@
             <td class="difficulty-e">{i18n("difficulty_e")}</td>
           </tr>
         </table>
-        <img src="/static/img/key_path.svg" style="margin-left: 5em;" />
+        <img src="/static/img/key_path.svg" alt="Key to path symbols" style="margin-left: 5em;" />
         </div>
         <p><a target="_blank" href="https://www.ramblers.org.uk/go-walking/routes-and-places-to-walk/about-ramblers-routes/route-finder/ramblers-routes-difficulty-ratings.aspx">Ramblers route difficulty definitions</a></p>
       {/if}
