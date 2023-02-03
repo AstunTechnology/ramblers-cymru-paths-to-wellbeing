@@ -198,9 +198,10 @@ h2 {
     justify-content: space-between;
 }
 
-.info-panel header p:first-child {
-  margin: 0;
-  color: #999;
+.info-panel header p {
+  font-size: larger;
+  margin-top: 0em;
+  margin-bottom: 2em;
 }
 
 .info-panel header h1 {
@@ -217,10 +218,14 @@ h2 {
 }
 
 .info-panel p {
-  margin: 1em 2em 1em 1em;
+  margin: 1em 2em 1em 0em;
 }
 
 .info-panel table.stats {
+  background-color: #eaeafa;
+  padding: 1em;
+  border-left: 10px solid #339;
+  margin-bottom: 2em;
 }
 
 .info-panel table.stats th {
@@ -229,6 +234,7 @@ h2 {
 
 .info-panel table.stats th,
 .info-panel table.stats td {
+  vertical-align: top;
   padding-bottom: 0.5em;
 }
 
@@ -238,13 +244,13 @@ h2 {
 
 .info-panel .download a {
   display: block;
-  margin: 0.5em 0.5em 0.5em 1em;
+  margin: 0.5em 0.5em 0.5em 0em;
 }
 
 .info-panel img.photo {
   max-width: 100%;
   display: block;
-  padding: 1em;
+  padding: 1em 1em 1em 0em;
 }
 
 /* Filter Panel */

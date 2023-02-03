@@ -62,10 +62,7 @@
           /></svg
         ></button
       ></div>
-      <ul>
-        <li>{route.get("tagline")}</li>
-        <li>{route.get("paths")}</li>
-      </ul>
+      <p>{route.get("tagline")}</p>
   </header>
   <table class="stats">
     <tr>
@@ -78,6 +75,10 @@
     <tr>
       <th>{i18n("Shape")}:</th><td>{route.get("shape")}</td>
       <th>{i18n("average_walk_time")}:</th><td>{route.get("avg_walk_time")}</td>
+    </tr>
+    <tr>
+      <th>{i18n("condition")}:</th>
+      <td colspan="3">{route.get("paths")}</td>
     </tr>
   </table>
   <p>{route.get("routesummary")}</p>
@@ -117,6 +118,23 @@
         /></svg
       >
       {i18n("Download GPX")}</a
+    >
+    <a
+      href="{staticUrl}community/{route.get('community_id')}.pdf"
+      ><svg
+        width="21"
+        height="21"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="#000"
+        stroke-width="2"
+        stroke-linecap="square"
+        stroke-linejoin="arcs"
+        ><path
+          d="M3 15v4c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-4M17 9l-5 5-5-5M12 12.8V2.5"
+        /></svg
+      >
+      {i18n("Download Community Routes Guide")}</a
     >
     <a
       href="https://www.google.com/maps/dir/?api=1&destination={startCoord[1]},{startCoord[0]}"

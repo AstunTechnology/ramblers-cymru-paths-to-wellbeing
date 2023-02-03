@@ -31,6 +31,10 @@
         "cy": "Lawrlwythwch y canllaw llwybr (PDF)",
         "en": "Download Route Guide (PDF)"
     },
+    "Download Community Routes Guide": {
+        "cy": "Lawrlwytho Canllaw Llwybrau Cymunedol (PDF)",
+        "en": "Download Community Routes Guide (PDF)"
+    },
     "Find Routes": {
         "cy": "Dod o hyd i Lwybrau",
         "en": "Find Routes"
@@ -154,6 +158,10 @@
     "average_walk_time": {
         "cy": "Amser Cerdded",
         "en": "Walking Time"
+    },
+    "condition": {
+        "cy": "Amod",
+        "en": "Condition"
     },
     "Legals": {
         "cy": "Cyfreithiol",
