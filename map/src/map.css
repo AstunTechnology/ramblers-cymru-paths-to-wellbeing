@@ -192,6 +192,11 @@ h2 {
   padding: 1em;
 }
 
+.filter-panel fieldset a:after {
+  content: ' open_in_new';
+  font-family: 'Material Icons';
+}
+
 .info-panel header div {
     display: flex;
     flex-direction: row;
