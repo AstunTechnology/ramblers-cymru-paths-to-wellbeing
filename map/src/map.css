@@ -227,9 +227,7 @@ h2 {
 }
 
 .info-panel table.stats {
-  background-color: #eaeafa;
   padding: 1em;
-  border-left: 10px solid #339;
   margin-bottom: 2em;
   margin-left: -10px;
 }
@@ -347,37 +345,37 @@ h2 {
   padding: .5em;
 }
 
-.filterLegend .familyfriendly-true {
+.familyfriendly-true {
   border-left: 10px solid rgba(51,204,51);
   background-color: rgba(51,204,51,0.1);
 }
 
-.filterLegend .familyfriendly-false {
+.familyfriendly-false {
   border-left: 10px solid rgba(51,51,204);
   background-color: rgba(51,51,204,0.1);
 }
 
-.filterLegend .difficulty-a {
+.difficulty-a {
   border-left: 10px solid rgba(35,200,35);
   background-color: rgba(35,200,35,0.1);
 }
 
-.filterLegend .difficulty-b {
+.difficulty-b {
   border-left: 10px solid rgba(35,200,200);
   background-color: rgba(35,200,200,0.1);
 }
 
-.filterLegend .difficulty-c {
+.difficulty-c {
   border-left: 10px solid rgba(35,35,200);
   background-color: rgba(35,35,200,0.1);
 }
 
-.filterLegend .difficulty-d {
+.difficulty-d {
   border-left: 10px solid rgba(200,200,35);
   background-color: rgba(200,200,35,0.1);
 }
 
-.filterLegend .difficulty-e {
+.difficulty-e {
   border-left: 10px solid rgba(200,35,35);
   background-color: rgba(200,35,35,0.1);
 }

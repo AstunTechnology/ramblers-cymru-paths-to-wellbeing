@@ -360,7 +360,7 @@ class PathsToWellbeingMap {
 
   displayRouteInfo(route) {
     this.popup.hide();
-    this.infoPanel.setRoute(route);
+    this.infoPanel.setRoute(route, this.selectedFilter);
     this.showPanel("info");
     this.map.getView().fit(route.getGeometry(), FIT_OPTIONS);
     this.selectedRoute = route;
@@ -415,7 +415,6 @@ class PathsToWellbeingMap {
   }
 
   startPointStyle(feature, mode) {
-    console.log(feature.get('shape'));
     let opacity = mode === "muted" ? 0.5 : 1;
     let style = [new Style({
       image: new Circle({

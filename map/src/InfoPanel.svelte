@@ -11,14 +11,23 @@
   export let lang = "en";
   export let i18n = (key) => key;
   export let route = defaultRoute();
+  let pathClass, classField, statsClass;
 
-  export function setRoute(route_) {
+  export function setRoute(route_, selectedFilter) {
     if (route_) {
       console.log(route_);
       route = route_;
     } else {
       route = defaultRoute();
     }
+    if (selectedFilter == "Route difficulty") {
+      pathClass = "difficulty";
+      classField = "difficultyuid";
+    } else {
+      pathClass = "familyfriendly";
+      classField = "family_friendly";
+    }
+    statsClass = `${pathClass}-${route.get(classField)}`;
   }
 
   $: startCoord = transformCoord(
@@ -64,7 +73,7 @@
       ></div>
       <p>{route.get("tagline")}</p>
   </header>
-  <table class="stats">
+  <table class="stats {statsClass}">
     <tr>
       <th>{i18n("Difficulty")}:</th><td>{route.get("difficulty")}</td>
       <th>{i18n("Distance")}:</th><td
