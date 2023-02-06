@@ -90,7 +90,6 @@
       <td colspan="3">{route.get("paths")}</td>
     </tr>
   </table>
-  <p>{route.get("routesummary")}</p>
   <div class="download">
     <a
       href="{staticUrl}guide/route_{route.get('routeuid')}.pdf"
