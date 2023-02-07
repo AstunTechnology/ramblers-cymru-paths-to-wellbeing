@@ -159,6 +159,10 @@
         "cy": "Amser Cerdded",
         "en": "Walking Time"
     },
+    "time_format": {
+        "cy": "(aa:mm)",
+        "en": "(hh:mm)"
+    },
     "condition": {
         "cy": "Amod",
         "en": "Condition"
