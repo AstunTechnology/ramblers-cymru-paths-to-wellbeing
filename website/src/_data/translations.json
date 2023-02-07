@@ -139,6 +139,10 @@
         "cy": "milltiroedd",
         "en": "miles"
     },
+    "kilometers": {
+        "cy": "km",
+        "en": "km"
+    },
     "paths": {
         "cy": "Llwybrau",
         "en": "Paths"
