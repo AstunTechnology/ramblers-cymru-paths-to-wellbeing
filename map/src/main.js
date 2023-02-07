@@ -351,7 +351,7 @@ class PathsToWellbeingMap {
         popupText +=
           '<div class="time"><img src="/static/img/icon_time.svg" alt="Time" /> ' +
           feature.get("avg_walk_time") +
-          this.i18n("time_format")</div>;
+          "(hh:mm)</div";
           "</div></div></li>";
       }
     });
