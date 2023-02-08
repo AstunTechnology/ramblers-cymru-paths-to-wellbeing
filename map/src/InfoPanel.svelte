@@ -77,7 +77,7 @@
     <tr>
       <th>{i18n("Difficulty")}:</th><td>{route.get("difficulty")}</td>
       <th>{i18n("Distance")}:</th><td
-        >{Math.round(route.get("length") * 100) / 100}
+        >{Math.round(route.get("length") * 10) / 10}
         {i18n("kilometers")}</td
       >
     </tr>
