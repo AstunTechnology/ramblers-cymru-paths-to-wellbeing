@@ -82,8 +82,8 @@
         </table>
         <img src="/static/img/key_path.svg" alt="Key to path symbols" style="margin-left: 5em;" />
         </div>
-        <p><a target="_blank" href="https://www.ramblers.org.uk/go-walking/routes-and-places-to-walk/about-ramblers-routes/route-finder/ramblers-routes-difficulty-ratings.aspx" 
-        title="Ramblers route difficulty definitions (opens in new tab/window)">Ramblers route difficulty definitions</a></p>
+        <p><a target="_blank" href="/static/data/grading/difficulty_gradings.pdf" 
+        title="{i18n('Ramblers route difficulty definitions')} ({i18n('opens in new tab/window')})">{i18n('Ramblers route difficulty definitions')}</a></p>
       {/if}
     </fieldset>
   {/if}
