@@ -105,8 +105,7 @@
       {@html i18n("Select Route Instructions")}
     {/if}
   </fieldset>
-</div>
-  {/if}
+  </div>
   <fieldset class="closures">
     <legend
       ><svg
