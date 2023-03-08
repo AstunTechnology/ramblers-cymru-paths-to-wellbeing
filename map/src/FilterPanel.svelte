@@ -106,6 +106,7 @@
     {/if}
   </fieldset>
 </div>
+  {/if}
   <fieldset class="closures">
     <legend
       ><svg
