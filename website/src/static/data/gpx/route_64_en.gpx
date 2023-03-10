@@ -2,7 +2,7 @@
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata><bounds minlat="53.233376793383464" minlon="-3.913955304517561" maxlat="53.265612678877183" maxlon="-3.883224436918384"/></metadata>                  
 <rte>
-  <name>Tal Y Fan</name>
+  <name>Tal y Fan</name>
   <desc>Route to Tal Y Fan from North Wales Path. </desc>
   <src>Ramblers</src>
   <number>64</number>

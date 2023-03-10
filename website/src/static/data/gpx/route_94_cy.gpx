@@ -2,7 +2,7 @@
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata><bounds minlat="51.672213232899239" minlon="-3.555677799296371" maxlat="51.703240434351656" maxlon="-3.534743689772174"/></metadata>                  
 <rte>
-  <name>Bythynnod a Rhaeadrau Fernhill</name>
+  <name>Bythynnod Fernhill a Rhaeadrau</name>
   <desc>Mae'r llwybr hwn yn dechrau yng Ngorsaf Treherbert ac yn eich arwain i gyn-safle bythynnod Fernhill. Parhewch yn eich blaen at raeadr cyn dychwelyd y ffordd y daethoch, i lawr y llwybr sy'n eich arwain heibio Ysgol Pen-Pych a man gwyrdd bach.</desc>
   <src>Ramblers</src>
   <number>94</number>

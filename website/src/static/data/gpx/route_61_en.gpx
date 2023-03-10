@@ -2,7 +2,7 @@
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata><bounds minlat="53.303270945302145" minlon="-4.670512480919888" maxlat="53.313424940436654" maxlon="-4.638795662117849"/></metadata>                  
 <rte>
-  <name>Ffynnon Y Wrach</name>
+  <name>Ffynnon y Wrach</name>
   <desc>A leisurely route following footpaths from Holyhead into the surrounding countryside and passing by Ffynnon y Wrach a.k.a. &quot;The Witch's Well&quot;. Can be extended to include part of South Stack Cliffs Nature Reserve.</desc>
   <src>Ramblers</src>
   <number>61</number>

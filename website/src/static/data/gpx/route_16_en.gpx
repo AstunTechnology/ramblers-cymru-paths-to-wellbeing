@@ -2,7 +2,7 @@
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata><bounds minlat="52.369056281013130" minlon="-4.105680206904543" maxlat="52.400594863091357" maxlon="-4.069308765118532"/></metadata>                  
 <rte>
-  <name>Chancery Ryhdgaled Loop</name>
+  <name>Chancery Rhydgaled Loop</name>
   <desc>A circular route that starts and finishes at Llanfarian, taking approx. 4 hours to walk. Combined with route 6 provides a full day of walking.</desc>
   <src>Ramblers</src>
   <number>16</number>

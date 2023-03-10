@@ -2,7 +2,7 @@
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata><bounds minlat="53.303270945302145" minlon="-4.670512480919888" maxlat="53.313424940436654" maxlon="-4.638795662117849"/></metadata>                  
 <rte>
-  <name>Ffynnon Y Wrach</name>
+  <name>Ffynnon y Wrach</name>
   <desc>Llwybr hamddenol yn dilyn llwybrau troed o Gaergybi i'r ardal wledig gyfagos ac yn mynd heibio Ffynnon y Wrach, sydd hefyd yn cael ei galw'n &quot;The Witch's Well&quot;. Gellir ei ymestyn i gynnwys rhan o Warchodfa Natur Ynys Lawd.</desc>
   <src>Ramblers</src>
   <number>61</number>

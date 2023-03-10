@@ -2,7 +2,7 @@
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata><bounds minlat="52.059378585961298" minlon="-4.173710036751471" maxlat="52.081435132650938" maxlon="-4.118424048126488"/></metadata>                  
 <rte>
-  <name>Adran Llwybr Teifi</name>
+  <name>Rhan o Lwybr Teifi</name>
   <desc>Llwybr cerdded yno ac oddi yno sy'n teithio drwy Lanybydder ar hyd rhan o'r Llwybr Teifi hirach. </desc>
   <src>Ramblers</src>
   <number>139</number>

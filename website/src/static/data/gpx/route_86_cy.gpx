@@ -2,7 +2,7 @@
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata><bounds minlat="51.518831896516247" minlon="-3.562241960168030" maxlat="51.530251170101451" maxlon="-3.527674320182597"/></metadata>                  
 <rte>
-  <name>Llwybr Cylchol Dwyreiniol Coety </name>
+  <name>Llwybr Cylchol Dwyrain Coety </name>
   <desc>Gan ddechrau o Barc Derwen, mae'r llwybr hwn yn ffurfio cylch gan fynd heibio Coety, Hendre ac yn cynnwys rhan o lwybr cylchol Pen-y-bont ar Ogwr.</desc>
   <src>Ramblers</src>
   <number>86</number>

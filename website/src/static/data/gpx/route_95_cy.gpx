@@ -2,7 +2,7 @@
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata><bounds minlat="51.665695808598308" minlon="-3.537275461808701" maxlat="51.672221006194285" maxlon="-3.526723538691939"/></metadata>                  
 <rte>
-  <name>Llwybr y Goedwig</name>
+  <name>Llwybr y Coedwig</name>
   <desc>Gan gerdded yn groes i'r cloc, ewch i fyny o'r orsaf at y bont fach a dilynwch y llwybr i fyny'r allt. Llwybr gweddol fyr yw hwn, yn dychwelyd ar hyd disgyniad o lwybr gweddol greigiog, gan gylchu hyd nes i chi gyrraedd yr orsaf.</desc>
   <src>Ramblers</src>
   <number>95</number>

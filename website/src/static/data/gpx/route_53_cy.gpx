@@ -2,7 +2,7 @@
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata><bounds minlat="53.269715461592938" minlon="-3.896268384557154" maxlat="53.277822138113208" maxlon="-3.885345543099100"/></metadata>                  
 <rte>
-  <name>Cwrs Golff Picton Woods</name>
+  <name>Cwrs Golff Coedwig Picton</name>
   <desc>Llwybr byr, addas i'r teulu yn cynnwys llwybr troed cwrs golff.</desc>
   <src>Ramblers</src>
   <number>53</number>

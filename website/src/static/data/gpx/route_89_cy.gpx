@@ -2,7 +2,7 @@
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata><bounds minlat="51.519564293645374" minlon="-3.308018652366014" maxlat="51.531114881953982" maxlon="-3.281852761141170"/></metadata>                  
 <rte>
-  <name>Llwybrau'r Hen Fulod</name>
+  <name>Yr Hen Lwybrau Mulod</name>
   <desc>Mae'n well cerdded y llwybr hwn yn groes i'r cloc. Mae'r llwybr yn mynd drwy gaeau cefn gwlad a cheuffyrdd a arferai gael eu defnyddio i gludo nwyddau ar draws de Cymru.</desc>
   <src>Ramblers</src>
   <number>89</number>
@@ -427,49 +427,23 @@
   </rtept>
   <rtept lat="51.526397596737468" lon="-3.288854188895812">
   </rtept>
-  <rtept lat="51.526399696599441" lon="-3.288935087789599">
+  <rtept lat="51.526693131598996" lon="-3.288744766550236">
   </rtept>
-  <rtept lat="51.526400896715479" lon="-3.288978887994698">
+  <rtept lat="51.526915518334967" lon="-3.288667032799128">
   </rtept>
-  <rtept lat="51.526375897617527" lon="-3.289229685564215">
+  <rtept lat="51.52720194930496" lon="-3.288614019929077">
   </rtept>
-  <rtept lat="51.526364998318456" lon="-3.289383885090911">
+  <rtept lat="51.527490467961265" lon="-3.288587797521803">
   </rtept>
-  <rtept lat="51.526370899372367" lon="-3.289493184265852">
+  <rtept lat="51.527766786328236" lon="-3.288587962606769">
   </rtept>
-  <rtept lat="51.52640799961187" lon="-3.289750084155943">
+  <rtept lat="51.528057979895166" lon="-3.28853508283435">
   </rtept>
-  <rtept lat="51.5264233996662" lon="-3.289825183521395">
+  <rtept lat="51.528499113426264" lon="-3.288494074230984">
   </rtept>
-  <rtept lat="51.526466999816037" lon="-3.289919283724227">
+  <rtept lat="51.528699480801691" lon="-3.288469180306766">
   </rtept>
-  <rtept lat="51.526545398600966" lon="-3.289999984185989">
-  </rtept>
-  <rtept lat="51.526671297682725" lon="-3.2900844856051">
-  </rtept>
-  <rtept lat="51.527012594505777" lon="-3.290268090493828">
-  </rtept>
-  <rtept lat="51.527144193660753" lon="-3.290362292045662">
-  </rtept>
-  <rtept lat="51.52731239168272" lon="-3.29052759325507">
-  </rtept>
-  <rtept lat="51.527790188451398" lon="-3.291042197288688">
-  </rtept>
-  <rtept lat="51.527845487983924" lon="-3.291095697533732">
-  </rtept>
-  <rtept lat="51.52791858759776" lon="-3.291166298460965">
-  </rtept>
-  <rtept lat="51.528030385899385" lon="-3.291223900328903">
-  </rtept>
-  <rtept lat="51.528308282942675" lon="-3.291277603716708">
-  </rtept>
-  <rtept lat="51.528416881851832" lon="-3.2912853058523">
-  </rtept>
-  <rtept lat="51.528459281753932" lon="-3.291288306264546">
-  </rtept>
-  <rtept lat="51.528502481059441" lon="-3.291330506150794">
-  </rtept>
-  <rtept lat="51.528712679213449" lon="-3.291560707738792">
+  <rtept lat="51.529098234367432" lon="-3.288816513180413">
   </rtept>
   <rtept lat="51.528834478964953" lon="-3.291726008909445">
   </rtept>

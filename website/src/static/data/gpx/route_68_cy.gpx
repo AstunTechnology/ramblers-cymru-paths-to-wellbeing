@@ -2,7 +2,7 @@
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata><bounds minlat="52.929889852805708" minlon="-4.089427150681828" maxlat="52.939365171484368" maxlon="-4.068046026001408"/></metadata>                  
 <rte>
-  <name>Llwybr Byr y Coetir</name>
+  <name>Llwybr Byr y drwy Goetir</name>
   <desc>Llwybr cylchol byr yn cynnwys llwybrau coetir i'r gogledd o Benrhyndeudraeth. </desc>
   <src>Ramblers</src>
   <number>68</number>
