@@ -7,9 +7,9 @@ locale: en
 <div class="landing">
   <section lang="cy">
 
-  <h2><a href="/cy/" hreflang="cy">Llywbrau i Lesiant</a></h2>
+  <h2><a href="/cy/" hreflang="cy">Llwybrau i Lesiant</a></h2>
 
-  Mae Llwybrau at Les yn rhoi’r offer a’r hyfforddiant i 18 o gymunedau ledled Cymru i wella natur a mynediad i gerdded yn eu hardaloedd lleol!
+  Mae Llwybrau i Lesiant yn rhoi’r offer a’r hyfforddiant i 18 o gymunedau ledled Cymru i wella natur a mynediad i gerdded yn eu hardaloedd lleol!
 
   <a href="/cy/" hreflang="cy" class="btn">Cymraeg</a>
 
