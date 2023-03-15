@@ -118,9 +118,9 @@
       >&nbsp;{i18n("Please note")}</legend
     >
     {#if mapState === "community"}
-      {@html i18n("Closures")}
+      {@html i18n("Closures","Responsibility")}
     {:else}
-      {@html i18n("Closures")}
+      {@html i18n("Closures","Responsibility")}
     {/if}
   </fieldset>
 </div>
