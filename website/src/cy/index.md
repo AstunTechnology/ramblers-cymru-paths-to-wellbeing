@@ -8,7 +8,7 @@ title: Hafan
 
 <h1>{{ 'Paths to Wellbeing' | i18n }}</h1>
 
-<h2>Rhoi cerdded wrth galonnau cymunedau</h2>
+<h2>Rhoi cerdded wrth galon cymunedau</h2>
 
 Mae’r prosiect Llwybrau i Lesiant yn rhoi'r offer a'r hyfforddiant i 18 cymuned ar draws Cymru i wella natur a mynediad at gerdded yn eu hardaloedd lleol!
 
@@ -18,11 +18,11 @@ Mae’r prosiect Llwybrau i Lesiant yn rhoi'r offer a'r hyfforddiant i 18 cymune
 <div class="box">
 <div class="inner">
 
-## Gwella mynediad at natur yng Nghymru
+## Gwella mynediad i natur yng Nghymru
 
 Mae prosiect Llwybrau i Lesiant gan Ramblers Cymru yn enghraifft wych o sut mae'r Ramblers yn agor y ffordd i bawb fwynhau pleserau syml cerdded ym myd natur.  Mae'r prosiect yn rhoi cerdded wrth galon 18 o gymunedau ledled Cymru drwy roi'r offer a'r hyfforddiant iddynt wella natur a mynediad at gerdded yn eu hardaloedd lleol.
 
-Rydym yn rhoi'r offer a'r hyfforddiant rhad ac am ddim sydd eu hangen ar y cymunedau dethol i nodi a dylunio llwybrau cerdded newydd ac i wella llwybrau presennol.
+Rydym yn rhoi'r offer a'r hyfforddiant rhad ac am ddim sydd eu hangen ar y cymunedau dethol i nodi a dylunio llwybrau cerdded newydd ac i wella llwybrau cyfredol.
 
 Ynghyd â 22 o awdurdodau lleol, Ymddiriedolaeth Bywyd Gwyllt Cymru a Coed Cadw, rydym hefyd yn gwella'r amgylchedd lleol er mwyn i natur i ffynnu. Gyda gweithgareddau fel plannu coed, hau blodau gwyllt a dyddiau gweithgareddau bywyd gwyllt, bydd digon o weithgareddau i bobl o bob oed a chefndir.
 
@@ -34,7 +34,7 @@ Ynghyd â 22 o awdurdodau lleol, Ymddiriedolaeth Bywyd Gwyllt Cymru a Coed Cadw,
 
 ## Dan arweiniad y gymuned, i'r gymuned
 
-Mae Ramblers Cymru yn credu y bydd cysylltu cymunedau â llwybrau a mannau gwyrdd yn cael eu cryfhau drwy fuddsoddi mewn uwchsgilio, darparu offer, cefnogi, a chael gwirfoddolwyr lleol blaenllaw i reoli ac ymgymryd â llwybrau yn ymarferol a chynnal a chadw a gwella cynefinoedd. Yn y pen draw, bydd hyn yn cysylltu pobl â manteision iechyd a lles natur a cherdded.
+Mae Ramblers Cymru yn credu, trwy weithio ochr yn ochr â chymunedau i ymgysylltu â’u rhwydwaith llwybrau lleol a mannau gwyrdd, gyda’n gilydd gallwn greu cyfleoedd cerdded cynaliadwy i bawb. Yn y pen draw, bydd hyn yn cysylltu pobl â manteision iechyd a lles natur a cherdded.
 
 Rydym yn gweithio gyda gwirfoddolwyr lleol ac aelodau'r gymuned i gyflawni eu hanghenion cymunedol. Bydd y rhai sy'n cymryd rhan yn y prosiect yn ennill sgiliau newydd gyda chymorth ac arweiniad arbenigol gan Ramblers Cymru a'n partneriaid.
 
