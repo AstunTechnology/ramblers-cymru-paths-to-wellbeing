@@ -18,7 +18,7 @@ Wales’s leading walking charity
 
 # Our Focus
 
-Ramblers Cymru is dedicated to helping everyone, everywhere enjoy walking and protecting the places we all love to walk.
+Ramblers Cymru is dedicated to helping everyone, everywhere, enjoy walking and protecting the places we all love to walk.
 
 Our mission is to put walking at the heart of every community, protect the places we all enjoy walking and improve the environment while creating a greener and more accessible Wales for everyone.
 
