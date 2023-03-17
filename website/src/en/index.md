@@ -34,7 +34,7 @@ Together with 22 local authorities, Wildlife Trust Wales and Coed Cadw, the Wood
 
 ## Led by the community, for the community 
 
-Global: Ramblers Cymru believes that by working alongside communities to engage with their local path network and green spaces, together we can create sustainable walking opportunities for all. Ultimately this will connect people to the health and wellbeing benefits of nature and walking. 
+Ramblers Cymru believes that by working alongside communities to engage with their local path network and green spaces, together we can create sustainable walking opportunities for all. Ultimately this will connect people to the health and wellbeing benefits of nature and walking. 
 
 We are working with local volunteers and community members to deliver their community needs. Those taking part will gain new skills with expert support and guidance from Ramblers Cymru and our partners.
 
