@@ -8,7 +8,7 @@ title: Home
 
 <h1>{{ 'Paths to Wellbeing' | i18n }}</h1>
 
-<h2>Putting walking at the hearts of communities</h2>
+<h2>Putting walking at the heart of communities</h2>
 
 Paths to Wellbeing is giving 18 communities across Wales the tools and training to improve nature and access to walking in their local areas!
 
@@ -24,7 +24,7 @@ Ramblers Cymru’s Paths to Wellbeing project is a great example of how the Ramb
 
 We are giving the selected communities the tools and training needed to identify, design, and improve new and existing walking routes. 
 
-Together with 22 local authorities, Wildlife Trust Wales and Coed Cadw, the Woodland Trust in Wales we will also be enhancing the local environment for nature to thrive. With activities such as tree planting, wildflower sowing and wildlife activity days, there are plenty of activities for those of all ages and backgrounds.
+Together with 22 local authorities, Wildlife Trust Wales and Coed Cadw, the Woodland Trust in Wales, we will also be enhancing the local environment for nature to thrive. With activities such as tree planting, wildflower sowing and wildlife activity days, there are plenty of activities for those of all ages and backgrounds.
 
 </div>
 </div>
@@ -34,7 +34,7 @@ Together with 22 local authorities, Wildlife Trust Wales and Coed Cadw, the Wood
 
 ## Led by the community, for the community 
 
-Ramblers Cymru believes that community engagement with paths and green spaces will be strengthened by investing in upskilling, equipping, supporting, and leading local volunteers to manage and undertake practical path and habitat maintenance and improvements. Ultimately this will connect people to the health and wellbeing benefits of nature and walking. 
+Global: Ramblers Cymru believes that by working alongside communities to engage with their local path network and green spaces, together we can create sustainable walking opportunities for all. Ultimately this will connect people to the health and wellbeing benefits of nature and walking. 
 
 We are working with local volunteers and community members to deliver their community needs. Those taking part will gain new skills with expert support and guidance from Ramblers Cymru and our partners.
 
