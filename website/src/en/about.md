@@ -34,7 +34,7 @@ Our mission is to put walking at the heart of every community, protect t
 
 #### North East Wales 
 Clywedog Valley/Caia Park (Wrexham)  
-Pwll Glas/Graig Fechan (Denbighshire)  
+Pwllglas/Graigfechan (Denbighshire)  
 Llanfynydd (Flintshire) 
 
 </section>
