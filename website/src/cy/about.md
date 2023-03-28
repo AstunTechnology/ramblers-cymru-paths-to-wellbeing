@@ -34,7 +34,7 @@ Ein cenhadaeth yw rhoi cerdded wrth galon pob cymuned, amddiffyn y llefydd rydyn
 
 #### Gogledd Ddwyrain Cymru
 Dyffryn Clywedog/Parc Caia (Wrecsam)  
-Pwll Glas/Graig Fechan (Sir  Dinbych)  
+Pwllglas/Graigfechan (Sir  Dinbych)  
 Llanfynydd (Sir y Fflint)  
 
 </section>
@@ -51,7 +51,7 @@ Penrhyndeudraeth (Gwynedd)
 #### Canolbarth
 Llechryd / Llangoedmor (Ceredigion)  
 Penparcau (Ceredigion)  
-Llanwrthwl a Rhaeadr (Powys)
+Llanwrthwl a Rhaeadr Gwy (Powys)
 
 </section>
 <section>
