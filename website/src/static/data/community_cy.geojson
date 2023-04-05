@@ -209,7 +209,7 @@
                 "type": "Polygon"
             },
             "properties": {
-                "name": "Pwll Glas/Graig Fechan",
+                "name": "Pwllglas/Graigfechan",
                 "offsetx": "-20",
                 "offsety": "0",
                 "textalign": "right"
@@ -569,7 +569,7 @@
                 "type": "Polygon"
             },
             "properties": {
-                "name": "Chwe Chloch",
+                "name": "Six Bells",
                 "offsetx": "20",
                 "offsety": "0",
                 "textalign": "left"
@@ -605,7 +605,7 @@
                 "type": "Polygon"
             },
             "properties": {
-                "name": "Grysmwnt",
+                "name": "Y Grysmwnt",
                 "offsetx": "20",
                 "offsety": "0",
                 "textalign": "left"

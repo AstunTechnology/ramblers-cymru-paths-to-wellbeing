@@ -36,12 +36,20 @@
         "en": "Download Community Leaflet (PDF)"
     },
     "Find Routes": {
-        "cy": "Dod o hyd i Lwybrau",
+        "cy": "Dod o hyd i Llwybrau",
         "en": "Find Routes"
     },
     "Find Routes Instructions": {
         "cy": "<p>Cliciwch ar gymuned i weld llwybrau.</p>",
         "en": "<p>To view routes either click on a community, search for a place or zoom into the map.</p>"
+    },
+    "Please note": {
+        "cy": "Sylwer os gwelwch yn dda",
+        "en": "Please note"
+    },
+    "Closures": {
+        "cy": "<p>Gall llwybrau gael eu heffeithio gan, rhwystrau, fod ar gau a dargyfeiriadau. Os nad ydych chi'n gallu parhau â'ch taith gerdded, ceisiwch ddod o hyd i lwybr arall neu ewch yn ôl ar eich camau. Rhowch wybod am unrhyw faterion i'ch awdurdod lleol.</p><p>Wrth fwynhau teithiau cerdded hyn, cadwch at <a href=https://www.gov.uk/government/publications/the-countryside-code>y Cod Cefn Gwlad</a> a <a href=https://www.adventuresmart.uk/>#MentranGall</a>.</p>",
+        "en": "<p>Routes can be affected by path closures, blockages and diversions. If you find yourself unable to continue with your walk, please try to find an alternate route or retrace your steps. Report any issues to your local authority.</p><p>Whilst enjoying these walks please abide by <a href=https://www.gov.uk/government/publications/the-countryside-code>The Countryside Code</a> and <a href=https://www.adventuresmart.uk/>#BeAdventureSmart</a>.</p>"
     },
     "Google Directions": {
         "cy": "Cyfarwyddiadau i'r man dechrau (Google)",
@@ -60,7 +68,7 @@
         "en": "Key"
     },
     "Paths to Wellbeing": {
-        "cy": "Llywbrau i Lesiant",
+        "cy": "Llwybrau i Lesiant",
         "en": "Paths to Wellbeing"
     },
     "Routes": {
@@ -200,11 +208,11 @@
       "en": "Welsh Government Logo"
     },
     "Ramblers route difficulty definitions": {
-      "cy": "Ramblers route difficulty definitions",
-      "en": "Ramblers route difficulty definitions"
+      "cy": "Lawrlwythwch canllaw anhawster llwybrau Ramblers (PDF)",
+      "en": "Download Ramblers route difficulty guide (PDF)"
     },
     "opens in new tab/window": {
-      "cy": "opens in new tab/window",
-      "en": "opens in new tab/window"
+      "cy": "yn agor mewn tab porwr newydd",
+      "en": "opens a new browser tab"
     }
 }

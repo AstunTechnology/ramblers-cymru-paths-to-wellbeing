@@ -2,7 +2,7 @@
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata><bounds minlat="52.255984281582137" minlon="-3.531682506028487" maxlat="52.269925281807659" maxlon="-3.502007645051471"/></metadata>                  
 <rte>
-  <name>Llanwrthwl Graig Duu</name>
+  <name>Llanwrthwl Graig Ddu</name>
   <desc>A circular route that starts and finishes at St Gwrthwl’s Church, Llanwrthwl, taking approx. 2 hours to walk.</desc>
   <src>Ramblers</src>
   <number>23</number>

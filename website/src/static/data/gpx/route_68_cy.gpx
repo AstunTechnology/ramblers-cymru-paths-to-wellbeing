@@ -2,7 +2,7 @@
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata><bounds minlat="52.929889852805708" minlon="-4.089427150681828" maxlat="52.939365171484368" maxlon="-4.068046026001408"/></metadata>                  
 <rte>
-  <name>Llwybr Byr y Coetir</name>
+  <name>Llwybr Byr y drwy Goetir</name>
   <desc>Llwybr cylchol byr yn cynnwys llwybrau coetir i'r gogledd o Benrhyndeudraeth. </desc>
   <src>Ramblers</src>
   <number>68</number>
@@ -73,19 +73,41 @@
   </rtept>
   <rtept lat="52.93318493181502" lon="-4.073943936460175">
   </rtept>
-  <rtept lat="52.933603235284536" lon="-4.074447540268006">
+  <rtept lat="52.933394642688747" lon="-4.074368951400269">
+  </rtept>
+  <rtept lat="52.933684028869223" lon="-4.074306758651231">
+  </rtept>
+  <rtept lat="52.933825250500362" lon="-4.074279437126006">
+  </rtept>
+  <rtept lat="52.934071958056627" lon="-4.074361920955342">
   </rtept>
   <rtept lat="52.934622234718873" lon="-4.074012656137288">
   </rtept>
+  <rtept lat="52.934830556807839" lon="-4.073860277321137">
+  </rtept>
   <rtept lat="52.934966932928823" lon="-4.073582760708581">
   </rtept>
-  <rtept lat="52.93552323578843" lon="-4.073906971153433">
+  <rtept lat="52.934992027571276" lon="-4.073469197428578">
+  </rtept>
+  <rtept lat="52.935487661235278" lon="-4.073713136390805">
+  </rtept>
+  <rtept lat="52.935447108412532" lon="-4.07420320759389">
+  </rtept>
+  <rtept lat="52.936047391634638" lon="-4.074333364398001">
+  </rtept>
+  <rtept lat="52.936140484410018" lon="-4.074238561239478">
+  </rtept>
+  <rtept lat="52.936475350376739" lon="-4.074308005155764">
+  </rtept>
+  <rtept lat="52.936595307399692" lon="-4.074296630799815">
   </rtept>
   <rtept lat="52.936683639941997" lon="-4.074260692015078">
   </rtept>
-  <rtept lat="52.937138939637251" lon="-4.074058699134249">
+  <rtept lat="52.937136985237018" lon="-4.073221617182296">
   </rtept>
-  <rtept lat="52.937557143279754" lon="-4.074562407875181">
+  <rtept lat="52.937261170526611" lon="-4.07405913928503">
+  </rtept>
+  <rtept lat="52.937520742878824" lon="-4.074692707888395">
   </rtept>
   <rtept lat="52.938246946873853" lon="-4.074967420973104">
   </rtept>
@@ -169,11 +191,19 @@
   </rtept>
   <rtept lat="52.932175702565097" lon="-4.086655070335017">
   </rtept>
-  <rtept lat="52.931788396548541" lon="-4.085669264613412">
+  <rtept lat="52.931706671215579" lon="-4.08535252452799">
   </rtept>
-  <rtept lat="52.931560290133881" lon="-4.084579559205872">
+  <rtept lat="52.931706040025524" lon="-4.084876346638293">
   </rtept>
-  <rtept lat="52.931640685991646" lon="-4.083839457371733">
+  <rtept lat="52.931569613553606" lon="-4.084453159756405">
+  </rtept>
+  <rtept lat="52.931748905925438" lon="-4.083970750532419">
+  </rtept>
+  <rtept lat="52.93174331364164" lon="-4.083777046719915">
+  </rtept>
+  <rtept lat="52.931421101988199" lon="-4.08318126279038">
+  </rtept>
+  <rtept lat="52.931055152584598" lon="-4.082003091556768">
   </rtept>
   <rtept lat="52.93073037249075" lon="-4.081668446063643">
   </rtept>

@@ -277,6 +277,11 @@ h2 {
   align-items: center;
 }
 
+.filter-panel .closures legend {
+  display: flex;
+  align-items: center;
+}
+
 .filter-panel .gazetteer .autocomplete {
   width: 100%;
 }

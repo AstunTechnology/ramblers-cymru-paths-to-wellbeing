@@ -2,7 +2,7 @@
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata><bounds minlat="51.983396839612467" minlon="-4.767098860398902" maxlat="51.992594431081493" maxlon="-4.744039562768165"/></metadata>                  
 <rte>
-  <name>Craig Rhos Y Felin</name>
+  <name>Craig Rhos-y-felin</name>
   <desc>Llwybr cylchol yn dechrau ac yn gorffen yn y Ganolfan, mae'r llwybr yn cynnwys brigiadau creigiog, llwybrau coetir a rhaeadr fach. Er ei fod yn llwybr hyfryd, mae dwy ardal fwdlyd/gwlyb, a fyddai o bosibl yn ei gwneud hi'n anodd cerdded yn y gaeaf/ar ôl cyfnodau o law trwm.</desc>
   <src>Ramblers</src>
   <number>130</number>

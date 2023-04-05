@@ -18,7 +18,7 @@ Elusen gerdded fwyaf blaenllaw Cymru.
 
 # Ein Ffocws
 
-Fel elusen gerdded fwyaf blaenllaw Cymru, mae Ramblers Cymru wedi ymroi i helpu pawb, ym mhob man i fwynhau cerdded a diogelu'r llefydd rydyn ni i gyd wrth ein bodd yn cerdded.
+Fel elusen gerdded arweiniol Cymru, mae Ramblers Cymru wedi ymroi i helpu pawb, ym mhob man, i fwynhau cerdded a diogelu'r llefydd rydyn ni i gyd wrth ein bodd yn cerdded.
 
 Ein cenhadaeth yw rhoi cerdded wrth galon pob cymuned, amddiffyn y llefydd rydyn ni i gyd yn mwynhau cerdded a gwella'r amgylchedd wrth greu Cymru wyrddach a mwy hygyrch i bawb.
 
@@ -34,7 +34,7 @@ Ein cenhadaeth yw rhoi cerdded wrth galon pob cymuned, amddiffyn y llefydd rydyn
 
 #### Gogledd Ddwyrain Cymru
 Dyffryn Clywedog/Parc Caia (Wrecsam)  
-Pwll Glas/Graig Fechan (Sir  Dinbych)  
+Pwllglas/Graigfechan (Sir  Dinbych)  
 Llanfynydd (Sir y Fflint)  
 
 </section>
@@ -51,7 +51,7 @@ Penrhyndeudraeth (Gwynedd)
 #### Canolbarth
 Llechryd / Llangoedmor (Ceredigion)  
 Penparcau (Ceredigion)  
-Llanwrthwl a Rhaeadr (Powys)
+Llanwrthwl a Rhaeadr Gwy (Powys)
 
 </section>
 <section>
