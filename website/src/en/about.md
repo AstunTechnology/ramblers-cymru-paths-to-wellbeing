@@ -27,7 +27,7 @@ Our mission is to put walking at the heart of every community, protect t
 </div>
 </div>
 
-## Communities taking part and benefitting from the Paths to Wellbeing project <br>
+## Communities taking part and benefitting from the Paths to Wellbeing project
 
 #### Click on a community to find out more
 
