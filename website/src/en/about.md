@@ -51,21 +51,24 @@ Our mission is to put walking at the heart of every community, protect t
 #### Mid Wales  
 <a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/llechryd.pdf"> Llechryd / Llangoedmor (Ceredigion)  
 <a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/penparcau.pdf"> Penparcau (Ceredigion)   
-<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/rhayader.pdf"> Llanwrthwl and Rhayader (Powys)  
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/rhayader.pdf"> Llanwrthwl and Rhayader (Powys)
+ 
 </section>
 <section>
 
 #### South East Wales  
 <a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/grosmont.pdf"> Grosmont (Monmouthshire)   
 <a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/maindee.pdf"> Greening Maindee (Newport)    
-<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/six_bells.pdf"> Six Bells (Blaenau Gwent)    
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/six_bells.pdf"> Six Bells (Blaenau Gwent)
+  
 </section>
 <section>
 
 #### South West Wales 
 <a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/brynberian.pdf"> Brynberian (Pembrokeshire)     
 <a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/llanybydder.pdf"> Llanybydder (Carmarthenshire)      
-<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/ystalyfera.pdf"> Ystalyfera (Neath Port Talbot) 
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/ystalyfera.pdf"> Ystalyfera (Neath Port Talbot)
+  
 </section>
 <section>
 
@@ -73,6 +76,7 @@ Our mission is to put walking at the heart of every community, protect t
 <a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/pentyrch.pdf"> Creigiau and Pentyrch (Cardiff) </a><br> 
 <a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/treherbert.pdf"> Treherbert (Rhondda Cynon Taf) </a><br> 
 <a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/coity.pdf"> Coity Higher (Bridgend) </a> 
+  
 </section>
 </div>
 
