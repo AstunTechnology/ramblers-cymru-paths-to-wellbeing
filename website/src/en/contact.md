@@ -17,13 +17,13 @@ The best way to contact the team is via email: <a href="mailto:pathtowellbeing@r
 <div class="inner">
 
 ## You can also find us on Social Media:
+  
+* <a href="https://en-gb.facebook.com/RamblersCymru/" target="_blank" rel="noopener noreferrer"> @RamblersCymru on Facebook </a>
+* <a href="https://twitter.com/ramblerscymru/" target="_blank" rel="noopener noreferrer"> @ramblerscymru on Twitter </a>
+* <a href="https://www.instagram.com/ramblers_cymru/" target="_blank" rel="noopener noreferrer"> @ramblers_cymru on Instagram </a>
+* <a href="https://www.linkedin.com/company/ramblerscymru/" target="_blank" rel="noopener noreferrer"> Ramblers Cymru on LinkedIn </a>
 
-* [@RamblersCymru on Facebook](https://en-gb.facebook.com/RamblersCymru/)
-* [@ramblerscymru on Twitter](https://twitter.com/ramblerscymru/)
-* [@ramblers_cymru on Instagram](https://www.instagram.com/ramblers_cymru/)
-* [Ramblers Cymru on LinkedIn](https://www.linkedin.com/company/ramblerscymru/)
-
-[Ramblers Cymru](https://beta.ramblers.org.uk/wales).
+<a href="https://beta.ramblers.org.uk/wales" target="_blank" rel="noopener noreferrer"> Ramblers Cymru </a>
 
 </div>
 </div>
