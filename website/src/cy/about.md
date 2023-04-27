@@ -22,7 +22,7 @@ Fel elusen gerdded arweiniol Cymru, mae Ramblers Cymru wedi ymroi i helpu pawb, 
 
 Ein cenhadaeth yw rhoi cerdded wrth galon pob cymuned, amddiffyn y llefydd rydyn ni i gyd yn mwynhau cerdded a gwella'r amgylchedd wrth greu Cymru wyrddach a mwy hygyrch i bawb.
 
-[Ramblers Cymru](https://beta.ramblers.org.uk/wales).
+<a href="https://beta.ramblers.org.uk/wales" target="_blank" rel="noopener noreferrer"> Ramblers Cymru </a>
 
 </div>
 </div>
@@ -33,49 +33,49 @@ Ein cenhadaeth yw rhoi cerdded wrth galon pob cymuned, amddiffyn y llefydd rydyn
 <section>
 
 #### Gogledd Ddwyrain Cymru
-Dyffryn Clywedog/Parc Caia (Wrecsam)  
-Pwllglas/Graigfechan (Sir  Dinbych)  
-Llanfynydd (Sir y Fflint)  
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/clywedog_valley_caia_park.pdf" target="_blank" rel="noopener noreferrer"> Dyffryn Clywedog/Parc Caia (Wrecsam) </a>  
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/pwllglas_graigfechan.pdf" target="_blank" rel="noopener noreferrer"> Pwllglas/Graigfechan (Sir  Dinbych) </a>  
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/llanfynydd.pdf" target="_blank" rel="noopener noreferrer"> Llanfynydd (Sir y Fflint) </a>  
 
 </section>
 <section>
 
 #### Gogledd Orllewin Cymru
-Ynys Gybi (Ynys Môn)  
-Penmaenmawr (Conwy)  
-Penrhyndeudraeth (Gwynedd)  
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/holy_island.pdf" target="_blank" rel="noopener noreferrer"> Ynys Gybi (Ynys Môn) </a><br> 
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/penmaenmawr.pdf" target="_blank" rel="noopener noreferrer"> Penmaenmawr (Conwy) </a>  
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/penrhyndeudraeth.pdf" target="_blank" rel="noopener noreferrer"> Penrhyndeudraeth (Gwynedd) </a>  
 
 </section>
 <section>
 
 #### Canolbarth
-Llechryd / Llangoedmor (Ceredigion)  
-Penparcau (Ceredigion)  
-Llanwrthwl a Rhaeadr Gwy (Powys)
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/llechryd.pdf" target="_blank" rel="noopener noreferrer"> Llechryd / Llangoedmor (Ceredigion) </a>  
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/penparcau.pdf" target="_blank" rel="noopener noreferrer"> Penparcau (Ceredigion) </a>  
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/rhayader.pdf" target="_blank" rel="noopener noreferrer"> Llanwrthwl a Rhaeadr Gwy (Powys) </a>
 
 </section>
 <section>
 
 #### De-ddwyrain Cymru
-Y Grysmwnt (Sir Fynwy)  
-Gwyrddio Maendy (Casnewydd)  
-Chwe Chloch (Sir Blaenau Gwent)
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/grosmont.pdf" target="_blank" rel="noopener noreferrer"> Y Grysmwnt (Sir Fynwy) </a>  
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/maindee.pdf" target="_blank" rel="noopener noreferrer"> Gwyrddio Maendy (Casnewydd) </a>   
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/six_bells.pdf" target="_blank" rel="noopener noreferrer"> Six Bells (Sir Blaenau Gwent) </a>
 
 </section>
 <section>
 
 #### De Orllewin Cymru
-Brynberian (Sir Benfro)  
-Llanybydder (Sir Gaerfyrddin)  
-Ystalyfera (Castell-nedd Port Talbot) 
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/brynberian.pdf" target="_blank" rel="noopener noreferrer"> Brynberian (Sir Benfro) </a>  
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/llanybydder.pdf" target="_blank" rel="noopener noreferrer"> Llanybydder (Sir Gaerfyrddin) </a><br>
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/ystalyfera.pdf" target="_blank" rel="noopener noreferrer"> Ystalyfera (Castell-nedd Port Talbot) </a> 
 
 </section>
 <section>
 
 #### Canol De Cymru
-Creigiau a Pentyrch (Caerdydd)  
-Treherbert (Rhondda Cynon Taf)  
-Coety Uchaf (Pen-y-bont ar Ogwr)
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/pentyrch.pdf" target="_blank" rel="noopener noreferrer"> Creigiau a Pentyrch (Caerdydd) </a>  
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/treherbert.pdf" target="_blank" rel="noopener noreferrer"> Treherbert (Rhondda Cynon Taf) </a><br>
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/coity.pdf" target="_blank" rel="noopener noreferrer"> Coety Uchaf (Pen-y-bont ar Ogwr) </a>
 
 </section>
 </div>
