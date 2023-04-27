@@ -41,38 +41,38 @@ Our mission is to put walking at the heart of every community, protect t
 <section>
 
 #### North West Wales 
-Holy Island (Ynys Môn)  
-Penmaenmawr (Conwy)  
-Penrhyndeudraeth (Gwynedd) 
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/holy_island.pdf"> Holy Island (Ynys Môn) </a><br>
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/penmaenmawr.pdf"> Penmaenmawr (Conwy) </a><br>
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/penrhyndeudraeth.pdf"> Penrhyndeudraeth (Gwynedd) </a>
 
 </section>
 <section>
 
 #### Mid Wales  
-Llechryd / Llangoedmor (Ceredigion)  
-Penparcau (Ceredigion)  
-Llanwrthwl and Rhayader (Powys)  
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/llechryd.pdf"> Llechryd / Llangoedmor (Ceredigion)  
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/penparcau.pdf"> Penparcau (Ceredigion)   
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/rhayader.pdf"> Llanwrthwl and Rhayader (Powys)  
 </section>
 <section>
 
 #### South East Wales  
-Grosmont (Monmouthshire)  
-Greening Maindee (Newport)  
-Six Bells (Blaenau Gwent)  
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/grosmont.pdf"> Grosmont (Monmouthshire)   
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/maindee.pdf"> Greening Maindee (Newport)    
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/six_bells.pdf"> Six Bells (Blaenau Gwent)    
 </section>
 <section>
 
 #### South West Wales 
-Brynberian (Pembrokeshire)  
-Llanybydder (Carmarthenshire)  
-Ystalyfera (Neath Port Talbot) 
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/brynberian.pdf"> Brynberian (Pembrokeshire)     
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/llanybydder.pdf"> Llanybydder (Carmarthenshire)      
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/ystalyfera.pdf"> Ystalyfera (Neath Port Talbot) 
 </section>
 <section>
 
 #### South Central Wales  
-Creigiau and Pentyrch (Cardiff)  
-Treherbert (Rhondda Cynon Taf)  
-Coity Higher (Bridgend) 
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/pentyrch.pdf"> Creigiau and Pentyrch (Cardiff) </a><br> 
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/treherbert.pdf"> Treherbert (Rhondda Cynon Taf) </a><br> 
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/coity.pdf"> Coity Higher (Bridgend) </a> 
 </section>
 </div>
 
