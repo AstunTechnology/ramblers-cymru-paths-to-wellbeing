@@ -22,7 +22,7 @@ Ramblers Cymru is dedicated to helping everyone, everywhere, enjoy walking and p
 
 Our mission is to put walking at the heart of every community, protect the places we all enjoy walking and improve the environment while creating a greener and more accessible Wales for everyone.
 
-[Ramblers Cymru](https://beta.ramblers.org.uk/wales).
+<a href="https://beta.ramblers.org.uk/wales" target="_blank" rel="noopener noreferrer"> Ramblers Cymru </a>
 
 </div>
 </div>
@@ -33,46 +33,50 @@ Our mission is to put walking at the heart of every community, protect t
 <section>
 
 #### North East Wales 
-Clywedog Valley/Caia Park (Wrexham)  
-Pwllglas/Graigfechan (Denbighshire)  
-Llanfynydd (Flintshire) 
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/clywedog_valley_caia_park.pdf" target="_blank" rel="noopener noreferrer"> Clywedog Valley/Caia Park (Wrexham) </a><br>
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/pwllglas_graigfechan.pdf" target="_blank" rel="noopener noreferrer"> Pwllglas/Graigfechan (Denbighshire) </a><br> 
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/llanfynydd.pdf" target="_blank" rel="noopener noreferrer"> Llanfynydd (Flintshire) </a>
 
 </section>
 <section>
 
 #### North West Wales 
-Holy Island (Ynys Môn)  
-Penmaenmawr (Conwy)  
-Penrhyndeudraeth (Gwynedd) 
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/holy_island.pdf" target="_blank" rel="noopener noreferrer"> Holy Island (Ynys Môn) </a><br>
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/penmaenmawr.pdf" target="_blank" rel="noopener noreferrer"> Penmaenmawr (Conwy) </a><br>
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/penrhyndeudraeth.pdf" target="_blank" rel="noopener noreferrer"> Penrhyndeudraeth (Gwynedd) </a>
 
 </section>
 <section>
 
 #### Mid Wales  
-Llechryd / Llangoedmor (Ceredigion)  
-Penparcau (Ceredigion)  
-Llanwrthwl and Rhayader (Powys)  
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/llechryd.pdf" target="_blank" rel="noopener noreferrer"> Llechryd/Llangoedmor (Ceredigion) </a>  
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/penparcau.pdf" target="_blank" rel="noopener noreferrer"> Penparcau (Ceredigion) </a>   
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/rhayader.pdf" target="_blank" rel="noopener noreferrer"> Llanwrthwl and Rhayader (Powys) </a>
+ 
 </section>
 <section>
 
 #### South East Wales  
-Grosmont (Monmouthshire)  
-Greening Maindee (Newport)  
-Six Bells (Blaenau Gwent)  
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/grosmont.pdf" target="_blank" rel="noopener noreferrer"> Grosmont (Monmouthshire) </a>   
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/maindee.pdf" target="_blank" rel="noopener noreferrer"> Greening Maindee (Newport) </a>    
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/six_bells.pdf" target="_blank" rel="noopener noreferrer"> Six Bells (Blaenau Gwent) </a>
+  
 </section>
 <section>
 
 #### South West Wales 
-Brynberian (Pembrokeshire)  
-Llanybydder (Carmarthenshire)  
-Ystalyfera (Neath Port Talbot) 
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/brynberian.pdf" target="_blank" rel="noopener noreferrer"> Brynberian (Pembrokeshire) </a>     
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/llanybydder.pdf" target="_blank" rel="noopener noreferrer"> Llanybydder (Carmarthenshire) </a>      
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/ystalyfera.pdf" target="_blank" rel="noopener noreferrer"> Ystalyfera (Neath Port Talbot) </a>
+  
 </section>
 <section>
 
 #### South Central Wales  
-Creigiau and Pentyrch (Cardiff)  
-Treherbert (Rhondda Cynon Taf)  
-Coity Higher (Bridgend) 
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/pentyrch.pdf" target="_blank" rel="noopener noreferrer"> Creigiau and Pentyrch (Cardiff) </a><br> 
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/treherbert.pdf" target="_blank" rel="noopener noreferrer"> Treherbert (Rhondda Cynon Taf) </a><br> 
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/coity.pdf" target="_blank" rel="noopener noreferrer"> Coity Higher (Bridgend) </a> 
+  
 </section>
 </div>
 
