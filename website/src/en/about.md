@@ -22,7 +22,7 @@ Ramblers Cymru is dedicated to helping everyone, everywhere, enjoy walking and p
 
 Our mission is to put walking at the heart of every community, protect the places we all enjoy walking and improve the environment while creating a greener and more accessible Wales for everyone.
 
-[Ramblers Cymru](https://beta.ramblers.org.uk/wales)
+<a href="https://beta.ramblers.org.uk/wales" target="_blank" rel="noopener noreferrer"> Ramblers Cymru </a>
 
 </div>
 </div>
