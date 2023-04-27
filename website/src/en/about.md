@@ -34,8 +34,8 @@ Our mission is to put walking at the heart of every community, protect t
 
 #### North East Wales 
 <a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/clywedog_valley_caia_park.pdf"> Clywedog Valley/Caia Park (Wrexham) </a><br>
-Pwllglas/Graigfechan (Denbighshire)  
-Llanfynydd (Flintshire)
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/pwllglas_graigfechan.pdf"> Pwllglas/Graigfechan (Denbighshire) </a><br> 
+<a href="https://pathstowellbeing.ramblers.org.uk/static/data/community/llanfynydd.pdf"> Llanfynydd (Flintshire) </a>
 
 </section>
 <section>
