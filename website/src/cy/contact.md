@@ -16,7 +16,7 @@ Y ffordd orau o gysylltu â'r tîm yw drwy e-bost: <a href="mailto:pathtowellbei
 <div class="box">
 <div class="inner">
 
-## Gallwch hefyd ddod o hyd i ni ar y cyfryngau cymdeithasol
+## Gallwch hefyd ddod o hyd i ni ar y cyfryngau cymdeithasol:
 
 * <a href="https://en-gb.facebook.com/RamblersCymru/" target="_blank" rel="noopener noreferrer"> @RamblersCymru ar Facebook </a>
 * <a href="https://twitter.com/ramblerscymru/" target="_blank" rel="noopener noreferrer"> @ramblerscymru ar Twitter </a>
