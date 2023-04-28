@@ -29,7 +29,13 @@ Our mission is to put walking at the heart of every community, protect t
 
 ## Communities taking part and benefitting from the Paths to Wellbeing project
 
-#### &#9432; Click on a community to download an information leaflet and find out more
+<div class="box">
+<div class="inner">
+ 
+&#9432; Click on a community to download an information leaflet and find out more
+
+</div>
+</div>
 
 <div class="communities">
 <section>
