@@ -2,7 +2,7 @@
 <gpx version="1.1" creator="GDAL 2.4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata><bounds minlat="53.080041848264663" minlon="-3.119481000672111" maxlat="53.103820823526100" maxlon="-3.077613881024041"/></metadata>                  
 <rte>
-  <name>Pen Llan y-gwr</name>
+  <name>Pen Llan-y-gwr</name>
   <desc>A route starting in Maes Offa, Llanfynydd and going steadily uphill to reach the trig point above Nant y Ffrith Woods. Returning further north to make a circular route of about 12km.</desc>
   <src>Ramblers</src>
   <number>41</number>
