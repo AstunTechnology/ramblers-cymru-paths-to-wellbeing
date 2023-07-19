@@ -16,14 +16,14 @@ Y ffordd orau o gysylltu â'r tîm yw drwy e-bost: <a href="mailto:pathtowellbei
 <div class="box">
 <div class="inner">
 
-## Gallwch hefyd ddod o hyd i ni ar y cyfryngau cymdeithasol
+## Gallwch hefyd ddod o hyd i ni ar y cyfryngau cymdeithasol:
 
-* [@RamblersCymru ar Facebook](https://en-gb.facebook.com/RamblersCymru/)
-* [@ramblerscymru ar Twitter](https://twitter.com/ramblerscymru/)
-* [@ramblers_cymru ar Instagram](https://www.instagram.com/ramblers_cymru/)
-* [Ramblers Cymru ar LinkedIn](https://www.linkedin.com/company/ramblerscymru/)
+* <a href="https://en-gb.facebook.com/RamblersCymru/" target="_blank" rel="noopener noreferrer"> @RamblersCymru ar Facebook </a>
+* <a href="https://twitter.com/ramblerscymru/" target="_blank" rel="noopener noreferrer"> @ramblerscymru ar Twitter </a>
+* <a href="https://www.instagram.com/ramblers_cymru/" target="_blank" rel="noopener noreferrer"> @ramblers_cymru ar Instagram </a>
+* <a href="https://www.linkedin.com/company/ramblerscymru/" target="_blank" rel="noopener noreferrer"> Ramblers Cymru ar LinkedIn </a>
 
-[Ramblers Cymru](https://beta.ramblers.org.uk/wales).
+<a href="https://beta.ramblers.org.uk/wales" target="_blank" rel="noopener noreferrer"> Ramblers Cymru </a>
 
 </div>
 </div>
